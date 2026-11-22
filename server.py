@@ -1,4 +1,4 @@
-"""Stardew Mod Hub v0.3: permission-aware metadata index and Chinese search."""
+"""Stardew Mod Hub v0.4: permission-aware metadata index and Chinese search."""
 import json
 import os
 import sqlite3
@@ -11,12 +11,13 @@ from fastapi import FastAPI, Header, HTTPException, Query
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
+from translation_cache import cached_translation, read_cache
 from zh_catalog import enrich, query_terms
 
 ROOT = Path(__file__).resolve().parent
 DB = Path(os.getenv('MODHUB_DB', str(ROOT / 'mods.db')))
 GAME_ID = int(os.getenv('CURSEFORGE_GAME_ID', '669'))
-app = FastAPI(title='Stardew Mod Hub', version='0.3.0')
+app = FastAPI(title='Stardew Mod Hub', version='0.4.0')
 
 
 @contextmanager
@@ -70,8 +71,21 @@ def entry(uid, title, summary, url, source='curated', source_id='',
                 zh_title=zh_title, zh_summary=zh_summary, raw=raw)
 
 
-def translate_mod(m):
+def load_translation_cache():
+    try:
+        return read_cache()
+    except (OSError, ValueError) as exc:
+        print('Translation cache load failed:', exc)
+        return {}
+
+
+def translate_mod(m, translations=None):
     zh_title, zh_summary, category = enrich(m['title'], m['summary'])
+    if m['source'] == 'curseforge' and translations:
+        cached = cached_translation(translations, m['source_id'], m['title'], m['summary'])
+        if cached:
+            zh_title = zh_title or cached[0]
+            zh_summary = zh_summary or cached[1]
     m['zh_title'] = zh_title
     m['zh_summary'] = zh_summary
     m['category'] = category
@@ -113,6 +127,7 @@ def load_snapshot():
         if payload.get('source') != 'curseforge':
             return
         count = 0
+        translations = load_translation_cache()
         for m in payload.get('items', []):
             ident = str(m['id'])
             url = str(m.get('url') or '')
@@ -124,7 +139,7 @@ def load_snapshot():
                         version=str(m.get('version') or ''),
                         downloads=int(m.get('downloads') or 0))
             mod['updated'] = int(m.get('updated') or 0)
-            upsert(translate_mod(mod))
+            upsert(translate_mod(mod, translations))
             count += 1
         with db() as c:
             c.execute('INSERT OR REPLACE INTO sync_state VALUES (?,?,?)',
@@ -192,6 +207,7 @@ async def sync_curseforge(x_admin_token: str | None = Header(None),
     if not key:
         raise HTTPException(400, 'Set CURSEFORGE_API_KEY first')
     total, errors = 0, []
+    translations = load_translation_cache()
     async with httpx.AsyncClient(timeout=25) as client:
         for p in range(pages):
             try:
@@ -220,7 +236,7 @@ async def sync_curseforge(x_admin_token: str | None = Header(None),
                                 downloads=int(m.get('downloadCount') or 0),
                                 raw=json.dumps({'id': ident, 'slug': m.get('slug')},
                                                ensure_ascii=False))
-                    upsert(translate_mod(mod))
+                    upsert(translate_mod(mod, translations))
                     total += 1
                 if len(data) < 50:
                     break

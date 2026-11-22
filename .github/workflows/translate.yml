@@ -1,0 +1,67 @@
+name: Translate MOD catalog to Chinese
+
+on:
+  push:
+    branches: [upgrade-v0.4-zh]
+    paths:
+      - '.github/workflows/translate.yml'
+      - 'scripts/translate_catalog.py'
+      - 'translation_cache.py'
+      - 'zh_catalog.py'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: Maximum number of new machine-translated MODs (1–500)
+        type: number
+        default: 30
+        required: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: modhub-translation-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/cache/restore@v4
+        with:
+          path: .translation-work
+          key: modhub-zh-v1-${{ github.ref_name }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: modhub-zh-v1-${{ github.ref_name }}-
+      - name: Install free local translation engine
+        run: |
+          python -m pip install --index-url https://download.pytorch.org/whl/cpu 'torch==2.7.1'
+          python -m pip install 'argostranslate==1.11.0'
+      - name: Translate snapshot
+        env:
+          LIMIT: ${{ inputs.limit || 3 }}
+          ARGOS_PACKAGES_DIR: ${{ github.workspace }}/.translation-work/models
+        run: |
+          mkdir -p .translation-work
+          if [ ! -f .translation-work/zh_translations.json ] && [ -f data/zh_translations.json ]; then
+            cp data/zh_translations.json .translation-work/
+          fi
+          python scripts/translate_catalog.py --engine argos --install-model \
+            --cache .translation-work/zh_translations.json --limit "$LIMIT"
+      - uses: actions/cache/save@v4
+        if: ${{ !cancelled() && hashFiles('.translation-work/zh_translations.json') != '' }}
+        with:
+          path: .translation-work
+          key: modhub-zh-v1-${{ github.ref_name }}-${{ github.run_id }}-${{ github.run_attempt }}
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() && hashFiles('.translation-work/zh_translations.json') != '' }}
+        with:
+          name: modhub-zh-translations
+          path: .translation-work/zh_translations.json
+          if-no-files-found: error
