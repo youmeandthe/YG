@@ -19,7 +19,11 @@ KNOWN_MODS = {
 SEARCH_ALIASES = {
     '拖拉机': ['tractor'],
     '自动化': ['automate', 'automation', 'automatic', 'tractor'],
+    '自动': ['automate', 'automation', 'automatic'],
     '箱子': ['chest', 'storage'],
+    '物品查询': ['lookup anything'],
+    '查询': ['lookup', 'search'],
+    '拖拉机mod': ['tractor'],
     '背包': ['backpack', 'inventory'],
     '地图': ['map', 'location'],
     '村民': ['npc', 'villager'],
