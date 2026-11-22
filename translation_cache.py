@@ -11,11 +11,13 @@ def fingerprint(title, summary):
     return hashlib.sha256((title + '\0' + summary).encode('utf-8')).hexdigest()
 
 
-def read_cache(path=CACHE_PATH):
+def read_cache(path=CACHE_PATH, *, missing_ok=True):
     try:
         cache = json.loads(path.read_text(encoding='utf-8'))
     except FileNotFoundError:
-        return {}
+        if missing_ok:
+            return {}
+        raise
     if not isinstance(cache, dict):
         raise ValueError('Translation cache must be a JSON object')
     return cache
@@ -26,9 +28,8 @@ def cached_translation(cache, source_id, title, summary):
     if not isinstance(record, dict) or record.get('fingerprint') != fingerprint(title, summary):
         return None
     zh_title, zh_summary = record.get('zh_title'), record.get('zh_summary')
-    if isinstance(zh_title, str) and zh_title.strip() and isinstance(zh_summary, str):
-        if zh_summary.strip() or not summary.strip():
-            return zh_title, zh_summary
+    if isinstance(zh_title, str) and isinstance(zh_summary, str):
+        return zh_title.strip(), zh_summary.strip()
     return None
 
 

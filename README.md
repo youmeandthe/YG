@@ -8,7 +8,7 @@
 - SQLite 索引和 API
 - CurseForge 官方 API 的分页元数据同步（需自行申请 API Key）
 - 可安装 PWA 的 manifest、离线页面缓存（MOD 列表仍需后端）
-- 初始示例目录 10 款，GMCM 标记为用户设备上已验证；其他均待测试
+- 初始示例目录 10 款；兼容性按条目记录，新收录条目默认为待测试
 
 ## 运行（电脑或云服务器）
 
@@ -48,9 +48,11 @@ python scripts/translate_catalog.py --engine argos --install-model --limit 30
 python scripts/translate_catalog.py --engine argos --limit 30
 ```
 
-缓存默认写入 `data/zh_translations.json`。同一目录一次只运行一个翻译任务。每完成一条就写入缓存，可中断后续跑。标题或简介修改后，服务端会忽略旧译文，下一批可重新翻译。更新缓存后重启服务，中文搜索会覆盖译文和原有别名。
+缓存默认写入 `data/zh_translations.json`，按 CurseForge MOD ID 和英文标题、简介的指纹匹配。每完成一条就原子写入缓存，可中断后续跑。同一目录一次运行一个翻译任务。原文变动后，旧缓存会失效，下一批可重新翻译。人工词库始终优先，标题与简介分别回退到原文。页面显示英文原名，并可展开查看简介原文。
 
-GitHub Actions 的 **Translate MOD catalog to Chinese** 工作流会在 `upgrade-v0.4-zh` 分支的翻译代码更新时试跑 3 条。工作流进入默认分支后可在 Actions 页手动选择分支和批量上限。后续运行复用该分支的 Actions 缓存。每次运行可下载 `modhub-zh-translations`，审阅后将其中的 `zh_translations.json` 放到应用的 `data/` 目录或经提交纳入版本控制。Actions 缓存和产物受平台保留规则限制，长期保留请保存该 JSON。翻译工作流只读取仓库。
+GitHub Actions 的 **Sync Stardew MOD Catalog** 每天同步源目录、增量翻译最多 100 条，测试通过后把源目录和译文一起提交。**Test Chinese MOD catalog** 验证已提交的数据、API 和真实的 Argos 模型试译。Render 从部署提交读取缓存，应用启动时写入 SQLite。页面访问无需翻译引擎。
+
+Render 若已使用已关联分支的 **On Commit** 自动部署，目录提交会触发更新。若设为 **After CI Checks Pass** 或关闭自动部署，请在 Render 确认发布方式。GitHub Actions 使用默认令牌推送数据提交时，该推送不会再次触发 GitHub Actions。
 
 ## 需要进一步开发
 - 官方 Nexus Mods GraphQL v2 数据源：须先核实当前可用认证、查询和使用条款，再实现；本版不冒充已接通
@@ -60,7 +62,7 @@ GitHub Actions 的 **Translate MOD catalog to Chinese** 工作流会在 `upgrade
 
 ## API
 - `GET /api/mods?q=...&category=...&status=...&page=1&size=24`
-- `GET /api/stats`
+- `GET /api/stats` 返回目录数量、标题和简介的翻译覆盖率、完整翻译数、完全未翻译数，以及版本和 Render 提供的部署分支、提交
 - `POST /api/sync/curseforge?pages=5`（需 `x-admin-token`）
 
 项目不隶属于 ConcernedApe、SMAPI、Nexus Mods 或 CurseForge。尊重 MOD 作者版权与分发条款。

@@ -6,6 +6,7 @@
 <meta name="theme-color" content="#183c32">
 <meta name="description" content="星露谷中文 MOD 导航商店，支持中文搜索与安卓兼容性提示">
 <link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
 <title>星露谷 MOD 商店 · 中文版</title>
 <style>
 :root{color-scheme:dark;--bg:#101d19;--card:#1b3029;--edge:#365347;--fg:#f5f2e8;--muted:#afc2b8;--accent:#b9e37b}
@@ -15,22 +16,23 @@ h1{font-size:26px;letter-spacing:.5px;margin:0 0 6px}p{margin:0}.subtitle,.muted
 .pill{background:#365743;padding:6px 10px;border-radius:999px;color:#e4ffc2;font-size:12px;white-space:nowrap}main{padding:18px}
 .search{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}input,select{background:#1b3029;color:var(--fg);border:1px solid var(--edge);border-radius:12px;padding:13px;font:inherit;min-width:0}
 input{flex:2 1 220px}select{flex:1 1 135px}.stats{font-size:13px;color:var(--muted);margin:10px 0 18px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:13px}.mod{background:var(--card);border:1px solid var(--edge);border-radius:17px;overflow:hidden;display:flex;flex-direction:column;min-height:218px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:13px}.mod{background:var(--card);border:1px solid var(--edge);border-radius:17px;overflow:hidden;display:flex;flex-direction:column;min-height:218px}
 .cover{height:94px;background:linear-gradient(125deg,#436d4b,#263e48);display:flex;align-items:center;justify-content:center;font-size:40px}.cover img{width:100%;height:100%;object-fit:cover}
 .inner{padding:14px;flex:1;display:flex;flex-direction:column;gap:6px}.name{font-size:17px;font-weight:700;line-height:1.3;overflow-wrap:anywhere}.eng{font-size:12px;color:var(--muted);overflow-wrap:anywhere}
 .desc{font-size:13px;color:#d5e0d6;flex:1;overflow-wrap:anywhere}.tags{display:flex;gap:5px;flex-wrap:wrap}.tag{font-size:11px;padding:3px 7px;border-radius:6px;background:#344a40;color:#d8e6dc}.tag.good{background:#294e35;color:#bdf4ac}
-.actions{display:flex;gap:8px;margin-top:9px}.btn{border:1px solid #729b65;border-radius:10px;padding:9px 11px;background:#a8d776;color:#183321;text-decoration:none;font-weight:700;font-size:13px;cursor:pointer}.btn.alt{background:transparent;color:#c8e8b1}
+.original{font-size:13px;color:var(--muted);overflow-wrap:anywhere}.original summary{cursor:pointer}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:9px}.btn{border:1px solid #729b65;border-radius:10px;padding:9px 11px;background:#a8d776;color:#183321;text-decoration:none;font-weight:700;font-size:13px;cursor:pointer}.btn.alt{background:transparent;color:#c8e8b1}
 .notice{border:1px solid var(--edge);background:#182c24;border-radius:12px;padding:13px;margin:12px 0 20px;color:#d5e1d6;font-size:13px}.foot{color:var(--muted);font-size:12px;margin:22px 0;text-align:center}
 button:disabled{opacity:.45}.paging{display:flex;justify-content:center;align-items:center;gap:12px;margin-top:20px}.empty{grid-column:1/-1;padding:40px;text-align:center;color:var(--muted)}
 .quick{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 12px}.quick button{border:1px solid var(--edge);border-radius:999px;background:#233d31;color:#dceccc;padding:6px 11px;cursor:pointer}
 </style>
 </head>
 <body>
-<header><div><div class="top"><h1>🌾 星露谷 MOD 商店</h1><span class="pill">中文搜索 · v0.3</span></div>
+<header><div><div class="top"><h1>🌾 星露谷 MOD 商店</h1><span class="pill">中文化 · v0.4</span></div>
 <p class="subtitle">中文关键词搜索 · MOD 分类 · 原站下载</p>
 <p class="muted" style="font-size:12px;margin-top:9px">目标：游戏 1.6.15.3 / SMAPI 4.3.2.1（不代表 MOD 均已适配）</p></div></header>
 <main>
-<div class="notice">🛡️ <b>兼容性说明：</b>中文名称和分类来自人工词库与关键词规则，不代表 MOD 已通过安卓实测。本站只索引信息，不镜像 MOD 文件。</div>
+<div class="notice">🛡️ <b>兼容性说明：</b>安卓兼容性请以实测状态为准。中文译文可与原文对照，MOD 文件由原站提供。</div>
 <div class="search">
 <input id="q" type="search" placeholder="试试：拖拉机、自动化、箱子、地图、钓鱼…" aria-label="中文或英文搜索">
 <select id="category" aria-label="分类"><option value="">全部分类</option><option>工具</option><option>地图</option><option>自动化</option><option>便利</option><option>框架</option><option>扩展</option><option>外观</option><option>其他</option></select>
@@ -56,7 +58,9 @@ function card(m){
  const img=m.image&&/^https:\/\//.test(m.image)?`<img src="${escapeHtml(m.image)}" loading="lazy" referrerpolicy="no-referrer" alt="">`:'🌱';
  const url=/^https:\/\//.test(m.url)?m.url:'#';
  const title=m.zh_title||m.title;
- return `<article class="mod"><div class="cover">${img}</div><div class="inner"><div class="name">${escapeHtml(title)}</div>${title!==m.title?`<div class="eng">${escapeHtml(m.title)}</div>`:''}<div class="desc">${escapeHtml(m.zh_summary||m.summary||'暂无介绍')}</div><div class="tags"><span class="tag">${escapeHtml(m.category)}</span><span class="tag ${m.android_status==='verified'?'good':''}">${escapeHtml(labels[m.android_status]||'待测试')}</span><span class="tag">${escapeHtml(m.source)}</span></div><div class="actions"><a class="btn" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">查看 / 下载 ↗</a><button class="btn alt" data-save="${escapeHtml(m.uid)}">♡ 收藏</button></div></div></article>`;
+ const original=m.zh_summary&&m.summary&&m.zh_summary!==m.summary
+  ?`<details class="original"><summary>查看简介原文</summary><p>${escapeHtml(m.summary)}</p></details>`:'';
+ return `<article class="mod"><div class="cover">${img}</div><div class="inner"><div class="name">${escapeHtml(title)}</div>${title!==m.title?`<div class="eng">${escapeHtml(m.title)}</div>`:''}<div class="desc">${escapeHtml(m.zh_summary||m.summary||'暂无介绍')}</div>${original}<div class="tags"><span class="tag">${escapeHtml(m.category)}</span><span class="tag ${m.android_status==='verified'?'good':''}">${escapeHtml(labels[m.android_status]||'待测试')}</span><span class="tag">${escapeHtml(m.source)}</span></div><div class="actions"><a class="btn" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">查看 / 下载 ↗</a><button class="btn alt" data-save="${escapeHtml(m.uid)}">♡ 收藏</button></div></div></article>`;
 }
 async function load(){
  const current=++requestId;

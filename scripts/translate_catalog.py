@@ -11,6 +11,32 @@ sys.path.insert(0, str(ROOT))
 from translation_cache import CACHE_PATH, cached_translation, fingerprint, read_cache, write_cache
 from zh_catalog import enrich
 
+PREFIX = re.compile(r'^(?:\[[A-Za-z0-9][A-Za-z0-9 ._+/\-]{0,20}\]\s*)+')
+HAN = re.compile(r'[\u3400-\u9fff]')
+TERMS = {
+    'stardew valley expanded': '星露谷物语扩展',
+    'stardew valley': '星露谷物语',
+    'robin’s carpenter shop': '罗宾的木匠店',
+    "robin's carpenter shop": '罗宾的木匠店',
+    'pelican town': '鹈鹕镇',
+    'ginger island': '姜岛',
+    'calico desert': '卡利科沙漠',
+    'junimo': '祝尼魔',
+    'junimos': '祝尼魔',
+    'smapi': 'SMAPI',
+    'content patcher': 'Content Patcher',
+    'generic mod config menu': 'Generic Mod Config Menu',
+    'gmcm': 'GMCM',
+    'json assets': 'Json Assets',
+}
+PROTECTED = re.compile(
+    r'https?://[^\s<>()\[\]]+(?<![.,;!?:])'
+    r'|\bv?\d+(?:\.\d+)+\b'
+    r'|\b(?:' + '|'.join(re.escape(term) for term in TERMS) + r')\b',
+    re.IGNORECASE,
+)
+PLACEHOLDER = re.compile(r'[\[［【]\s*(900\d{3,})\s*[\]］】]')
+
 
 def argos_translator(install_model):
     from argostranslate import package
@@ -48,11 +74,30 @@ def argos_translator(install_model):
 def translate_field(text, translate):
     text = text.strip()
     if not text or not re.search(r'[A-Za-z]', text):
-        return text
-    result = translate(text).strip()
-    if not result:
-        raise ValueError('Translator returned empty text')
-    return result
+        return ''
+    prefix = PREFIX.match(text)
+    body = text[prefix.end():] if prefix else text
+    if not re.search(r'[A-Za-z]', body):
+        return ''
+
+    protected = {}
+
+    def protect(match):
+        original = match[0]
+        marker = str(900001 + len(protected))
+        protected[marker] = TERMS.get(original.casefold(), original)
+        return f' [{marker}] '
+
+    masked = PROTECTED.sub(protect, body).strip()
+    result = translate(masked).strip() if re.search(r'[A-Za-z]', masked) else masked
+    markers = PLACEHOLDER.findall(result)
+    if sorted(markers) != sorted(protected):
+        # Fall back to the original if the model dropped or altered a protected token.
+        return ''
+    result = PLACEHOLDER.sub(lambda match: protected[match[1]], result).strip()
+    if not HAN.search(result) or result == body:
+        return ''
+    return (prefix[0].rstrip() + ' ' if prefix else '') + result
 
 
 def update_catalog(items, cache, limit, translate, path):
@@ -73,8 +118,8 @@ def update_catalog(items, cache, limit, translate, path):
                 continue
             if translate is None or machine_count >= limit:
                 continue
-            zh_title = translate_field(title, translate)
-            zh_summary = translate_field(summary, translate)
+            zh_title = zh_title or translate_field(title, translate)
+            zh_summary = zh_summary or translate_field(summary, translate)
             method = 'argos'
             machine_count += 1
 
