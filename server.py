@@ -10,7 +10,7 @@ import httpx
 ROOT=Path(__file__).resolve().parent
 DB=Path(os.getenv('MODHUB_DB',str(ROOT/'mods.db')))
 GAME_ID=int(os.getenv('CURSEFORGE_GAME_ID','669'))  # Stardew Valley; verify against provider before production
-app=FastAPI(title='Stardew Mod Hub', version='0.1.0')
+app=FastAPI(title='Stardew Mod Hub', version='0.2.0')
 
 @contextmanager
 def db():
@@ -69,6 +69,27 @@ if n==0:
                      source='curated',category=cat,zh_title=name,zh_summary=summary))
     with db() as c:
         c.execute("UPDATE mods SET android_status='verified' WHERE uid='seed:gmcm'")
+
+def load_snapshot():
+    """Load checked-in metadata at startup, surviving Render ephemeral SQLite resets."""
+    snapshot=ROOT/'data'/'curseforge.json'
+    if not snapshot.is_file(): return
+    try:
+        payload=json.loads(snapshot.read_text(encoding='utf-8'))
+        if payload.get('source')!='curseforge': return
+        for m in payload.get('items',[]):
+            ident=str(m['id'])
+            url=str(m.get('url',''))
+            if not url.startswith('https://'): continue
+            item=entry('curseforge:'+ident,str(m.get('name') or ident),str(m.get('summary') or ''),url,
+                source='curseforge',source_id=ident,image=str(m.get('image') or ''),
+                version=str(m.get('version') or ''),downloads=int(m.get('downloads') or 0))
+            item['updated']=int(m.get('updated') or 0)
+            upsert(item)
+    except (OSError,ValueError,KeyError,TypeError) as exc:
+        print('Snapshot load failed:',exc)
+
+load_snapshot()
 
 @app.get('/api/mods')
 def mods(q:str='',category:str='',status:str='',source:str='',page:int=Query(1,ge=1),size:int=Query(24,ge=1,le=100),sort:str='updated'):
