@@ -28,6 +28,7 @@ jobs:
       - name: Sync catalog
         env:
           CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
+          CURSEFORGE_GAME_ID: "669"
         run: python scripts/sync_catalog.py
 
       - name: Commit catalog changes
