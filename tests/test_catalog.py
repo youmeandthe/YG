@@ -96,7 +96,10 @@ class CatalogApiTests(unittest.TestCase):
         response = self.client.get('/api/stats')
         self.assertEqual(response.status_code, 200)
         stats = response.json()
-        self.assertEqual(stats['total'], len(mods) + len(server.SEED) + len(server.CURATED))
+        nexus_snapshot = server.ROOT / 'data' / 'nexus.json'
+        nexus = json.loads(nexus_snapshot.read_text('utf-8'))['items'] if nexus_snapshot.exists() else []
+        self.assertEqual(stats['total'], len(mods) + len(nexus) + len(server.SEED)
+                         + len(server.CURATED) - stats['duplicates_collapsed'])
         self.assertEqual(stats['release']['version'], '0.4.0')
         rows = []
         for page in range(1, (stats['total'] + 99) // 100 + 1):
@@ -126,7 +129,8 @@ class CatalogApiTests(unittest.TestCase):
     def test_search_and_pwa_routes(self):
         for query in ('拖拉机', 'Tractor Mod'):
             results = self.client.get('/api/mods', params={'q': query}).json()['items']
-            self.assertIn('seed:tractor', {item['uid'] for item in results})
+            self.assertTrue(any('seed:tractor' in [item['uid'], *item['aliases']]
+                                for item in results))
         for route in ('/', '/manifest.webmanifest', '/sw.js', '/icon.svg'):
             self.assertEqual(self.client.get(route).status_code, 200)
         self.assertEqual(self.client.get('/**?utm_source=chatgpt').status_code, 404)

@@ -5,13 +5,14 @@ import sqlite3
 import time
 from contextlib import contextmanager
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import httpx
 from fastapi import FastAPI, Header, HTTPException, Query
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from translation_cache import cached_translation, read_cache
+from translation_cache import CACHE_PATHS, cached_translation, read_cache
 from zh_catalog import enrich, query_terms
 
 ROOT = Path(__file__).resolve().parent
@@ -43,6 +44,9 @@ def init():
         c.execute('CREATE INDEX IF NOT EXISTS idx_mod_title ON mods(title)')
         c.execute('''CREATE TABLE IF NOT EXISTS sync_state
                      (source TEXT PRIMARY KEY, last_sync INTEGER, count INTEGER)''')
+        c.execute('''CREATE TABLE IF NOT EXISTS mod_aliases
+                     (alias_uid TEXT PRIMARY KEY, mod_uid TEXT NOT NULL)''')
+        c.execute('CREATE INDEX IF NOT EXISTS idx_mod_aliases_target ON mod_aliases(mod_uid)')
 
 
 def upsert(c, m, *, retain_translation=False):
@@ -76,9 +80,9 @@ def entry(uid, title, summary, url, source='curated', source_id='',
                 zh_title=zh_title, zh_summary=zh_summary, raw=raw)
 
 
-def load_translation_cache():
+def load_translation_cache(source='curseforge'):
     try:
-        return read_cache(missing_ok=False)
+        return read_cache(CACHE_PATHS[source], missing_ok=False)
     except (OSError, ValueError) as exc:
         print('Translation cache load failed:', exc)
         return None
@@ -88,7 +92,7 @@ def translate_mod(m, translations=None):
     zh_title, zh_summary, category = enrich(m['title'], m['summary'])
     zh_title = zh_title or m['zh_title']
     zh_summary = zh_summary or m['zh_summary']
-    if m['source'] == 'curseforge' and translations:
+    if translations:
         cached = cached_translation(translations, m['source_id'], m['title'], m['summary'])
         if cached:
             zh_title = zh_title or cached[0]
@@ -138,53 +142,103 @@ def seed_catalog():
             upsert(c, mod)
 
 
-def load_snapshot():
+def nexus_id(url):
+    parts = urlsplit(url)
+    path = parts.path.strip('/').split('/')
+    if (parts.hostname in ('nexusmods.com', 'www.nexusmods.com')
+            and len(path) == 3 and path[:2] == ['stardewvalley', 'mods']
+            and path[2].isdecimal()):
+        return path[2]
+    return None
+
+
+def link_nexus_projects(c, items):
+    rows = {row['uid']: row for row in c.execute(
+        'SELECT uid, source, source_id, url, android_status FROM mods'
+    )}
+    curseforge = {row['source_id']: uid for uid, row in rows.items()
+                  if row['source'] == 'curseforge'}
+    curated = {}
+    for uid, row in rows.items():
+        if row['source'] == 'curated' and (ident := nexus_id(row['url'])):
+            curated[ident] = uid
+
+    aliases = []
+    for item in items:
+        ident = item['id']
+        linked = [
+            uid for uid in (curseforge.get(item.get('curseforge_id')), curated.get(ident),
+                            'nexus:' + ident)
+            if uid in rows
+        ]
+        # A compatibility result belongs to its own release and download link.
+        primary = next((uid for uid in linked if rows[uid]['android_status']
+                        in ('verified', 'incompatible')), linked[0])
+        aliases.extend((uid, primary) for uid in linked if uid != primary)
+
+    c.execute('DELETE FROM mod_aliases')
+    c.executemany('INSERT INTO mod_aliases(alias_uid, mod_uid) VALUES (?, ?)', aliases)
+
+
+def load_snapshot(source='curseforge'):
     """Load checked-in catalog at startup, even if Render SQLite resets."""
-    snapshot = ROOT / 'data' / 'curseforge.json'
+    snapshot = ROOT / 'data' / (source + '.json')
     if not snapshot.is_file():
         return
     try:
         payload = json.loads(snapshot.read_text(encoding='utf-8'))
-        if payload.get('source') != 'curseforge':
+        if payload.get('source') != source:
             return
-        count = 0
-        translations = load_translation_cache()
+        items = payload['items']
+        imported = []
+        translations = load_translation_cache(source)
         with db() as c:
-            for m in payload.get('items', []):
+            for m in items:
                 ident = str(m['id'])
                 url = str(m.get('url') or '')
                 if not url.startswith('https://'):
                     continue
-                mod = entry('curseforge:' + ident, str(m.get('name') or ident),
-                            str(m.get('summary') or ''), url, source='curseforge',
+                mod = entry(source + ':' + ident, str(m.get('name') or ident),
+                            str(m.get('summary') or ''), url, source=source,
                             source_id=ident, image=str(m.get('image') or ''),
                             version=str(m.get('version') or ''),
                             downloads=int(m.get('downloads') or 0))
                 mod['updated'] = int(m.get('updated') or 0)
                 upsert(c, translate_mod(mod, translations), retain_translation=translations is None)
-                count += 1
+                imported.append(m | {'id': ident})
+            if source == 'nexus':
+                if not imported:
+                    raise ValueError('Empty Nexus snapshot')
+                current = {'nexus:' + item['id'] for item in imported}
+                stale = c.execute("SELECT uid FROM mods WHERE source='nexus'").fetchall()
+                c.executemany('DELETE FROM mods WHERE uid=?',
+                              ((row['uid'],) for row in stale if row['uid'] not in current))
+                link_nexus_projects(c, imported)
             c.execute('INSERT OR REPLACE INTO sync_state VALUES (?,?,?)',
-                      ('curseforge_snapshot', int(time.time()), count))
-        print('Loaded CurseForge snapshot:', count)
+                      (source + '_snapshot', int(time.time()), len(imported)))
+        print(f'Loaded {source} snapshot:', len(imported))
     except (OSError, ValueError, KeyError, TypeError, sqlite3.Error) as exc:
-        print('Snapshot load failed:', exc)
+        print(f'{source} snapshot load failed:', exc)
 
 
 init()
 seed_catalog()
 load_snapshot()
+load_snapshot('nexus')
 
 
 @app.get('/api/mods')
 def mods(q: str = '', category: str = '', status: str = '', source: str = '',
          page: int = Query(1, ge=1), size: int = Query(24, ge=1, le=100),
          sort: str = 'updated'):
-    clauses, args = [], []
+    clauses, args = ['uid NOT IN (SELECT alias_uid FROM mod_aliases)'], []
     if q.strip():
         parts = []
         for term in query_terms(q):
-            parts.append('(title LIKE ? OR summary LIKE ? OR zh_title LIKE ? OR zh_summary LIKE ?)')
-            args.extend(['%' + term + '%'] * 4)
+            parts.append('''(title LIKE ? OR summary LIKE ? OR zh_title LIKE ? OR zh_summary LIKE ?
+                OR uid IN (SELECT a.mod_uid FROM mod_aliases a JOIN mods alias
+                           ON alias.uid=a.alias_uid WHERE alias.title LIKE ? OR alias.zh_title LIKE ?))''')
+            args.extend(['%' + term + '%'] * 6)
         if parts:
             clauses.append('(' + ' OR '.join(parts) + ')')
     if category:
@@ -194,9 +248,10 @@ def mods(q: str = '', category: str = '', status: str = '', source: str = '',
         clauses.append('android_status=?')
         args.append(status)
     if source:
-        clauses.append('source=?')
-        args.append(source)
-    where = ' WHERE ' + ' AND '.join(clauses) if clauses else ''
+        clauses.append('''(source=? OR uid IN (SELECT a.mod_uid FROM mod_aliases a JOIN mods alias
+                           ON alias.uid=a.alias_uid WHERE alias.source=?))''')
+        args.extend([source, source])
+    where = ' WHERE ' + ' AND '.join(clauses)
     order = {'updated': 'updated DESC', 'popular': 'downloads DESC',
              'name': 'title COLLATE NOCASE ASC'}.get(sort, 'updated DESC')
     with db() as c:
@@ -205,8 +260,22 @@ def mods(q: str = '', category: str = '', status: str = '', source: str = '',
                                   version,downloads,android_status,zh_title,zh_summary
                            FROM mods''' + where + ' ORDER BY ' + order + ', uid' +
                          ' LIMIT ? OFFSET ?', args + [size, (page - 1) * size]).fetchall()
-    return {'total': total, 'page': page, 'size': size,
-            'items': [dict(row) for row in rows]}
+        items = {row['uid']: dict(row, aliases=[], alternate_links=[]) for row in rows}
+        if items:
+            slots = ','.join('?' for _ in items)
+            links = c.execute('''SELECT a.mod_uid, m.uid, m.source, m.url
+                                 FROM mod_aliases a JOIN mods m ON m.uid=a.alias_uid
+                                 WHERE a.mod_uid IN (''' + slots + ''')
+                                 ORDER BY CASE m.source WHEN 'nexus' THEN 0 ELSE 1 END, m.uid''',
+                              list(items))
+            urls = {uid: {item['url']} for uid, item in items.items()}
+            for link in links:
+                uid = link['mod_uid']
+                items[uid]['aliases'].append(link['uid'])
+                if link['url'] not in urls[uid]:
+                    items[uid]['alternate_links'].append({'source': link['source'], 'url': link['url']})
+                    urls[uid].add(link['url'])
+    return {'total': total, 'page': page, 'size': size, 'items': list(items.values())}
 
 
 @app.get('/api/stats')
@@ -216,7 +285,7 @@ def stats():
             WITH translated AS (
                 SELECT TRIM(COALESCE(zh_title, '')) != '' AS title,
                        TRIM(COALESCE(zh_summary, '')) != '' AS summary
-                FROM mods
+                FROM mods WHERE uid NOT IN (SELECT alias_uid FROM mod_aliases)
             )
             SELECT COUNT(*) AS total, COUNT(CASE WHEN title THEN 1 END) AS titles,
                    COUNT(CASE WHEN summary THEN 1 END) AS summaries,
@@ -225,10 +294,11 @@ def stats():
             FROM translated
         ''').fetchone())
         state = [dict(row) for row in c.execute('SELECT * FROM sync_state')]
+        aliases = c.execute('SELECT COUNT(*) FROM mod_aliases').fetchone()[0]
     total = counts.pop('total')
     coverage = {field: round(counts[field] * 100 / total, 2) if total else 0
                 for field in ('titles', 'summaries', 'complete')}
-    return {'total': total, 'sources': state,
+    return {'total': total, 'sources': state, 'duplicates_collapsed': aliases,
             'translation': dict(counts, coverage_percent=coverage),
             'release': {'version': app.version, 'branch': os.getenv('RENDER_GIT_BRANCH'),
                         'commit': os.getenv('RENDER_GIT_COMMIT')},

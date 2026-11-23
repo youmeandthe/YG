@@ -7,6 +7,7 @@
 - 安卓兼容性标记（默认 `untested`，不能把“可收录”误当“可运行”）
 - SQLite 索引和 API
 - CurseForge 官方 API 的全目录分页元数据同步（需自行申请 API Key）
+- Nexus 项目索引，来源为 SMAPI 社区目录，保留跨平台项目的多个原站入口
 - 可安装 PWA 的 manifest、离线页面缓存（MOD 列表仍需后端）
 - 内置 10 款精选 MOD 和 CJB 物品生成器安卓版；兼容性按条目记录，新收录条目默认为待测试
 
@@ -54,12 +55,17 @@ python scripts/translate_catalog.py --engine argos --limit 30
 
 缓存默认写入 `data/zh_translations.json`，按 CurseForge MOD ID 和英文标题、简介的指纹匹配。每完成一条就原子写入缓存，可中断后续跑。同一目录一次运行一个翻译任务。原文变动后，旧缓存会失效，下一批可重新翻译。人工词库始终优先，标题与简介分别回退到原文。页面显示英文原名，并可展开查看简介原文。
 
-GitHub Actions 的 **Sync Stardew MOD Catalog** 每天同步源目录，翻译新增或英文标题、简介有变更的条目，测试通过后把源目录和译文一起提交。**Test Chinese MOD catalog** 验证已提交的数据、API 和真实的 Argos 模型试译。Render 从部署提交读取缓存，应用启动时写入 SQLite。页面访问无需翻译引擎。
+GitHub Actions 的 **Sync Stardew MOD Catalog** 每天同步两个来源，翻译新增或英文标题、简介有变更的条目，测试通过后把源目录和译文一起提交。两个来源使用独立缓存，避免相同数字 ID 互相覆盖。**Test Chinese MOD catalog** 验证已提交的数据、API 和真实的 Argos 模型试译。Render 从部署提交读取缓存，应用启动时写入 SQLite。页面访问无需翻译引擎。
 
 Render 若已使用已关联分支的 **On Commit** 自动部署，目录提交会触发更新。若设为 **After CI Checks Pass** 或关闭自动部署，请在 Render 确认发布方式。GitHub Actions 使用默认令牌推送数据提交时，该推送不会再次触发 GitHub Actions。
 
+## Nexus 条目及去重
+
+Nexus 项目链接来自 [SMAPI 社区目录](https://github.com/Pathoschild/SmapiCompatibilityList)，主要覆盖 C# MOD 及少数内容包。社区目录不保证覆盖全部 Nexus 项目。缺少简介时显示原站链接，社区备注仅供参考。本站对目录做了筛选、去重和中文翻译，数据及译文按[上游许可](static/smapi-catalog-license.txt)分发。直接批量使用 Nexus API 需要获得 Nexus Mods 许可。
+
+通过社区登记的项目 ID，或两边唯一匹配的同名同作者项目去重。重复项目合并为一张卡片，保留可用的源站链接和旧收藏。兼容状态属于实际测试的下载版本，新收录和来自社区目录的条目默认待测试。
+
 ## 需要进一步开发
-- 官方 Nexus Mods GraphQL v2 数据源：须先核实当前可用认证、查询和使用条款，再实现；本版不冒充已接通
 - 安卓依赖检测、版本对照、测试报告及下载文件校验
 - 直接导入 Launcher：当前仍需手动通过 `Mods → ＋` 选择 ZIP
 - 正式部署需 HTTPS、管理员访问保护、限流、监控、备份与合规审查

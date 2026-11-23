@@ -37,6 +37,7 @@ button:disabled{opacity:.45}.paging{display:flex;justify-content:center;align-it
 <input id="q" type="search" placeholder="试试：拖拉机、自动化、箱子、地图、钓鱼…" aria-label="中文或英文搜索">
 <select id="category" aria-label="分类"><option value="">全部分类</option><option>工具</option><option>地图</option><option>自动化</option><option>便利</option><option>框架</option><option>扩展</option><option>外观</option><option>其他</option></select>
 <select id="status" aria-label="安卓兼容性"><option value="">全部兼容状态</option><option value="verified">已验证</option><option value="untested">待测试</option><option value="incompatible">不兼容</option></select>
+<select id="source" aria-label="来源"><option value="">全部来源</option><option value="curseforge">CurseForge</option><option value="nexus">Nexus Mods</option><option value="curated">精选</option></select>
 <select id="sort" aria-label="排序"><option value="updated">最近更新</option><option value="popular">下载热度</option><option value="name">按名称</option></select>
 </div>
 <div class="quick" aria-label="热门中文关键词"><button data-query="拖拉机">🚜 拖拉机</button><button data-query="自动化">⚙️ 自动化</button><button data-query="箱子">📦 箱子</button><button data-query="地图">🗺️ 地图</button><button data-query="钓鱼">🎣 钓鱼</button></div>
@@ -44,7 +45,7 @@ button:disabled{opacity:.45}.paging{display:flex;justify-content:center;align-it
 <section class="grid" id="grid" aria-live="polite"></section>
 <div class="paging"><button class="btn alt" id="prev">上一页</button><span id="page">1</span><button class="btn alt" id="next">下一页</button></div>
 <div class="notice"><b>📲 如何安装 MOD？</b><p>打开 MOD 原站 → 下载适合自己游戏和 SMAPI 版本的 ZIP → 使用兼容的安装工具导入并启动验证。安卓安装步骤因工具而异，部分 MOD 无法在安卓运行。</p></div>
-<div class="foot">Stardew Mod Hub · 非官方社区导航 · 中文词库持续完善中</div>
+<div class="foot">Stardew Mod Hub · 非官方社区导航 · <a href="/smapi-catalog-license.txt" style="color:inherit">Nexus 目录来源与许可</a></div>
 </main>
 <script>
 const $=id=>document.getElementById(id);
@@ -52,6 +53,7 @@ let page=1,total=0,requestId=0;
 const PAGE_SIZE=24;
 const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const labels={verified:'已验证',untested:'待测试',incompatible:'不兼容'};
+const sources={curseforge:'CurseForge',nexus:'Nexus Mods',curated:'精选'};
 let saved;
 try{const stored=JSON.parse(localStorage.getItem('modhub_favorites')||'[]');saved=new Set(Array.isArray(stored)?stored:[])}catch(e){saved=new Set()}
 function card(m){
@@ -60,12 +62,14 @@ function card(m){
  const title=m.zh_title||m.title;
  const original=m.zh_summary&&m.summary&&m.zh_summary!==m.summary
   ?`<details class="original"><summary>查看简介原文</summary><p>${escapeHtml(m.summary)}</p></details>`:'';
- return `<article class="mod"><div class="cover">${img}</div><div class="inner"><div class="name">${escapeHtml(title)}</div>${title!==m.title?`<div class="eng">${escapeHtml(m.title)}</div>`:''}<div class="desc">${escapeHtml(m.zh_summary||m.summary||'暂无介绍')}</div>${original}<div class="tags"><span class="tag">${escapeHtml(m.category)}</span><span class="tag ${m.android_status==='verified'?'good':''}">${escapeHtml(labels[m.android_status]||'待测试')}</span><span class="tag">${escapeHtml(m.source)}</span></div><div class="actions"><a class="btn" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">查看 / 下载 ↗</a><button class="btn alt" data-save="${escapeHtml(m.uid)}">♡ 收藏</button></div></div></article>`;
+ const links=(m.alternate_links||[]).filter(link=>/^https:\/\//.test(link.url)).map(link=>
+  `<a class="btn alt" href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(sources[link.source]||link.source)} ↗</a>`).join('');
+ return `<article class="mod"><div class="cover">${img}</div><div class="inner"><div class="name">${escapeHtml(title)}</div>${title!==m.title?`<div class="eng">${escapeHtml(m.title)}</div>`:''}<div class="desc">${escapeHtml(m.zh_summary||m.summary||'暂无介绍')}</div>${original}<div class="tags"><span class="tag">${escapeHtml(m.category)}</span><span class="tag ${m.android_status==='verified'?'good':''}">${escapeHtml(labels[m.android_status]||'待测试')}</span><span class="tag">${escapeHtml(sources[m.source]||m.source)}</span></div><div class="actions"><a class="btn" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">查看 / 下载 ↗</a>${links}<button class="btn alt" data-save="${escapeHtml(m.uid)}">♡ 收藏</button></div></div></article>`;
 }
 async function load(){
  const current=++requestId;
  const params=new URLSearchParams({page,size:PAGE_SIZE,sort:$('sort').value});
- for(const id of ['q','category','status'])if($(id).value)params.set(id,$(id).value);
+ for(const id of ['q','category','status','source'])if($(id).value)params.set(id,$(id).value);
  try{
   const response=await fetch('/api/mods?'+params.toString(),{cache:'no-store'});
   if(!response.ok)throw Error(response.status);
@@ -75,19 +79,23 @@ async function load(){
   $('grid').innerHTML=data.items.length?data.items.map(card).join(''):'<div class="empty">没有找到匹配的 MOD，试试更短的中文词或英文名称。</div>';
   $('page').textContent=page+' / '+Math.max(1,Math.ceil(total/PAGE_SIZE));
   $('prev').disabled=page<=1;$('next').disabled=page*PAGE_SIZE>=total;
+  const aliases=new Map(data.items.map(m=>[m.uid,m.aliases||[]]));
   document.querySelectorAll('[data-save]').forEach(button=>{
    const id=button.dataset.save;
-   button.textContent=saved.has(id)?'♥ 已收藏':'♡ 收藏';
+   const keys=[id,...aliases.get(id)];
+   const isSaved=()=>keys.some(key=>saved.has(key));
+   button.textContent=isSaved()?'♥ 已收藏':'♡ 收藏';
    button.onclick=()=>{
-    saved.has(id)?saved.delete(id):saved.add(id);
+    if(isSaved())keys.forEach(key=>saved.delete(key));
+    else saved.add(id);
     try{localStorage.setItem('modhub_favorites',JSON.stringify([...saved]))}catch(e){}
-    button.textContent=saved.has(id)?'♥ 已收藏':'♡ 收藏';
+    button.textContent=isSaved()?'♥ 已收藏':'♡ 收藏';
    };
   });
  }catch(e){if(current!==requestId)return;$('stats').textContent='无法连接 MOD 数据服务';$('grid').innerHTML='<div class="empty">请确认后端服务已部署成功。</div>'}
 }
 let debounce;
-for(const id of ['q','category','status','sort'])$(id).addEventListener(id==='q'?'input':'change',()=>{
+for(const id of ['q','category','status','source','sort'])$(id).addEventListener(id==='q'?'input':'change',()=>{
  clearTimeout(debounce);debounce=setTimeout(()=>{page=1;load()},250);
 });
 document.querySelectorAll('[data-query]').forEach(button=>button.onclick=()=>{$('q').value=button.dataset.query;page=1;load()});
