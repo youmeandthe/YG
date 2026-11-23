@@ -111,16 +111,31 @@ SEED = [
     ('patcher', 'Content Patcher', '内容包框架', '1915'),
     ('sve', 'Stardew Valley Expanded', '大型剧情与地图扩展', '3753'),
 ]
+CURATED = [
+    entry(
+        'curated:cjb-item-spawner-android',
+        'CJB Item Spawner (Android)',
+        'Android SMAPI port of the in-game item spawner, with fixes for search and '
+        'scrolling through the item list.',
+        'https://github.com/NRTnarathip/SDV-Mods/releases/tag/2.5.1-android',
+        category='工具',
+        version='2.5.1 Android',
+        zh_title='CJB 物品生成器安卓版',
+        zh_summary='适用于安卓 SMAPI 的 CJB 物品生成器移植版。可在游戏内搜索并生成物品，'
+                   '此版本修复了安卓端的搜索框和物品列表滚动。',
+    ) | {'updated': 1734279845},
+]
 
 
 def seed_catalog():
     with db() as c:
-        if c.execute('SELECT 1 FROM mods LIMIT 1').fetchone():
-            return
-        for key, name, summary, nexus_id in SEED:
-            mod = entry('seed:' + key, name, summary,
-                        'https://www.nexusmods.com/stardewvalley/mods/' + nexus_id)
-            upsert(c, translate_mod(mod))
+        if not c.execute('SELECT 1 FROM mods LIMIT 1').fetchone():
+            for key, name, summary, nexus_id in SEED:
+                mod = entry('seed:' + key, name, summary,
+                            'https://www.nexusmods.com/stardewvalley/mods/' + nexus_id)
+                upsert(c, translate_mod(mod))
+        for mod in CURATED:
+            upsert(c, mod)
 
 
 def load_snapshot():

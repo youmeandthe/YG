@@ -6,9 +6,9 @@
 - 中文手机商店界面、搜索、分类、排序、分页、收藏（保存在本机浏览器）
 - 安卓兼容性标记（默认 `untested`，不能把“可收录”误当“可运行”）
 - SQLite 索引和 API
-- CurseForge 官方 API 的分页元数据同步（需自行申请 API Key）
+- CurseForge 官方 API 的全目录分页元数据同步（需自行申请 API Key）
 - 可安装 PWA 的 manifest、离线页面缓存（MOD 列表仍需后端）
-- 初始示例目录 10 款；兼容性按条目记录，新收录条目默认为待测试
+- 内置 10 款精选 MOD 和 CJB 物品生成器安卓版；兼容性按条目记录，新收录条目默认为待测试
 
 ## 运行（电脑或云服务器）
 
@@ -24,13 +24,17 @@ uvicorn server:app --host 0.0.0.0 --port 8000
 
 ## 自动收录 CurseForge
 
+GitHub Actions 读取 CurseForge 为星露谷物语返回的全部搜索分页。每页 50 条，遍历到 API 报告的总数，收录具有公开 HTTPS 项目地址的条目。若分页总数不一致、出现重复或超过 CurseForge 单次搜索的 10,000 条上限，任务会保留上次成功的快照。目录按源站更新时间排序。工作流每天运行，也可在 Actions 手动触发。
+
+服务端还提供一次性的管理员接口，用于按页临时补充 SQLite 中的元数据。
+
 在服务端设置环境变量 `CURSEFORGE_API_KEY` 和 `ADMIN_TOKEN`（可参考 `.env.example`，**不会自动读取 .env**）。在本机或服务器上运行：
 
 ```bash
 curl -X POST 'http://127.0.0.1:8000/api/sync/curseforge?pages=5' -H 'x-admin-token: YOUR_ADMIN_TOKEN'
 ```
 
-每页最多 50 项。可通过服务器 cron / 定时任务每天调用一次。**同步是否成功取决于 API Key 权限、平台接口和正确的游戏 ID；未申请密钥时不会自动变成海量目录。** 本程序只存 MOD 标题、简介、链接等元数据，不镜像文件，不绕过登录/授权或平台下载限制。
+每页最多 50 项。站点只存 MOD 标题、简介、链接等元数据，文件由源站提供。
 
 ## v0.4 批量中文翻译
 
@@ -50,7 +54,7 @@ python scripts/translate_catalog.py --engine argos --limit 30
 
 缓存默认写入 `data/zh_translations.json`，按 CurseForge MOD ID 和英文标题、简介的指纹匹配。每完成一条就原子写入缓存，可中断后续跑。同一目录一次运行一个翻译任务。原文变动后，旧缓存会失效，下一批可重新翻译。人工词库始终优先，标题与简介分别回退到原文。页面显示英文原名，并可展开查看简介原文。
 
-GitHub Actions 的 **Sync Stardew MOD Catalog** 每天同步源目录、增量翻译最多 100 条，测试通过后把源目录和译文一起提交。**Test Chinese MOD catalog** 验证已提交的数据、API 和真实的 Argos 模型试译。Render 从部署提交读取缓存，应用启动时写入 SQLite。页面访问无需翻译引擎。
+GitHub Actions 的 **Sync Stardew MOD Catalog** 每天同步源目录，翻译新增或英文标题、简介有变更的条目，测试通过后把源目录和译文一起提交。**Test Chinese MOD catalog** 验证已提交的数据、API 和真实的 Argos 模型试译。Render 从部署提交读取缓存，应用启动时写入 SQLite。页面访问无需翻译引擎。
 
 Render 若已使用已关联分支的 **On Commit** 自动部署，目录提交会触发更新。若设为 **After CI Checks Pass** 或关闭自动部署，请在 Render 确认发布方式。GitHub Actions 使用默认令牌推送数据提交时，该推送不会再次触发 GitHub Actions。
 

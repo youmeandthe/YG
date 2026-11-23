@@ -141,8 +141,8 @@ def main():
     parser.add_argument('--catalog', type=Path, default=ROOT / 'data' / 'curseforge.json')
     parser.add_argument('--cache', type=Path, default=CACHE_PATH)
     args = parser.parse_args()
-    if not 0 <= args.limit <= 500:
-        parser.error('--limit must be between 0 and 500')
+    if args.limit < 0:
+        parser.error('--limit must be non-negative')
     if args.install_model and args.engine != 'argos':
         parser.error('--install-model requires --engine argos')
 

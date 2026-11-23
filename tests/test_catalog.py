@@ -96,7 +96,7 @@ class CatalogApiTests(unittest.TestCase):
         response = self.client.get('/api/stats')
         self.assertEqual(response.status_code, 200)
         stats = response.json()
-        self.assertEqual(stats['total'], len(mods) + len(server.SEED))
+        self.assertEqual(stats['total'], len(mods) + len(server.SEED) + len(server.CURATED))
         self.assertEqual(stats['release']['version'], '0.4.0')
         rows = []
         for page in range(1, (stats['total'] + 99) // 100 + 1):
@@ -131,3 +131,34 @@ class CatalogApiTests(unittest.TestCase):
             self.assertEqual(self.client.get(route).status_code, 200)
         self.assertEqual(self.client.get('/**?utm_source=chatgpt').status_code, 404)
         self.assertEqual(self.client.get('/unknown-page').status_code, 404)
+
+    def test_curated_android_spawner_is_searchable_and_untested(self):
+        response = self.client.get('/api/mods', params={
+            'q': 'CJB 物品生成器安卓版', 'status': 'untested', 'source': 'curated',
+        })
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json()['total'], 1)
+        item = response.json()['items'][0]
+        self.assertEqual(item['uid'], 'curated:cjb-item-spawner-android')
+        self.assertEqual(item['android_status'], 'untested')
+        self.assertEqual(item['version'], '2.5.1 Android')
+        self.assertTrue(item['zh_summary'])
+        self.assertEqual(item['url'],
+                         'https://github.com/NRTnarathip/SDV-Mods/releases/tag/2.5.1-android')
+
+    def test_curated_android_spawner_is_seeded_in_an_existing_database(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch.object(server, 'DB', Path(tmp) / 'existing.db'):
+                server.init()
+                with server.db() as conn:
+                    server.upsert(conn, server.entry('seed:existing', 'Existing MOD', 'Description',
+                                                     'https://example.com'))
+                server.seed_catalog()
+                server.seed_catalog()
+                with server.db() as conn:
+                    statuses = {row['uid']: row['android_status']
+                                for row in conn.execute('SELECT uid, android_status FROM mods')}
+        self.assertEqual(statuses, {
+            'seed:existing': 'untested',
+            'curated:cjb-item-spawner-android': 'untested',
+        })
