@@ -1,4 +1,4 @@
-"""Stardew Mod Hub v0.3: permission-aware metadata index and Chinese search."""
+"""Stardew Mod Hub v0.4: permission-aware metadata index and Chinese search."""
 import json
 import os
 import sqlite3
@@ -11,12 +11,13 @@ from fastapi import FastAPI, Header, HTTPException, Query
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
+from translation_cache import cached_translation, read_cache
 from zh_catalog import enrich, query_terms
 
 ROOT = Path(__file__).resolve().parent
 DB = Path(os.getenv('MODHUB_DB', str(ROOT / 'mods.db')))
 GAME_ID = int(os.getenv('CURSEFORGE_GAME_ID', '669'))
-app = FastAPI(title='Stardew Mod Hub', version='0.3.0')
+app = FastAPI(title='Stardew Mod Hub', version='0.4.0')
 
 
 @contextmanager
@@ -44,9 +45,8 @@ def init():
                      (source TEXT PRIMARY KEY, last_sync INTEGER, count INTEGER)''')
 
 
-def upsert(m):
-    with db() as c:
-        c.execute('''INSERT INTO mods
+def upsert(c, m, *, retain_translation=False):
+    c.execute('''INSERT INTO mods
             (uid,source,source_id,title,summary,category,url,image,updated,version,
              downloads,android_status,zh_title,zh_summary,raw)
             VALUES (:uid,:source,:source_id,:title,:summary,:category,:url,:image,
@@ -55,8 +55,14 @@ def upsert(m):
                 title=excluded.title, summary=excluded.summary,
                 category=excluded.category, url=excluded.url, image=excluded.image,
                 updated=excluded.updated, version=excluded.version,
-                downloads=excluded.downloads, zh_title=excluded.zh_title,
-                zh_summary=excluded.zh_summary, raw=excluded.raw''', m)
+                downloads=excluded.downloads,
+                zh_title=CASE WHEN :retain_translation AND mods.title=excluded.title
+                              AND mods.summary IS excluded.summary AND excluded.zh_title=''
+                              THEN mods.zh_title ELSE excluded.zh_title END,
+                zh_summary=CASE WHEN :retain_translation AND mods.title=excluded.title
+                                AND mods.summary IS excluded.summary AND excluded.zh_summary=''
+                                THEN mods.zh_summary ELSE excluded.zh_summary END,
+                raw=excluded.raw''', dict(m, retain_translation=retain_translation))
     # android_status deliberately NOT overwritten: compatibility needs real testing.
 
 
@@ -70,8 +76,23 @@ def entry(uid, title, summary, url, source='curated', source_id='',
                 zh_title=zh_title, zh_summary=zh_summary, raw=raw)
 
 
-def translate_mod(m):
+def load_translation_cache():
+    try:
+        return read_cache(missing_ok=False)
+    except (OSError, ValueError) as exc:
+        print('Translation cache load failed:', exc)
+        return None
+
+
+def translate_mod(m, translations=None):
     zh_title, zh_summary, category = enrich(m['title'], m['summary'])
+    zh_title = zh_title or m['zh_title']
+    zh_summary = zh_summary or m['zh_summary']
+    if m['source'] == 'curseforge' and translations:
+        cached = cached_translation(translations, m['source_id'], m['title'], m['summary'])
+        if cached:
+            zh_title = zh_title or cached[0]
+            zh_summary = zh_summary or cached[1]
     m['zh_title'] = zh_title
     m['zh_summary'] = zh_summary
     m['category'] = category
@@ -94,13 +115,12 @@ SEED = [
 
 def seed_catalog():
     with db() as c:
-        count = c.execute('SELECT COUNT(*) FROM mods').fetchone()[0]
-    if count:
-        return
-    for key, name, summary, nexus_id in SEED:
-        mod = entry('seed:' + key, name, summary,
-                    'https://www.nexusmods.com/stardewvalley/mods/' + nexus_id)
-        upsert(translate_mod(mod))
+        if c.execute('SELECT 1 FROM mods LIMIT 1').fetchone():
+            return
+        for key, name, summary, nexus_id in SEED:
+            mod = entry('seed:' + key, name, summary,
+                        'https://www.nexusmods.com/stardewvalley/mods/' + nexus_id)
+            upsert(c, translate_mod(mod))
 
 
 def load_snapshot():
@@ -113,20 +133,21 @@ def load_snapshot():
         if payload.get('source') != 'curseforge':
             return
         count = 0
-        for m in payload.get('items', []):
-            ident = str(m['id'])
-            url = str(m.get('url') or '')
-            if not url.startswith('https://'):
-                continue
-            mod = entry('curseforge:' + ident, str(m.get('name') or ident),
-                        str(m.get('summary') or ''), url, source='curseforge',
-                        source_id=ident, image=str(m.get('image') or ''),
-                        version=str(m.get('version') or ''),
-                        downloads=int(m.get('downloads') or 0))
-            mod['updated'] = int(m.get('updated') or 0)
-            upsert(translate_mod(mod))
-            count += 1
+        translations = load_translation_cache()
         with db() as c:
+            for m in payload.get('items', []):
+                ident = str(m['id'])
+                url = str(m.get('url') or '')
+                if not url.startswith('https://'):
+                    continue
+                mod = entry('curseforge:' + ident, str(m.get('name') or ident),
+                            str(m.get('summary') or ''), url, source='curseforge',
+                            source_id=ident, image=str(m.get('image') or ''),
+                            version=str(m.get('version') or ''),
+                            downloads=int(m.get('downloads') or 0))
+                mod['updated'] = int(m.get('updated') or 0)
+                upsert(c, translate_mod(mod, translations), retain_translation=translations is None)
+                count += 1
             c.execute('INSERT OR REPLACE INTO sync_state VALUES (?,?,?)',
                       ('curseforge_snapshot', int(time.time()), count))
         print('Loaded CurseForge snapshot:', count)
@@ -167,7 +188,7 @@ def mods(q: str = '', category: str = '', status: str = '', source: str = '',
         total = c.execute('SELECT COUNT(*) FROM mods' + where, args).fetchone()[0]
         rows = c.execute('''SELECT uid,source,title,summary,category,url,image,updated,
                                   version,downloads,android_status,zh_title,zh_summary
-                           FROM mods''' + where + ' ORDER BY ' + order +
+                           FROM mods''' + where + ' ORDER BY ' + order + ', uid' +
                          ' LIMIT ? OFFSET ?', args + [size, (page - 1) * size]).fetchall()
     return {'total': total, 'page': page, 'size': size,
             'items': [dict(row) for row in rows]}
@@ -176,9 +197,26 @@ def mods(q: str = '', category: str = '', status: str = '', source: str = '',
 @app.get('/api/stats')
 def stats():
     with db() as c:
-        count = c.execute('SELECT COUNT(*) FROM mods').fetchone()[0]
+        counts = dict(c.execute('''
+            WITH translated AS (
+                SELECT TRIM(COALESCE(zh_title, '')) != '' AS title,
+                       TRIM(COALESCE(zh_summary, '')) != '' AS summary
+                FROM mods
+            )
+            SELECT COUNT(*) AS total, COUNT(CASE WHEN title THEN 1 END) AS titles,
+                   COUNT(CASE WHEN summary THEN 1 END) AS summaries,
+                   COUNT(CASE WHEN title AND summary THEN 1 END) AS complete,
+                   COUNT(CASE WHEN NOT title AND NOT summary THEN 1 END) AS untranslated
+            FROM translated
+        ''').fetchone())
         state = [dict(row) for row in c.execute('SELECT * FROM sync_state')]
-    return {'total': count, 'sources': state,
+    total = counts.pop('total')
+    coverage = {field: round(counts[field] * 100 / total, 2) if total else 0
+                for field in ('titles', 'summaries', 'complete')}
+    return {'total': total, 'sources': state,
+            'translation': dict(counts, coverage_percent=coverage),
+            'release': {'version': app.version, 'branch': os.getenv('RENDER_GIT_BRANCH'),
+                        'commit': os.getenv('RENDER_GIT_COMMIT')},
             'target_game': '1.6.15.3', 'target_smapi': '4.3.2.1'}
 
 
@@ -192,6 +230,7 @@ async def sync_curseforge(x_admin_token: str | None = Header(None),
     if not key:
         raise HTTPException(400, 'Set CURSEFORGE_API_KEY first')
     total, errors = 0, []
+    translations = load_translation_cache()
     async with httpx.AsyncClient(timeout=25) as client:
         for p in range(pages):
             try:
@@ -204,24 +243,28 @@ async def sync_curseforge(x_admin_token: str | None = Header(None),
                 data = response.json().get('data', [])
                 if not data:
                     break
-                for m in data:
-                    ident = str(m.get('id') or '')
-                    if not ident:
-                        continue
-                    url = (m.get('links') or {}).get('websiteUrl') or ''
-                    if not url.startswith('https://'):
-                        continue
-                    logo = m.get('logo') or {}
-                    latest = m.get('latestFiles') or []
-                    mod = entry('curseforge:' + ident, m.get('name') or ident,
-                                m.get('summary') or '', url, source='curseforge',
-                                source_id=ident, image=logo.get('thumbnailUrl') or '',
-                                version=str(latest[0].get('displayName') or '') if latest else '',
-                                downloads=int(m.get('downloadCount') or 0),
-                                raw=json.dumps({'id': ident, 'slug': m.get('slug')},
-                                               ensure_ascii=False))
-                    upsert(translate_mod(mod))
-                    total += 1
+                count = 0
+                with db() as c:
+                    for m in data:
+                        ident = str(m.get('id') or '')
+                        if not ident:
+                            continue
+                        url = (m.get('links') or {}).get('websiteUrl') or ''
+                        if not url.startswith('https://'):
+                            continue
+                        logo = m.get('logo') or {}
+                        latest = m.get('latestFiles') or []
+                        mod = entry('curseforge:' + ident, m.get('name') or ident,
+                                    m.get('summary') or '', url, source='curseforge',
+                                    source_id=ident, image=logo.get('thumbnailUrl') or '',
+                                    version=str(latest[0].get('displayName') or '') if latest else '',
+                                    downloads=int(m.get('downloadCount') or 0),
+                                    raw=json.dumps({'id': ident, 'slug': m.get('slug')},
+                                                   ensure_ascii=False))
+                        upsert(c, translate_mod(mod, translations),
+                               retain_translation=translations is None)
+                        count += 1
+                total += count
                 if len(data) < 50:
                     break
             except (httpx.HTTPError, ValueError, TypeError, sqlite3.Error) as exc:
@@ -246,4 +289,15 @@ def worker():
                         media_type='application/javascript')
 
 
-app.mount('/', StaticFiles(directory=ROOT / 'static', html=True), name='web')
+class WebFiles(StaticFiles):
+    def lookup_path(self, path):
+        try:
+            return super().lookup_path(path)
+        except OSError as exc:
+            if getattr(exc, 'winerror', None) == 123:
+                # Windows rejects URL paths containing literal wildcard characters.
+                return '', None
+            raise
+
+
+app.mount('/', WebFiles(directory=ROOT / 'static', html=True), name='web')

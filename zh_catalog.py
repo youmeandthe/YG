@@ -12,6 +12,16 @@ KNOWN_MODS = {
     'skull cavern elevator': ('骷髅洞穴电梯', '为骷髅洞穴添加电梯功能。', '便利'),
     'content patcher': ('内容补丁框架', '为内容包提供数据修改框架。', '框架'),
     'stardew valley expanded': ('星露谷物语扩展', '大型剧情、地图和人物内容扩展。', '扩展'),
+    '[cp] mountain map replica': (
+        '[CP] 山区地图复制机',
+        '添加一台山区地图复制机和一个山区地图装饰品。复制机每个游戏日会产出一件物品，可能是山区采集物、采石场战利品或鱼。可在罗宾的木匠店购买。',
+        '自动化',
+    ),
+    '[cp] desert pillar replica': (
+        '[CP] 沙漠石柱复制机',
+        '添加一台沙漠石柱复制机和一个装饰品。复制机每个游戏日会产出一件沙漠物品。可在绿洲商店购买。',
+        '自动化',
+    ),
 }
 
 # Chinese query -> English terms to search in original titles/summaries.

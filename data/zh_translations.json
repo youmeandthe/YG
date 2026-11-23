@@ -1,0 +1,3002 @@
+{
+  "1001630": {
+    "fingerprint": "709bd1f8a2d0219a4e3232545d7a5b5b9db3c72304e83f69683ecedd7f4f2313",
+    "method": "argos",
+    "zh_summary": "让银河和无穷武器 成为矿井里的箱子中可以投放的武器 有机会拥有天生的魔法",
+    "zh_title": "神奇的银河和无限武器"
+  },
+  "1001901": {
+    "fingerprint": "fa27279f99966c55cb3ff970793a277211a73b11cf007a83fbc0623a9c535cbb",
+    "method": "argos",
+    "zh_summary": "单击需要的东西时为您选择正确的工具或项目",
+    "zh_title": "自动工具交换 {} 选择 } 切换"
+  },
+  "1009026": {
+    "fingerprint": "2f5aa1e052d30360a6bf2ef07925cfa3a91064eef5b76c0f611da176c1f1928c",
+    "method": "argos",
+    "zh_summary": "一个大农场,满足所有的需求!",
+    "zh_title": "大规模农场"
+  },
+  "1010281": {
+    "fingerprint": "c307fc78a72c132f4d525e8dc0bbf83c55c3859aef6daa082eba9bc15028757f",
+    "method": "reviewed",
+    "zh_summary": "重新绘制女巫沼泽，让它更生动、更贴近自然。为游戏后期新增 NPC、任务、物品、鱼类、作物、采集物等内容。",
+    "zh_title": "遥远之地：女巫沼泽小型扩展"
+  },
+  "1013842": {
+    "fingerprint": "1c2b9f294df4b982df89a66c9f7a373985ad0a0bc66f332ac195664b25ee05ec",
+    "method": "argos",
+    "zh_summary": "改变香草草草地农场的外观,加上一些t,加和qql的改变.",
+    "zh_title": "多活泼的草原农场"
+  },
+  "1013907": {
+    "fingerprint": "139960d1082b2b0d461df78c9c16ce4b79e5f600900acf3f0f3c8314d003970d",
+    "method": "reviewed",
+    "zh_summary": "调整并扩建原版农场洞穴地图，增加空间与装饰。",
+    "zh_title": "更生动的农场洞穴"
+  },
+  "1014272": {
+    "fingerprint": "f4cdf74aba0d69f5ba04dfc6fceb4ee1e7c083e1bf5a0d9cf52076da6da408de",
+    "method": "argos",
+    "zh_summary": "允许玩家自动向垃圾桶发送不想要的项目",
+    "zh_title": "自动拖车"
+  },
+  "1022917": {
+    "fingerprint": "3d3a9d8fdddc5decdbab8b4ec3f242403cbf5e921bfe13a8da5ebfb8798624be",
+    "method": "argos",
+    "zh_summary": "这是Content PatcherMod,它改变了modpack主菜单的Morning Dew",
+    "zh_title": "[CP] 上午 露 - 主菜单"
+  },
+  "1024106": {
+    "fingerprint": "f4f8910bba8a83a17009f711e93197da30563f337d8d5df0732bbdd56b0efb1c",
+    "method": "reviewed",
+    "zh_summary": "通过 Alternative Textures 添加来自 Kehaan 的星露谷物语和 Minecraft 整合包的装饰画。",
+    "zh_title": "[AT] Kehaan 装饰画"
+  },
+  "1025346": {
+    "fingerprint": "cf60f5169695aa803dca15d32fa3cfd5c3b58811116f81b088c615c54eae0d0f",
+    "method": "argos",
+    "zh_summary": "这是Content PatcherMod,它改变了Modpack Dew More Farming的主菜单",
+    "zh_title": "[CP] Dew More 农作 - 主菜单"
+  },
+  "1025439": {
+    "fingerprint": "81cf6f3225b59201af6c9556fa99f1dde03f5798e8e7394bcdf980f47c744257",
+    "method": "argos",
+    "zh_summary": "\"晨露\"的扩充版,以更多的内容mod为主.",
+    "zh_title": "露露更多农耕"
+  },
+  "1040218": {
+    "fingerprint": "c0e28739b6857118e96d15995304ea72a0f5c638cb75569cbe36ef47348edb51",
+    "method": "argos",
+    "zh_summary": "用于演示如何为 星露谷物语 创建 Modpack 的 Modpack, 描述中的 wíth 视频教程",
+    "zh_title": "我创建了A星露谷物语 Modpack"
+  },
+  "1060833": {
+    "fingerprint": "5ca316c373c9e2fe6135d95742b0b3370365c5307fce40bf518f61f9ec5c5297",
+    "method": "argos",
+    "zh_summary": "一个扩张模式,增加了一个充满轴心的新岛 来相遇和交友!",
+    "zh_title": "阿克斯洛特尔村"
+  },
+  "1066716": {
+    "fingerprint": "72f43b783cbd3d7d5c9af287be6f5053b9e6d99ad4c6a7dd16b6a637fbcb9621",
+    "method": "argos",
+    "zh_summary": "游戏中加入轴鱼作为各种颜色的新鱼.",
+    "zh_title": "星座中的轴"
+  },
+  "1069124": {
+    "fingerprint": "8c1642c3440c1d976b126d806caddea5f61d00190c3ef040b8813c5799fae589",
+    "method": "reviewed",
+    "zh_summary": "用自定义背景和画框为 NPC 或农夫制作画像。可以将一个或多个角色画在一起，制作家庭合照或情侣画像。",
+    "zh_title": "自定义 NPC 画像"
+  },
+  "1074092": {
+    "fingerprint": "cb898d928a6bb228389045324395553c75af50d2166c4096f61ba943f3fcce5b",
+    "method": "argos",
+    "zh_summary": "加上32个桑里欧加尼作为新家具",
+    "zh_title": "吉祥物配方"
+  },
+  "1081444": {
+    "fingerprint": "0c19f98e46c6012e138237e5b75670f15ca3f5a715a167c8b37902cabc3ffc16",
+    "method": "argos",
+    "zh_summary": "添加对地德粉碎器的压碎任何地德的能力,包括神秘箱,人工特洛夫和金椰子.",
+    "zh_title": "地极冲压器"
+  },
+  "1081465": {
+    "fingerprint": "58ca9079905548a20492a6dd5e389906af05d9476eb638bc9e71e35fbb04063b",
+    "method": "argos",
+    "zh_summary": "增设电视购物频道.",
+    "zh_title": "电视购物频道"
+  },
+  "1081728": {
+    "fingerprint": "26d50f37b087e352863525f029ce65366f1521504454ecd7b431c4634e9d14e9",
+    "method": "argos",
+    "zh_summary": "允许你每天通过雕像获得一次祝福,而不是每天只获得一次祝福.",
+    "zh_title": "更好的神像 祝福"
+  },
+  "1081741": {
+    "fingerprint": "ddb28a9bdb9e0d981979a3587923f10dc5fbb3ec683f3ddae43e4cf916ed815a",
+    "method": "argos",
+    "zh_summary": "让您配置每天醒来的时间 。",
+    "zh_title": "自定义醒悟时间"
+  },
+  "1083174": {
+    "fingerprint": "016ed361395f918be0504a06dd2297db564a083b276ef3bb01bdc6f0884f36db",
+    "method": "reviewed",
+    "zh_summary": "更换整合包的主菜单音乐，也可在游戏内的点唱机收听。音乐由 Altynay／cupcakeiris 创作。",
+    "zh_title": "[CP] Dew 主菜单音乐"
+  },
+  "1102017": {
+    "fingerprint": "fb6c557995bdeed454678e33a97e3ddab88107520ebaa90d94fdd5f82a18fc6f",
+    "method": "reviewed",
+    "zh_summary": "为星露谷物语新增 75 种鱼，未来还会陆续增加。此版本与 Minecraft 上的同名 MOD 类似。",
+    "zh_title": "[CP] 鱼类大丰收"
+  },
+  "1147001": {
+    "fingerprint": "a9e6e9cc72cfcffc5beb3998d28493b1602ebb15c6ad0ab38d54cb845c9e91bb",
+    "method": "argos",
+    "zh_summary": "这是一个Content Patchermod,它修改了modpack\"A World Of Dew\"的主菜单.",
+    "zh_title": "[CP] A World of Dew - 主菜单"
+  },
+  "1147010": {
+    "fingerprint": "fae6c350f9672982b199855a9933da9815c881b5a9f00b8d2c71cc9bb3dce6d1",
+    "method": "argos",
+    "zh_summary": "A World of Dew是星露谷物语的终极modpack,它为强大的计算机设计,其特色是迄今最大的Mod收藏在Kehaan 星露谷物语modpack中,增加了重要的新内容,增强了游戏游戏体验.",
+    "zh_title": "露露的世界"
+  },
+  "1198290": {
+    "fingerprint": "7136de54a9dabc3e7004903c420e3e5d78e1d5f2a634a791fec62daa23dacbe3",
+    "method": "argos",
+    "zh_summary": "\"Dew\"是纯粹的生活质量,没有新的内容,如果想用额外内容寻找一个Vanilla+体验,请尝试Morning Dew.",
+    "zh_title": "露丝"
+  },
+  "1199014": {
+    "fingerprint": "79f7baf444129ba06cbe8a53ad8c3e69366ed2d75cccb9ca659515cdb150308e",
+    "method": "argos",
+    "zh_summary": "这是Content Patcher的mod,它修改了modpack\"Dew\"的主菜单.",
+    "zh_title": "[CP] Dew - 主菜单"
+  },
+  "1263536": {
+    "fingerprint": "1316c7ba1de679c57c2585e6b43fcfe84f54a6c9961b5b6512b5da411adefc97",
+    "method": "argos",
+    "zh_summary": "A 星露谷物语 modpack,包含几乎每个mod,为全面扩展的耕作经验提供了完整的内容,特征和游戏游戏的调侃集.",
+    "zh_title": "一次所有摩擦 - 3 AM摩擦热梦"
+  },
+  "1286607": {
+    "fingerprint": "27718b4ea46371c2c794e43c73306bb8a0cb9f9cbc6cde96a54ef43b4479d091",
+    "method": "reviewed",
+    "zh_summary": "基于旧版本的配方改进原版制作系统，为洒水器、栅栏等物品添加升级路线。",
+    "zh_title": "[CP] Kehaan 配方改进"
+  },
+  "1287666": {
+    "fingerprint": "3ba8786216fd422437e645907c8369c4d0613976770feffbe527bbcbc0088226",
+    "method": "argos",
+    "zh_summary": "停止浪费耐力 ! 此模式确保耐力只在工具实际工作时使用 。",
+    "zh_title": "只有在它数到数的时候 - 不再浪费 Stamina"
+  },
+  "1291348": {
+    "fingerprint": "43303a22985fd57ad4eeee5bfb3e6e72ffc9022c54c4ca7757b488c7d12415af",
+    "method": "argos",
+    "zh_summary": "允许您取消机器的制作并获取您放进去的项目 。 (右键点击, 或打破机器 )",
+    "zh_title": "机器输入返回 - 将您的项目带回"
+  },
+  "1293916": {
+    "fingerprint": "4a7bfaec7d6f94fc09fd4a2d7fdeaf348ad8d6fa3556c12272f02b1a20f52cfe",
+    "method": "reviewed",
+    "zh_summary": "用 Kehaan 替换帽子鼠，为帽子店添加冬季外观，并随累计收入逐步解锁剧情信件，最高门槛为 700 万金。",
+    "zh_title": "[CP] Kehaan 帽子店"
+  },
+  "1327179": {
+    "fingerprint": "51e793dc2cab4ca2e44a62f39739ee54256ea0c0c63ceb35a5ce9d4fd5614e2b",
+    "method": "reviewed",
+    "zh_summary": "通过 Alternative Textures 添加 Minecraft 和星露谷物语主题的装饰画。",
+    "zh_title": "[AT] Kehaan 装饰画变体"
+  },
+  "1327180": {
+    "fingerprint": "5e8655e0f192b69eda45ed1678edc91c5c5ce6fb1a28bbdaf7a221ad91b45eb4",
+    "method": "argos",
+    "zh_summary": "任何Dew都需要星露谷物语到下一关:550+Mods组合成一个巨大的包。 它会像一个单一的下载,提供大量内容,扩展和最完整的农业冒险一样接近。",
+    "zh_title": "所有的东西 杜"
+  },
+  "1327863": {
+    "fingerprint": "6f16dd7b459785c97b4e5d8f81170fab6a9ad1e8d425537ce7e4597a78c5f5f1",
+    "method": "argos",
+    "zh_summary": "这是Content Patcher的mod,它修改了modpack\"Everything Dew\"的主菜单.",
+    "zh_title": "[CP] 所有 Dew - 主菜单"
+  },
+  "1330616": {
+    "fingerprint": "875a680ba7e7d41c1e5f7bbcd4358caa1d84f9d16c0e0c2d1d90e335a5ca5cfd",
+    "method": "reviewed",
+    "zh_summary": "自定义原版 NPC、妈妈和爸爸的来信中使用的名字。每位角色都可以单独配置。",
+    "zh_title": "[CP] Kehaan 个性化来信"
+  },
+  "1333749": {
+    "fingerprint": "d86133277fcfd7256af6e1b6f7e4b8e0ff479f2e821217ceed333630f0541fc5",
+    "method": "reviewed",
+    "zh_summary": "为废弃的帽子店换上修缮后的外观，材质和窗边的植物均会随季节变化。",
+    "zh_title": "[CP] 四季帽子店"
+  },
+  "1334610": {
+    "fingerprint": "a27503db2d65fef8342f41daecda2335393f5ee975bf437b7c29ac8bdd02c1e7",
+    "method": "reviewed",
+    "zh_summary": "新增 28 种铱制洒水器配色，使用油漆桶可切换金色、五彩、蘑菇、僵尸等风格。需要 Alternative Textures。",
+    "zh_title": "[AT] Kehaan 铱制洒水器配色"
+  },
+  "1335184": {
+    "fingerprint": "b948012f76dfc177281d91ea14c99c94ae7b0db9bf0f07d65694d3ff19183239",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为螃蟹坑增加28种独特的重彩,使用漆桶在金色,Prismatic,蘑菇,僵尸等风格之间切换.",
+    "zh_title": "[AT] Kehaan 螃蟹锅替代物"
+  },
+  "1335709": {
+    "fingerprint": "effec3785727200e29ad715da50068f1316c6bdbd194763419dfc888e18cca85",
+    "method": "reviewed",
+    "zh_summary": "通过 Alternative Textures 为花盆新增 28 种配色。使用油漆桶可切换金色、五彩、蘑菇、僵尸等风格。",
+    "zh_title": "[AT] Kehaan 花盆配色"
+  },
+  "1336657": {
+    "fingerprint": "78d8d01fab3e1fae2a70322370464787be7465f94b7f2207dce56d98eab74e53",
+    "method": "reviewed",
+    "zh_summary": "为星露谷物语中的实用物品添加制作配方。达到可配置的好感度和技能等级要求后，可向 NPC 商店购买配方。",
+    "zh_title": "[CP] Kehaan 实用物品配方"
+  },
+  "1337268": {
+    "fingerprint": "34768e510871c4683864efee96ef29b1e8e9c4f4aa2dfc392a3bb5380ab027d3",
+    "method": "reviewed",
+    "zh_summary": "通过 Alternative Textures 为单人床和双人床添加 Kehaan 整合包主题样式。使用油漆桶切换。",
+    "zh_title": "[AT] Kehaan 床铺样式"
+  },
+  "1340444": {
+    "fingerprint": "2ba10f5691764a3f98088e63af16d51bfdc08452ec01fdbd4a9d4860f5b17eaf",
+    "method": "argos",
+    "zh_summary": "模式可以更快地进食! 如果您不够快或者在笔记本电脑上玩, 游戏会更方便, 在矿井里特别有用 !",
+    "zh_title": "快吃东西"
+  },
+  "1341115": {
+    "fingerprint": "24ff24c65cababa1084bbf401d9f5183eb0200e6176fdcaad8dfd967c202e927",
+    "method": "reviewed",
+    "zh_summary": "为原本没有售价的物品设置出售价格，例如垃圾、干草和混合种子。",
+    "zh_title": "[CP] 垃圾也能卖钱"
+  },
+  "1342901": {
+    "fingerprint": "442221f95c048dcbf1a2ef4492e8f270d56d09870739022c7f932d12709653bc",
+    "method": "reviewed",
+    "zh_summary": "替换古物挖掘点和种子点的外观，可通过 GMCM 分别选择样式。",
+    "zh_title": "[CP] Kehaan 挖掘点变体"
+  },
+  "1342952": {
+    "fingerprint": "b2ca6d603a18b7eecab786504f17fcb338c70c66dadb21ca6d508ef2f00147c4",
+    "method": "argos",
+    "zh_summary": "而不是随便挑个菜谱, 立刻制作,",
+    "zh_title": "《烹饪法》----对烹饪业的热爱"
+  },
+  "1344469": {
+    "fingerprint": "403c84282fdc9c1946c696379aa685da5a7c5d66c874bd7dbafa03a4867239b7",
+    "method": "argos",
+    "zh_summary": "添加 1: 1 矿石转换 配方。 解锁与 向导 友谊和 采矿 级别。 默认情况下启用的更少( 下级) , 通过 GMCM 可选 。",
+    "zh_title": "[CP] 元素转换"
+  },
+  "1345227": {
+    "fingerprint": "9eabcfb725853f1596f7db9a4f5c49019f5e82ecd6ba43e8a53159bb1eaf3687",
+    "method": "reviewed",
+    "zh_summary": "新增一台可将放射性矿锭转换成随机物品的机器，产出包括神秘盒和稀有奖励。同时新增一件装饰品，可在齐先生的核桃房购买。",
+    "zh_title": "[CP] 齐先生的神秘机器"
+  },
+  "1347129": {
+    "fingerprint": "f85efe65f6ade78d41e6ca2c910b7c5dc23b69ad6a9ea599c4107b34d52f33ea",
+    "method": "reviewed",
+    "zh_summary": "添加可自定义的生日事件，附带一封特别的信和礼物。支持通过 GMCM 调整全部设置，并提供国际化支持。",
+    "zh_title": "[CP] 生日祝福信"
+  },
+  "1348193": {
+    "fingerprint": "a320a5f4304ae155735b08d6af63f91c7ebd511571960b296437fac3308c5f0c",
+    "method": "argos",
+    "zh_summary": "这个mod添加了星露谷物语左右的邮箱主题,使用替代的纹理 Mod.",
+    "zh_title": "[AT] Kehaan 邮箱变体"
+  },
+  "1348194": {
+    "fingerprint": "cbe715520ad3b1afa2ffe2b83d1472933d4fed63cb02803cdf386a4714606529",
+    "method": "argos",
+    "zh_summary": "这个mod增加了稻草科在Minecraft和星露谷物语周围的它们,使用替代的纹理Mod.",
+    "zh_title": "[AT] Kehaan 稻草人变体"
+  },
+  "1352210": {
+    "fingerprint": "e0d2973e03f6553ab0a095f7df1d8af160c25b26237e07e68ab5a085490a89bc",
+    "method": "argos",
+    "zh_summary": "添加一个产生不同类型垃圾的\"宝藏垃圾桶\". Recipe在和Linus一起到达十颗心后,在Pierre's销售.",
+    "zh_title": "[CP] 莱纳斯的宝藏垃圾桶"
+  },
+  "1352408": {
+    "fingerprint": "c94a48eec90ce6722dd6fe1a53791ff08503235902454385326a032c1ecf8af3",
+    "method": "argos",
+    "zh_summary": "添加一个制作Magic Bait的魔虫宾. Recipe在威利和钓鱼第10级达到10颗心后,在皮埃尔的店里销售.",
+    "zh_title": "[CP] 威利的魔法虫宾"
+  },
+  "1356145": {
+    "fingerprint": "89de5e03d8ee70eea58f9fe6e72d50ae53b8c63b2f680a0060ca60d782bae238",
+    "method": "reviewed",
+    "zh_summary": "新增一台可制作的机器，可产出多种蛋，包括稀有的蛋。与谢恩达到 10 心且采集达到 10 级后，可在皮埃尔的杂货店购买配方。",
+    "zh_title": "[CP] 谢恩的超级孵蛋器"
+  },
+  "1356169": {
+    "fingerprint": "efb5df0522c2c92ca9185c6195c918e917a6555f59473918eab3ae52c8730189",
+    "method": "reviewed",
+    "zh_summary": "新增一台可制作的配给机，可生产能量补品、肌肉恢复药和其他医疗用品。与哈维达到 10 心且采集达到 10 级后，可在皮埃尔的杂货店购买配方。",
+    "zh_title": "[CP] 哈维的药品配给机"
+  },
+  "1356184": {
+    "fingerprint": "0ebe37a2fb7f75d5eab8c5963867316785cb1a9307900ef34004462e9643b6cf",
+    "method": "reviewed",
+    "zh_summary": "新增一台可制作的机器，可产出布料、羊毛、羽毛、花卉和稀有物品。与艾米丽达到 10 心且耕种达到 10 级后，可在皮埃尔的杂货店购买配方。",
+    "zh_title": "[CP] 艾米丽的魔法织布机"
+  },
+  "1356197": {
+    "fingerprint": "3612873df509ca4344b62d5f562711d38359b743203e37fdb0d4125a8312630b",
+    "method": "reviewed",
+    "zh_summary": "新增一台可制作的机器，可生产电池组、洒水器和其他装置。与玛鲁达到 10 心且采矿达到 10 级后，可在皮埃尔的杂货店购买配方。",
+    "zh_title": "[CP] 玛鲁的装置组装机"
+  },
+  "1356248": {
+    "fingerprint": "711ae747b8ea3ca252ca5a6ef3b25e7b5cc4dfe23586908e1f3408769cac694d",
+    "method": "reviewed",
+    "zh_summary": "新增一台可制作烘焙食品的奶奶烤箱。与艾芙琳达到 10 心且采集达到 10 级后，可在皮埃尔的杂货店购买配方。",
+    "zh_title": "[CP] 艾芙琳的奶奶烤箱"
+  },
+  "1356275": {
+    "fingerprint": "886a21af280457596cbe091adbb5c1bda267adc0f699ec54a12eab466598b4ce",
+    "method": "reviewed",
+    "zh_summary": "新增一座暗影雕像，可产出暗影主题物品和怪物掉落物。与科罗布斯达到 10 心且战斗达到 10 级后，可在皮埃尔的杂货店购买配方。",
+    "zh_title": "[CP] 科罗布斯的暗影雕像"
+  },
+  "1356328": {
+    "fingerprint": "389aef406cc36ce14f499d6a34e8b70beeeff074b2ce39cf014e396f083d516c",
+    "method": "reviewed",
+    "zh_summary": "新增一台泡茶机，可生产绿茶，偶尔也会产出星之果茶。与卡洛琳达到 10 心且耕种达到 10 级后，可在皮埃尔的杂货店购买配方。",
+    "zh_title": "[CP] 卡洛琳的泡茶机"
+  },
+  "1356346": {
+    "fingerprint": "c11f328d925917165e6883ff89cf9e86c2657d766c23516224ee21ffaf88ec4b",
+    "method": "reviewed",
+    "zh_summary": "新增一台能生产金属锭的矿石熔炉。与克林特达到 10 心且采矿达到 10 级后，可在皮埃尔的杂货店购买配方。",
+    "zh_title": "[CP] 克林特的矿石熔炉"
+  },
+  "1356363": {
+    "fingerprint": "f92df9a8590236358783223678b8e95ac4892f8e212ea4818739c5f186a17412",
+    "method": "reviewed",
+    "zh_summary": "新增一台可制作的机器，可产出宝石、矿物和稀有晶体。与阿比盖尔达到 10 心且采矿达到 10 级后，可在皮埃尔的杂货店购买配方。",
+    "zh_title": "[CP] 阿比盖尔的灵晶机"
+  },
+  "1356376": {
+    "fingerprint": "b14023c6f800bab423ac34547f08df631cf21824ff7cc49d04d91905e840ad34",
+    "method": "reviewed",
+    "zh_summary": "新增一座可产出采集物和天然材料的科学工作台。与德米特里厄斯达到 10 心且采集达到 10 级后，可在皮埃尔的杂货店购买配方。",
+    "zh_title": "[CP] 德米特里厄斯的科学工作台"
+  },
+  "1356388": {
+    "fingerprint": "79a92ee32c2d2a1f39d3c035d9821877073a17e98777dfa40c325bdc95fa97ea",
+    "method": "reviewed",
+    "zh_summary": "新增一台可制作的音箱机，可生产零食和饮料。与山姆达到 10 心且耕种达到 10 级后，可在皮埃尔的杂货店购买配方。",
+    "zh_title": "[CP] 山姆的音箱机"
+  },
+  "1360839": {
+    "fingerprint": "8e290858a9bb55a6334c0ca7764e58caf5adf0d30f6308272c5d016ea366b281",
+    "method": "reviewed",
+    "zh_summary": "将老水手替换为固定或随季节变化的美人鱼，支持自定义名字和国际化。美人鱼吊坠图标会随季节变化，罗宾处会新增装饰画。还可选择在指定年份通过来信解锁吊坠配方。",
+    "zh_title": "[CP] 美人鱼的呼唤"
+  },
+  "1361377": {
+    "fingerprint": "5b8c8b68afe25a1124fc428d36824a523cbb647af80521925db0a707a98e52b9",
+    "method": "reviewed",
+    "zh_summary": "新增装饰家具，包括机器模型、装饰画、稻草人、信箱和赌场装饰。可通过家具目录获取。",
+    "zh_title": "[CP] Kehaan 额外装饰"
+  },
+  "1366815": {
+    "fingerprint": "5af6828eacd6969487ee970e0800dcf1df9916332cbe57a14cec53ecdbb88feb",
+    "method": "argos",
+    "zh_summary": "添加一个生产沙漠物品的巴士标志。 与 Pam 和 Foraging 10 级接触后, 在 Pierre 店出售的食谱 。",
+    "zh_title": "[CP] 帕姆巴士标志"
+  },
+  "1366817": {
+    "fingerprint": "45f7769f58d7a8a4de4e668c32f6a6e0f7cdc0c9875ee3ef87807099c7fc1f91",
+    "method": "argos",
+    "zh_summary": "桑迪的绿洲复制品是一种以沙漠为主题的机器,它定期生产椰子、仙人掌果和卡利科沙地的种子。 在10颗心和桑迪和Fraging 10级(均可配置)之后,用邮件解锁食谱。",
+    "zh_title": "[CP] 桑迪的绿洲复制品"
+  },
+  "1366819": {
+    "fingerprint": "ef57cfda86d550c4af098f99224ed358313875eeb90ecaf9ea77885876b89ed1",
+    "method": "argos",
+    "zh_summary": "添加一个生产与采矿相关的物品的石像. Recipe在与矮人和矿业第10级达到10颗心后,在Pierre's销售.",
+    "zh_title": "[CP] 矮人石头女神像"
+  },
+  "1366821": {
+    "fingerprint": "555b8b7f467747f1c51555cb9dfb19751f620f5fa349411b11cb03246e73dfa9",
+    "method": "argos",
+    "zh_summary": "添加一个生产Leeks的李克布特. Recipe在与George和Forage 10级达到10颗心后,在Pierre's销售.",
+    "zh_title": "[CP] 乔治的李克布特"
+  },
+  "1366822": {
+    "fingerprint": "f32f4ace218b269a6857bd6db64d64c4ca8943cba51297aadf3acb6be754f626",
+    "method": "argos",
+    "zh_summary": "添加一个生产饮料的金色Keg. 配乐在和Gus和Farmining 10级达到10颗心后,在Pierre家销售.",
+    "zh_title": "[CP] 古斯的金胶"
+  },
+  "1366826": {
+    "fingerprint": "3a46ed619aaf99b507a8422e645f246921267c141b6e483693cebe81f6c36415",
+    "method": "argos",
+    "zh_summary": "添加一个可制作的胸膛,可产生珊瑚,海乌钦斯和鹦鹉螺壳. 配乐在与艾略特和福瑞格第10级达到10颗心后,在皮埃尔家销售.",
+    "zh_title": "[CP] 艾略特的海壳胸"
+  },
+  "1366908": {
+    "fingerprint": "a70d31769be548d9ba65a62d68abfcd185dfa8d4af2163ce8a63c8ee292b1a73",
+    "method": "argos",
+    "zh_summary": "添加了一种生产甜食的糖果加,配料在与Jas和Farming第10级达到10颗心后在Pierre的店里销售.",
+    "zh_title": "[CP] 贾斯的糖果罐"
+  },
+  "1366916": {
+    "fingerprint": "08878ed4b634d8a79ed262ec1357ef37ab477f563108b19948bd46517afcfc74",
+    "method": "argos",
+    "zh_summary": "添加一个洗衣篮,生产克洛斯,菲伯,萨普. 配料在与乔迪和农林第10级达到10颗心后,在皮埃尔家销售.",
+    "zh_title": "[CP] 乔迪的洗衣篮"
+  },
+  "1366949": {
+    "fingerprint": "f2a6d5aa7c6773c739f17780b666957b74e4d90075b82f4c47d69874cdd32c89",
+    "method": "argos",
+    "zh_summary": "添加一台生产精炼的Quartz,Cloth,和电池包装的可加工机. Recipe在达到10颗心后与Haley和矿业第10级在Pierre家销售.",
+    "zh_title": "[CP] Haley的相机三脚架"
+  },
+  "1366974": {
+    "fingerprint": "dab9ac2ff26b94fab7811d08ca84b75c67d8d04261a2377b733683626b0bebd5",
+    "method": "argos",
+    "zh_summary": "添加一个可制作的哑铃架,可以生产鸡蛋,牛奶和其他食品. Recipe在到达10颗心后与Alex和战斗10级在Pierre家销售.",
+    "zh_title": "[CP] 亚历克斯的哑铃拉克"
+  },
+  "1366983": {
+    "fingerprint": "abee528775131e182fc84cc4e2605d7aa65144f09b963876c7a896e20d976468",
+    "method": "argos",
+    "zh_summary": "巫师的玛娜晶体是一款可定期产生太阳恒星、Void Essence、地球晶体、Iridium Ore和Prismatic Shard的圆角晶体。 在10颗心后,通过邮件将配方与巫师加战斗和采矿10(均可配置)解锁。",
+    "zh_title": "[CP] 巫师的玛娜晶体"
+  },
+  "1366992": {
+    "fingerprint": "e93dac8ce31450e093e19d37d782578789382403ea6e018f68e10f8d4e77395f",
+    "method": "argos",
+    "zh_summary": "添加一个可制作的祝尼魔雕塑,生产木,硬木,果树树苗. 配料在皮耶尔达到10颗心后与莉亚和福瑞格第10级销售.",
+    "zh_title": "[CP] 利亚的祝尼魔雕塑"
+  },
+  "1367001": {
+    "fingerprint": "553c03657d56afc91d38be2c971861616bf6ded79ff47289b76e3b945fdb7070",
+    "method": "argos",
+    "zh_summary": "增加一个能产生怪物掠夺的可塑雕像. Recipe在达到战斗10级后在Pierre家出售.",
+    "zh_title": "[CP] 马龙的中世纪骑士神像"
+  },
+  "1367026": {
+    "fingerprint": "8505bc2d75cc6d7d4691d452ce05f4e9240bf9f6a3257aa175eee717477ceefd",
+    "method": "argos",
+    "zh_summary": "增加一个可制作的终端,生产电池包,精炼夸茨和神秘盒. Recipe在与塞巴斯蒂安和矿业第10级达到10个心脏后,在Pierre's销售.",
+    "zh_title": "[CP] 塞巴斯蒂安的黑客终端"
+  },
+  "1367042": {
+    "fingerprint": "ebf9f93b89f892b56c3afa93ea77ffefaeb9526270c24ec7eaab5ca7a02a079b",
+    "method": "argos",
+    "zh_summary": "加入一朵木鹦鹉,生产热带水果和姜汁. Recipe在与Leo和Forage第10级达到10颗心后,在Pierre家销售.",
+    "zh_title": "[CP] 李奥的木鹦鹉"
+  },
+  "1367058": {
+    "fingerprint": "cac4241b8b0b2ea364d24f0b9c38a2bbfe7fd72f599223f1f392e44c17538e4b",
+    "method": "argos",
+    "zh_summary": "添加一个能制作古种子和古水果的工艺雕像. Recipe在达到5年级和10级之后在皮埃尔的销售,所有5个技能都达到10级.",
+    "zh_title": "[CP] 爷爷纪念神像."
+  },
+  "1373325": {
+    "fingerprint": "4c43d174a8b1b77f180e5e885c91e65b641438f7014dbdc3225e8ac77539649d",
+    "method": "argos",
+    "zh_summary": "添加一个生产虫肉和怪物穆斯克的虫栖地. Recipe在和文森特和福瑞格第10级一起达到10颗心后,在皮埃尔家销售.",
+    "zh_title": "[CP] 文森特虫栖息地"
+  },
+  "1373334": {
+    "fingerprint": "0cf25d03b030d8e064928d85e3b33c0c4b7ccd7040892d870ee7057135458501",
+    "method": "argos",
+    "zh_summary": "增加了一种皮卡车型号,生产草起步器和化肥. 皮埃爾在和刘易斯一起达到10颗心后在皮埃爾家销售,农耕和饲料都达到10级.",
+    "zh_title": "[CP] 刘易斯的皮卡车型号"
+  },
+  "1373349": {
+    "fingerprint": "c32a8f67e63b0dc1ca3dbcef51f5b80329d458ec3edeac947d60b97caf6ee21c",
+    "method": "argos",
+    "zh_summary": "添加一个生产熟食的BBQ Griddle. Recipe在肯特和农场10级达到10颗心后,在皮埃尔家销售.",
+    "zh_title": "[CP] 肯特的BBQ格利多"
+  },
+  "1373366": {
+    "fingerprint": "6c659ec1fbe194a5390e6574440f4507ff10af22e67a36a1dc9c4261b93937e8",
+    "method": "argos",
+    "zh_summary": "添加一个制作小吃和饮料的工艺版粉笔板,与Penny和Fraging第10级一起达到10颗心后,在Pierre的店里出售的食谱.",
+    "zh_title": "[CP] 佩妮的课"
+  },
+  "1373401": {
+    "fingerprint": "b6ca96129dd592c53cb9d7dc35f7dfcee1a31f006864c1ab103ffbec6298176c",
+    "method": "argos",
+    "zh_summary": "添加了一台生产Bone Flagments,化石,以及人工晶体Troves的可加工机器. Recipe在战斗,饲料和矿业公司达到10级后在Pierre's销售.",
+    "zh_title": "[CP] 蜗牛教授的古生物学实验室"
+  },
+  "1373466": {
+    "fingerprint": "b64aa963e2fe8dba084395aad02e8e6f308ba5e8da08ed10cc65664a7827f744",
+    "method": "argos",
+    "zh_summary": "增加一台生产海滩和岛屿物品的可加工机器。在Foraging、Farming和Fishing达到10级之后,Recipe在Pierre家销售。",
+    "zh_title": "[CP] 瓶装鸟儿的信"
+  },
+  "1373476": {
+    "fingerprint": "a81ad205fd0f24a5e63ad0e95ff20757133c5a59d5ead43122a1ab58c217f28e",
+    "method": "argos",
+    "zh_summary": "添加一个可制作的表,生产骨碎和其他珍宝. Recipe在战斗,饲料,和矿业等10级达到10级后在皮埃尔家销售.",
+    "zh_title": "[CP] 吉尔的宝藏地图表"
+  },
+  "1373510": {
+    "fingerprint": "cd1f80cd5430ec819c64726a84ce670ddc6f0c157f6db144d148873624a5cc16",
+    "method": "argos",
+    "zh_summary": "添加一个生产随机Joja家具的可加工的箱子,在全部5个技能达到10级后,Repipe在Pierre家销售.",
+    "zh_title": "[CP] 莫里斯的金色乔哈·克拉特"
+  },
+  "1373516": {
+    "fingerprint": "ee79593f3812f99ebfe61c6067ec9ae77e0fd4e9ac44df96bcbb74cab194b140",
+    "method": "argos",
+    "zh_summary": "添加一个能产生空洞物品和怪物抢掠的可工艺的炉灶。在战斗、饲料和捕鱼等8级产品达到Pierre的销售水平后,便食在Pierre家出售。",
+    "zh_title": "[CP] 亨奇曼的巫婆卡乌德龙"
+  },
+  "1373540": {
+    "fingerprint": "129668898a85fbe64da557cb82400faa42311aa3b20bc4647593360626fd8079",
+    "method": "argos",
+    "zh_summary": "Kehaan的赌场加装了6个定制赌场装饰、7个新店铺、以及股票、价格和物品供应的可配置选项。",
+    "zh_title": "[CP] Kehaan 赌场改良"
+  },
+  "1373682": {
+    "fingerprint": "b11b664cad5592e1e6f62691b2599a0b7ea5ec6a3b36212a97055c8e7fbe9ea5",
+    "method": "argos",
+    "zh_summary": "以紫色或绿色重新显示布克塞尔的气球,带有匹配的日历图标和箭头标志. 包括无补丁的变体和一个可选的哈维事件重新颜色.",
+    "zh_title": "[CP] 书商气球重彩"
+  },
+  "1374611": {
+    "fingerprint": "2e7cce68c411b62e867bbcc6844e073798dde6eb6f856a50636510264a8fec49",
+    "method": "argos",
+    "zh_summary": "\"Hoagie Expert\"(Fields of Hoagie Experience)是对A World Of Dew的一次挑战性重点大修,由Dow Experient Ruleset提供动力,装有更硬的捆绑,更坚硬的怪物,更尖锐的升级,更慢的机器,并减少了老兵Stardew玩家的QoL. Built.",
+    "zh_title": "霍吉专家的领域"
+  },
+  "1379628": {
+    "fingerprint": "9ac7639f49a88843c5334ff38c571ac2b444ba66175acb893221ea9e8b6d5859",
+    "method": "argos",
+    "zh_summary": "添加一个生产金条、钻石或神秘盒子的保险箱和装饰品,在赌场出售。",
+    "zh_title": "[CP] 弹幕安全"
+  },
+  "1379651": {
+    "fingerprint": "c19203c4e97a6f34c96deb6d44825f6eb31f885a080134030900258c5696bb7e",
+    "method": "argos",
+    "zh_summary": "布奎特和托布奥花的季节性重排。每个季节会自动改变,以配合当季、春季、夏季、秋季或冬季。",
+    "zh_title": "[CP] 四季花环"
+  },
+  "1379676": {
+    "fingerprint": "7e718aad86532ba30eaf4299856d11411d40adb85d569aa7775f70a8b2ac1529",
+    "method": "argos",
+    "zh_summary": "添加一个可以从Desert Trader购买的Desert Transplica机器。它偶尔会生产出受Desert Trader 股票启发的随机项目,从Spicy Eel到Magic Rock Candy。 完全可配置。",
+    "zh_title": "[CP] 凯汉沙漠贸易商的复制品"
+  },
+  "1379691": {
+    "fingerprint": "575a0f34a80c0028258ca662609233b85f3c4cbeaff1ca6ee4f440bfe5ed2ac6",
+    "method": "argos",
+    "zh_summary": "浣熊所居住的巨型树桩的复制品,在定时器上生产季节性种子,有时是仙尘。在浣熊店出售神秘糖浆(可装配)",
+    "zh_title": "[CP] Kehaan的巨型斯图普复制品"
+  },
+  "1379736": {
+    "fingerprint": "4b4a3f2ba6dd2f80932b154c3911c473352d95f29fcede87eed195a47036cb26",
+    "method": "argos",
+    "zh_summary": "添加一个垃圾熊复制品,偶尔会赠送随机的饲料或鱼. Raccoons为神秘糖浆出售.",
+    "zh_title": "[CP] Kehaan 的垃圾熊复制品"
+  },
+  "1380851": {
+    "fingerprint": "7167748c8b7930ff2f18f1df78d03a5519c611e412ae0982dd2bd938a0933e25",
+    "method": "argos",
+    "zh_summary": "为您的农场增加一台小型旅行卡片复制机,该机会缓慢地生产推车式的掠夺品、季节性种子、稀有资源以及稀有的神秘盒。 再加上可选择的旅行卡片店的整合,并带有可配置的价格、年度解锁和生产时间。",
+    "zh_title": "[CP] Kehaan 旅行卡复制品"
+  },
+  "1380877": {
+    "fingerprint": "edd956d247ece23d02ff6c7d4d753635b5d72b5d7c20e701af0ea3f684e4bfdb",
+    "method": "argos",
+    "zh_summary": "为你农场添加一个岛贸易商复制品, 慢慢地生产岛内掠夺品,热带作物,树苗,龙齿,景德·沙德,以及稀有的金椰子, 在岛贸易商销售, 并有完全可选择的选择。",
+    "zh_title": "[CP] Kehaan岛贸易商复制品"
+  },
+  "1380923": {
+    "fingerprint": "333d1788acd81f20e6703548b19f28887012644f256dcc9bd82d188efc9158cc",
+    "method": "argos",
+    "zh_summary": "添加了一台由罗宾在三年后销售的社区中心复制机,它缓慢地生产出捆绑的刺激性掠夺品,农作物,手工业品,稀有种子,以及古老种子,Iridium Bars,甚至一个Prismatic Shard等游戏后期珍宝.",
+    "zh_title": "[CP] Kehaan社区中心复制品"
+  },
+  "1380940": {
+    "fingerprint": "ab68ddf49059dd6f4c283484a642678f95534d7434c960438086f7d8c0be2830",
+    "method": "argos",
+    "zh_summary": "增加一台在齐家宝石店销售的电影剧场复制机,该机缓慢地生产电影主题的抢掠,咖啡,乔雅可乐,冰淇淋,星滴茶,电影票,以及幸运午餐,仙子玫瑰等罕见的奖品,甚至偶尔的Prismatic Shard.",
+    "zh_title": "[CP] Kehaan的电影剧场复制品"
+  },
+  "1382092": {
+    "fingerprint": "9b097eeed6ed935e96056d318e8c090c3014fb1e4ed64efe99bd093e0df4419e",
+    "method": "argos",
+    "zh_summary": "这是Content PatcherMod,它修改了Modpack\"Hoagie Expert\"的主菜单.",
+    "zh_title": "[CP] Hoagie专家领域——主菜单"
+  },
+  "1385977": {
+    "fingerprint": "bf0c06ac20580e59d4aa3a172a053e761e36956173fc5bd958201e29c80f8903",
+    "method": "argos",
+    "zh_summary": "星露谷物语 波兰语翻译",
+    "zh_title": "(Spolszczenie)波尔斯基·图尔克泽尼(英语:Polskie tlumaczenie) postawowej gry(英语:Bodstawowej gry)."
+  },
+  "1386657": {
+    "fingerprint": "357b4ff098f08fec8f6a836cce97b4ed281f37d72fb4da18e4ddb1c3ab5d4ef0",
+    "method": "argos",
+    "zh_summary": "增加一个岛屿外地办事处复制品,每12小时发现一次Bone断裂和金椰子等岛屿化石。",
+    "zh_title": "[CP] 岛屿外地办事处复制品a"
+  },
+  "1386693": {
+    "fingerprint": "98e9f5ec53164f46977f5a561911b4c53d1d19809c5a8450a0bcd890f9e9eb1e",
+    "method": "argos",
+    "zh_summary": "增加一个树屋复制品,每12个游戏时段就生产狮子座的喜爱的礼物,芒果、鸭子和波伊。 从第二年起每天在岛商场出售,并有可选的树屋装饰和配置支持。",
+    "zh_title": "[CP] 树屋复制品"
+  },
+  "1386716": {
+    "fingerprint": "79b4860c369cb5ca8fdf3aad5ec173bfa4ea0db18cb7b30fb063150cead4731b",
+    "method": "argos",
+    "zh_summary": "添加废弃房屋复制品, 每12个游戏时段生产布或羊毛(50/50) 。 从2年级开始每天在帽子老鼠店出售, 并有可选的废弃房屋装饰、 配置选项和完整的i18n 支持 。",
+    "zh_title": "[CP] 被遗弃的房屋复制品"
+  },
+  "1386792": {
+    "fingerprint": "183969ed7fd24ad4f8a4fbf0bdc9cd3dbfacc7fbb633725171c7d81559f0183b",
+    "method": "argos",
+    "zh_summary": "添加一个书商复制品,每7个游戏日制作一本《星报》。从第3年起,书商访问时售出,可选的书商装饰、配置选项和完整的i18n支持。",
+    "zh_title": "[CP] 书商复制品a"
+  },
+  "1386830": {
+    "fingerprint": "5a8f128a41b42f11afa897db7f25740985d3fbd8c17e92d4de14b7542b5c004e",
+    "method": "argos",
+    "zh_summary": "添加一个JojaMart Replica,每个游戏日生产三重射Espresso,Joja Cola,或能量通力(每场33%). 出售于JojaMart,从第1年开始,带有可选的JojaMart装饰,配置选项,以及全i18n支持.",
+    "zh_title": "[CP] 乔贾马特复制品"
+  },
+  "1386845": {
+    "fingerprint": "4c59d461f8f4f5ee7f97966406b2b41bbbac17b529e673cca8423118b01cfa0b",
+    "method": "argos",
+    "zh_summary": "增加一个冒险家协会复制机,每局内生产一次生命艾利西尔,炸弹,或楼梯,加上一个可选的冒险家协会装饰. 冒险家协会从第2年起在冒险家协会出售,并配有全配置和i18n支持.",
+    "zh_title": "[CP] 冒险家协会的复制品"
+  },
+  "1386872": {
+    "fingerprint": "dbf2cb356ccec6b5dcd9f0aa199983b119a53e9ed8c6569b879991cf9c55bff5",
+    "method": "argos",
+    "zh_summary": "添加每局比赛一天一次产生 Escargot, Orange, 或 Fish Taco 的星滴沙隆复制品( 每人33%) 。 从第二年起在沙隆出售, 并带有可选的星滴沙隆装饰, 配置选项, 以及完整的 i18n 支持 。",
+    "zh_title": "[CP] 星滴沙龙复制品"
+  },
+  "1386883": {
+    "fingerprint": "f25c1414048abb1495b3cce1c1b5d1196cc0974106c879d62122b5dc3cd2868d",
+    "method": "argos",
+    "zh_summary": "加入一个每场比赛一天生产一次阿尔蒂科克Dip,小提琴头Risotto或Omni Geode(每场33%)的铁匠复制品。 这些都是克林特所喜爱的礼物。 从第2年起在铁匠店出售,有铁匠装饰、配置选项和i18n支持。",
+    "zh_title": "[CP] 铁匠复制品"
+  },
+  "1387140": {
+    "fingerprint": "2e149f7a1b5f039fbb32cc8c930756d7812b6a3e3c36797e063390a7cac4ebbc",
+    "method": "argos",
+    "zh_summary": "增加一个木匠商店复制机,每场比赛一天生产桃子,草莓,电池包或南瓜汤一次,这些都为罗宾的家人爱戴礼物,外加一个可选的木匠商店装饰品. 从二年级起在木匠商店销售.",
+    "zh_title": "[CP] 木匠商店复制品"
+  },
+  "1387144": {
+    "fingerprint": "8af896b809b4207d47fd8792edccc2e4421b32415301bbba5aacac2e11a0a644",
+    "method": "argos",
+    "zh_summary": "增加皮埃尔的通用商店复制品,每场比赛每天生产一次Fried Calamari、Fish Taco或香蕉普丁(每场33% ) 。 所有人都是皮埃尔、Caroline或Abigail的喜爱礼物。 从第二年起在皮埃尔的商店出售,并配有可选的店面装饰。",
+    "zh_title": "[CP] 皮埃尔总库复制品"
+  },
+  "1387153": {
+    "fingerprint": "a527b91ece8bab1aea968143a5d4701e596c872f802f7c3be5a9c501b75047aa",
+    "method": "argos",
+    "zh_summary": "加上玛妮的牧场复制品,一种每场比赛一天生产一次粉红蛋糕,啤酒,或农民午餐的机器,喜爱玛妮,贾斯和谢恩的礼物,外加可选的玛妮的牧场装饰,从第二年开始在玛妮的店里出售.",
+    "zh_title": "[CP] 玛尔尼牧场复制品"
+  },
+  "1387191": {
+    "fingerprint": "e8c731f80e249dc689676acacf085d995cd985469fb8fa3c8649031a44b003eb",
+    "method": "argos",
+    "zh_summary": "添加一个魔法师塔复制机,每游戏日生产一次Void Essence,Solar Essence,或紫色蘑菇,所有为M. Rasmodius所喜爱的礼物,外加一个可选的魔法师塔装饰. 从第2年起在冒险者协会出售.",
+    "zh_title": "[CP] 巫师塔复制品"
+  },
+  "1387264": {
+    "fingerprint": "23c5d4515876c2d81e564b19166a94f8510fc753c80c79cd0fa9d93b7f16def2",
+    "method": "argos",
+    "zh_summary": "增加一个市长的庄园复制品,每场比赛一天生产热辣椒、绿茶或Glazed Yams(每场33% ) 。 所有人都是市长刘易斯的宠物。 从第二年起在皮埃尔总店出售,可选市长庄园装饰。",
+    "zh_title": "[CP] 市长的庄园复制品"
+  },
+  "1387277": {
+    "fingerprint": "c5433f74b94fb92682db2b02616ab632531e429cae89b400aa485efffd35b476",
+    "method": "argos",
+    "zh_summary": "添加一个博物馆复制品,每场比赛一天生产一次Omni大地或人工晶体(每场50 % ) 。 从第3年起,在克林特的铁匠店出售,并带有可选的博物馆装饰。",
+    "zh_title": "[CP] 博物馆复制品"
+  },
+  "1387286": {
+    "fingerprint": "a6ad3daf7010803c811a700cbc484aad47d881d6b512381efc64a4db1c17a23c",
+    "method": "argos",
+    "zh_summary": "添加一个每场比赛一天生产一次仙人掌水果或罂粟(每场50%)的拖车复制品。两者都是帕姆和佩妮喜爱的礼物。从二年级起在木匠商店出售,并带有可选的拖车装饰。",
+    "zh_title": "[CP] 拖车复制品"
+  },
+  "1387351": {
+    "fingerprint": "3732a5ba9b1e694adf685f5a466f95b9e666b1095e2b942a90baed93a521ede8",
+    "method": "argos",
+    "zh_summary": "添加一个每场比赛一天生产椰子、亚姆或Dish O ' Sea(每场33%)的天花板复制品。 所有人都是Linus的宠物。 从第二年起在Krobus的影子商店出售,并带有可选的天花板装饰。",
+    "zh_title": "[CP] 帐篷复制品"
+  },
+  "1387353": {
+    "fingerprint": "b9044b2a2be1f2b33dea49e53cb76913af8a3ab4e03ffbf99de6cb75c906be5a",
+    "method": "argos",
+    "zh_summary": "加入利赫的套装复制品,每场比赛一天生产一次山羊奶酪、沙拉或葡萄酒(每场33% ) 。 所有人都是利赫的宠物。 从二年级起在卡彭特商店出售,并配有利赫的套装装饰。",
+    "zh_title": "[CP] 利亚的复制品"
+  },
+  "1387355": {
+    "fingerprint": "396e532cf0413059319687d5d365514642dddda0b2d1b7d2a40bcea81c4cd02a",
+    "method": "argos",
+    "zh_summary": "增加一个1 River Road 复制品,每场比赛一天生产一次李克、郁金香或完整的早餐(每场33% ) 。 所有人都是乔治、伊夫林和亚历克斯的喜爱礼物。 从二年级起在Carpenter商店出售,并配有可选的1 River Road 装饰。",
+    "zh_title": "[CP] 1 河道复制品"
+  },
+  "1387359": {
+    "fingerprint": "ab3b0de25afd74518231bdfdc3775db83a8cd288c7dad675a7211b758fc9a034",
+    "method": "argos",
+    "zh_summary": "添加一个每场比赛一天生产一次向日葵或克洛斯(每场50 %)的2个柳巷复制品。两者都是爱戴的礼物,都是艾米莉和海莉的礼物。从二年级起在木匠店出售,并带有一个可选的2个柳巷装饰品。",
+    "zh_title": "[CP] 2 柳巷复制品"
+  },
+  "1387360": {
+    "fingerprint": "e6bab480ab81f6e39a8804362ed2584426c60897faa9f8278c39f8f3d74d9da6",
+    "method": "argos",
+    "zh_summary": "加入一个柳巷复制品,每个游戏日生产一次巧克力蛋糕、烤黄瓜、披萨或葡萄。 所有人都是乔迪、肯特、萨姆或文森特的喜爱礼物。 从二年级起在木匠店出售,并配有柳巷装饰品。",
+    "zh_title": "[CP] 1 柳巷复制品"
+  },
+  "1392245": {
+    "fingerprint": "14af406928fb09651c5e4456fc3104b9345d3a38a31903656a4d366331f7cf78",
+    "method": "argos",
+    "zh_summary": "加入Pokemon作为可爱的好兄弟 跟着你左右 QQ",
+    "zh_title": "口袋怪兽队"
+  },
+  "1401031": {
+    "fingerprint": "ad17a08e97c69c4b67979b989f930360707c61a99bb31b67b25a84eb8b03aaee",
+    "method": "argos",
+    "zh_summary": "Earth Obelisk Replica 增加了一台微型的Earth Obelisk机器,它每天生产一次Warp Totem:山脉,加上Krobus出售的配对装饰,带有可配置年份和价格.",
+    "zh_title": "[CP] 地球方尖碑复制品"
+  },
+  "1401032": {
+    "fingerprint": "5ed354c21258bb61d6a911656adfbfed47016fbb74f991fa3c3d722441f496ca",
+    "method": "argos",
+    "zh_summary": "水方尖碑复制品增加了一台微型水方尖碑机,每天生产一次Warp Totem:海滩,加上克罗布斯出售的配对装饰,带有可配置年份和价格.",
+    "zh_title": "[CP] 水方尖碑复制品"
+  },
+  "1401034": {
+    "fingerprint": "46d36995ddd7610ea1623f8693b4e8e24b6399cbeef0d9b8611d6017c81b64c4",
+    "method": "argos",
+    "zh_summary": "Desert Obelisk Replica增加了一台小型的Desert Obelisk机器,它每天生产一次Warp Totem: Desert,加上Desert Trader出售的匹配装饰,带有可配置年份和价格.",
+    "zh_title": "[CP] 沙漠方尖碑复制品"
+  },
+  "1401037": {
+    "fingerprint": "a5974ca0d2fb5b700fb048946ee467ecfd0ad0c9d3b6f53b348b59faa98377f6",
+    "method": "argos",
+    "zh_summary": "增加一台农用方尖碑复制机,每天生产一次Warp Totem: Farm,加上Krobus销售的匹配的农用方尖碑装饰.",
+    "zh_title": "[CP] 农场方尖碑复制品"
+  },
+  "1401038": {
+    "fingerprint": "a0e2d74d5469112f35c27e097dd2aaa121ce6c59fb265a94cbb3f3f0aff08513",
+    "method": "argos",
+    "zh_summary": "增加一台岛方尖碑复制机,每天生产一次WARP TOTEM:岛,加上岛方尖碑装饰,由岛方尖碑贸易商于姜岛销售.",
+    "zh_title": "[CP] 岛屿方尖碑复制品"
+  },
+  "1401117": {
+    "fingerprint": "bb2fdb373f3c5b2d48b1f9f06ec0f4ca2fa2529d50ad0d2ea7014313ba0351ee",
+    "method": "argos",
+    "zh_summary": "增加一款艾略特的卡宾复制机,每局内一天生产一次艾略特喜爱的礼物,外加可选的艾略特卡宾装饰. 从第二年起在卡彭特商店出售.",
+    "zh_title": "[CP] 埃利奥特的客厅复制品"
+  },
+  "1401696": {
+    "fingerprint": "f69f79a6226ed09efdb040c3d2ae5216e9902eef017c460d07639864c178aad3",
+    "method": "argos",
+    "zh_summary": "增加一台每局内一天生产一次冰激凌的冰激凌复制机,外加可选的冰激凌立面装饰. Sold at Alex's Ice Cream Stand.",
+    "zh_title": "[CP] 冰冻立体复制品"
+  },
+  "1401697": {
+    "fingerprint": "1ccf8052918849516b96f4f25c5a7bc9fe14c79c5b5bce2bd837b77fd19fba1c",
+    "method": "argos",
+    "zh_summary": "增加一台鱼店复制机,每场比赛一天生产威利喜爱的礼物一次,外加可选的鱼店装饰,在鱼店出售.",
+    "zh_title": "[CP] 鱼店复制品a"
+  },
+  "1401699": {
+    "fingerprint": "b989f320f92b6ddd4d749c2f1a9c79312be06c776a63685bf0fea24f906f2b0e",
+    "method": "argos",
+    "zh_summary": "加上哈维的临床复制机,每场比赛一天制作哈维喜爱的礼物之一,外加可选的哈维临床装饰. 出售于哈维诊所.",
+    "zh_title": "[CP] 哈维诊所的复制品"
+  },
+  "1401701": {
+    "fingerprint": "c151c6eb95c724081e8d7f7ce8c2ab3a57e707fc6ec1bfc513ce670b039fcabb",
+    "method": "argos",
+    "zh_summary": "增加一台地雷复制机,每场比赛一天随机产生一次地雷的猎物,加上可选的地雷装饰。在矮人商店出售。",
+    "zh_title": "[CP] 地雷复制品"
+  },
+  "1401702": {
+    "fingerprint": "7bdfc65e51f149543fcfcba8fa8289e2bb430b3d5945efb746e8fff5855a40f0",
+    "method": "argos",
+    "zh_summary": "增加一台生产\"女巫沼泽\"的女巫胡特复制机,每场比赛一天一次进行掠夺,外加可选的\"女巫胡特装饰\",在Krobus的影子商店出售.",
+    "zh_title": "[CP] 巫师胡特复制品"
+  },
+  "1401703": {
+    "fingerprint": "81186ea33513dba94b207590f07b7026b4cee9e327e13795961e50173ff79afc",
+    "method": "argos",
+    "zh_summary": "增加一台排污机复制机,每场比赛一天生产一次克罗布斯喜爱的礼物,外加可选的排污机装饰. Sold at the Shadow Shop.",
+    "zh_title": "[CP] 污水复制品"
+  },
+  "1401760": {
+    "fingerprint": "d91bd9bb1936e7a32ea3e34fa712dc55d96d685327c2872c51bca106e3699366",
+    "method": "argos",
+    "zh_summary": "添加一个每场比赛一天生产一次健康元素的 Spa 复制机, 加上可选的 Spa 装饰。 出售在卡彭特商店 。",
+    "zh_title": "[CP] Spa 复制品"
+  },
+  "1401761": {
+    "fingerprint": "a27842478aaedccd59ea58956a184bd83f883c8fe92ce7707f05228906439e80",
+    "method": "argos",
+    "zh_summary": "增加一台生产狗的狗笔复制机,每局内一天挖一次宝,外加可选的狗笔装饰. Sold at Pierre's General Store.",
+    "zh_title": "[CP] 狗笔复制品"
+  },
+  "1401767": {
+    "fingerprint": "53c0a7c8b1d302317fe8b255111e1105d80736e008314ce139b35bb3aed4d13b",
+    "method": "argos",
+    "zh_summary": "增加一台Joja仓库复制机,每游戏日生产一次Joja品牌工业品,外加可选的Joja仓库装饰. Sold at Joja Mart from Year 1.",
+    "zh_title": "[CP] Joja仓库复制品"
+  },
+  "1401794": {
+    "fingerprint": "6d8ac8ab2fa2af028d8d712fc9493405a690bbad8a8ce0525b77e195652b510a",
+    "method": "argos",
+    "zh_summary": "加上巴恩、大巴恩和德卢斯巴恩复制品,每个游戏日根据它们真正的同类动物可以容纳的动物生产谷仓动物产品一次。 包括匹配的装饰版本,这些产品都在玛尔尼牧场销售,并附有完整的配置选项。",
+    "zh_title": "[CP] 巴恩套装复制品"
+  },
+  "1401796": {
+    "fingerprint": "5209e32084c5a8125d699c5f772b42cd841463dacb58e8bc42445681b0757c83",
+    "method": "argos",
+    "zh_summary": "加上库珀、大库珀和德卢克斯库复制品,每场比赛中,根据它们真正的对手可以容纳的动物生产库珀动物产品一次。 包括匹配的装饰版本,这些产品都在玛尔尼牧场出售,并有完整的配置选项。",
+    "zh_title": "[CP] 库集复制"
+  },
+  "1401838": {
+    "fingerprint": "1df0e280d7a0de16ed92cf538d5a568a1bced8566f3852e0d7a5251ad84793f3",
+    "method": "argos",
+    "zh_summary": "添加高级农庄建筑套装复制品:温室、磨坊和鱼塘机以及仅限装饰的版本。每台机器每个游戏日都会产生游戏后期掠夺品。所有物品都在卡彭特商店销售,并有可配置的设置。",
+    "zh_title": "[CP] 先进农场建筑套装复制品"
+  },
+  "1401847": {
+    "fingerprint": "9707780fe63807f22c3669b9ad18dc7a49718d696b4794d753cc4206176678bd",
+    "method": "argos",
+    "zh_summary": "添加每个游戏日生产农场必需品的Silo、Well和Shipping Bin Replicas(加装版 ) 。 在卡彭特商店出售,价格可塑,时间不锁。",
+    "zh_title": "[CP] 农场基本设施"
+  },
+  "1401862": {
+    "fingerprint": "46a5fb5dcf69da3c288670c80a868f25924dcafe36e3c0c74f4d02c582fa80b1",
+    "method": "argos",
+    "zh_summary": "添加 祝尼魔 Hut, Slime Hutch, 以及金钟复制品加装饰变体, 每台机器每局内一天产生一次神奇的掠夺。 在 Krobus 的店铺出售, 价格、 年限和定时器可配置 。",
+    "zh_title": "[CP] 魔法结构设定复制"
+  },
+  "1401878": {
+    "fingerprint": "9d0e8660033b0186cf740d2c339061c563cfe606c687a13e75ba149bf1043874",
+    "method": "argos",
+    "zh_summary": "雪德和大雪德复制机加装饰变体。 每件复制品每游戏日都会生产一次卡格式工艺品饮料,大雪德将重心放在葡萄酒上。 在卡彭特商店出售,价格、年限和计时器都能够配置。",
+    "zh_title": "[CP] Shed Set 复制品"
+  },
+  "1401885": {
+    "fingerprint": "1e8289df79468698224060269d55438077fa7f2a508f07c74ab5126c71469ec0",
+    "method": "argos",
+    "zh_summary": "增加岛农舍、卡宾和稳定复制机以及装饰变体。 每一份复制品每个游戏日都会产生一次以家居为主题的掠夺品。 在卡彭特商店出售,价格、年限和定时器都能够配置。",
+    "zh_title": "[CP] 家园套装复制品"
+  },
+  "1408010": {
+    "fingerprint": "36d01467b40e0f4affdc59a61f3ad77a2ae39f31c6dd609fea2c7b4f9bed08c6",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为日历添加19种独特的重彩,使用漆桶在粉红色,紫色,水叮当,蓝色,橙色等样式之间切换.",
+    "zh_title": "[AT] Kehaan 日历变式"
+  },
+  "1408012": {
+    "fingerprint": "f3e2f3e05a1c4922cd2ccf740e58e85bc0d2b0014353fdcfbebf1a46c8c185e8",
+    "method": "argos",
+    "zh_summary": "添加20 张可配置的奖票重彩变体, 只更改奖票图标( 不是奖票机) 。 机器变体可能在未来更新中出现 。",
+    "zh_title": "[CP] Kehaan 奖票的变体"
+  },
+  "1408801": {
+    "fingerprint": "02f118633803484a0477e9ebc4ebc4495af4174dd9a8c82f3bd6306c8c26f2f8",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为 Keg 添加 16 个独特的复彩色。 使用彩色桶来切换粉红色、 紫色、 Aqua 、 蓝色、 暗绿色等样式。",
+    "zh_title": "[AT] Kehaan Keg 变式"
+  },
+  "1408802": {
+    "fingerprint": "a6cbba22cb2577c87aa230b09fcf9d1afbb82781ff7044eeb2dcbb6cb4dd4aa7",
+    "method": "argos",
+    "zh_summary": "使用另类纹理添加14种独特的重彩,使用彩色桶在蓝,绿,橙,紫,红等样式间切换.",
+    "zh_title": "[AT] Kehaan 水缸变换"
+  },
+  "1408805": {
+    "fingerprint": "17321379435297060ee785b0647cb4ec746b6293206547b6ec5cbde3a185ce5b",
+    "method": "argos",
+    "zh_summary": "使用另类纹理添加14种独特的保鲜罐重彩,使用漆桶在粉红色,紫色,水叮当,蓝色,橙色,火等样式间切换.",
+    "zh_title": "[AT] Kehaan 保护替代物"
+  },
+  "1409793": {
+    "fingerprint": "b7ab9157150d03ceb65baf401931b6973d7b84b7b34a915f5ace56074d3ca023",
+    "method": "reviewed",
+    "zh_summary": "使用 Content Patcher 为 I Created A Stardew Valley Modpack 整合包更换主菜单。",
+    "zh_title": "[CP] I Created A Stardew Valley Modpack 主菜单"
+  },
+  "1415358": {
+    "fingerprint": "49eda3e145ebe36dc928b8ccc7446ce3d5a4974ef2027b9c8d9451e270dfa317",
+    "method": "argos",
+    "zh_summary": "Everything Dew Expert是Everything Dew的以挑战为重点的版本。它基于相同的模式,默认地使Dew Experient Ruleset能够重新平衡进化、价格和配置,从而获得更深入、更严格的星露谷物语经验。",
+    "zh_title": "一切 露水专家"
+  },
+  "1415373": {
+    "fingerprint": "bb62a40aaf6dc27277a07f30ceb5a4014904d6dd1ce8ce9ee088103cbe40ff50",
+    "method": "argos",
+    "zh_summary": "这是一个Content Patchermod,它修改了modpack\"Everything Dew Expert\"的主菜单.",
+    "zh_title": "[CP] 主菜单"
+  },
+  "1417074": {
+    "fingerprint": "2f2c73efa40466406b120e68389890aec214016d2d5132116e5d1f42d268702b",
+    "method": "argos",
+    "zh_summary": "让你将建筑物的位置按像素或半瓦换成半瓦。",
+    "zh_title": "构建移动"
+  },
+  "1422900": {
+    "fingerprint": "e225eadfaaec533973a78273174c0b4e7a7bf1f4db0a5a2bf75182a3ab031b79",
+    "method": "argos",
+    "zh_summary": "让您设置任何大小和形状的地块,以便按照您每个季节的要求自动耕作、受精、种植和收获。您会从胸前抽取种子和肥料,或者从种子店购买这些种子和肥料。同样为园艺壶工作!",
+    "zh_title": "农田"
+  },
+  "1422915": {
+    "fingerprint": "99067e7499f72a52af65e1f3ccc888d1f2e533dd5bbded82fcc685282b91d89e",
+    "method": "argos",
+    "zh_summary": "每天早上获得一份新鲜的Discord更新,其中包含当天的天气、运气、事件、玩家黄金和农场细节。自定义您的信息,并使用单独的多人网络游戏而不重复文章。",
+    "zh_title": "Stardew 磁盘标记符"
+  },
+  "1427319": {
+    "fingerprint": "ff2b590c84b7fc865dc8c3f8c35b6b4756c8fb401f0e6b899d10e6b449669da9",
+    "method": "argos",
+    "zh_summary": "一个和平主义的modpack,具有温柔的演奏风格和早期的舒适性,包括免费的拖拉机启动.",
+    "zh_title": "温柔的露水"
+  },
+  "1427320": {
+    "fingerprint": "3736bf3abf34e9450718089f1dc6aa36301f47b4026dbcba5ab1e85376aff062",
+    "method": "argos",
+    "zh_summary": "这是一个Content Patchermod,它改变了modpack Gentle Dew的主菜单.",
+    "zh_title": "[CP] 温柔的 Dew - 主菜单"
+  },
+  "1428480": {
+    "fingerprint": "36d729604e3b40d5054c6ad35bf4bb2bf72b598f6117919c4ebee388a1a283fc",
+    "method": "argos",
+    "zh_summary": "使用另类纹理添加14种独特的重彩,使用彩色桶在样式间切换,如红,粉,绿,蓝等.",
+    "zh_title": "[AT] Kehaan 自动改进变式"
+  },
+  "1428483": {
+    "fingerprint": "8d314af77fb53e59134b56861e6307bc0a908fa41e417fe51208bed1cdc8a5c6",
+    "method": "argos",
+    "zh_summary": "使用另类纹理添加14种独特的重彩, 在粉红, 绿色, 蓝色等样式间切换漆桶。",
+    "zh_title": "[AT] Kehaan 小型浸泡机变体"
+  },
+  "1429127": {
+    "fingerprint": "6cd475eca42df0af4262cf977e39a5ccc7b7a4e705af0f5a2aed60a270b890e1",
+    "method": "argos",
+    "zh_summary": "在NPC的追求目标中添加标记,为钓鱼追求添加鱼类寻觅信息,在社交追求中加入名字.",
+    "zh_title": "查询帮助"
+  },
+  "1432729": {
+    "fingerprint": "60f9099efc3d90aed221441595e584c882a0a5df66438203fb5a28dc598e77a6",
+    "method": "reviewed",
+    "zh_summary": "扩充浣熊商店的自然主题交易。通过 GMCM 可调整各个商品的开关和兑换成本。",
+    "zh_title": "[CP] 浣熊商店扩展"
+  },
+  "1432730": {
+    "fingerprint": "8e8cf340ea003bd7da13939a0e73ac8a030c8172e723676f6bda978d6912a38d",
+    "method": "argos",
+    "zh_summary": "将旅行卡片扩展为偶尔与原始股票同时出现的香草制品。 完全的可配置机会、价格和切换通过 GMCM , 并带有可选的最小年限门。",
+    "zh_title": "[CP] 旅行卡 扩展商店"
+  },
+  "1435283": {
+    "fingerprint": "5c5bb65b31f489d83bb7bec896add1bfed1377707768461b174db06ce4508ada",
+    "method": "argos",
+    "zh_summary": "将威利的鱼店用额外的钓鱼物品和机器来扩展。 完整的可配置价格,解锁年限,以及通过GMCM的切换(默认年份2).",
+    "zh_title": "[CP] 威利的扩大商店"
+  },
+  "1436235": {
+    "fingerprint": "90ff7abb06beca8c7c7a7583784d0d8dc6219b0e3cdcd7a64491dd91726652b3",
+    "method": "argos",
+    "zh_summary": "以黄金购买选项扩展沙漠交易商, 用于选择经典交易项目。 完整的可配置价格, 解锁年限, 并切换通过 GMCM (默认第2年) 。",
+    "zh_title": "[CP] 沙漠贸易商扩大商店"
+  },
+  "1437447": {
+    "fingerprint": "81db976a9b97d769c857d6fa39cab42007ddf66865e0fe9fc34e2ec0dc295542",
+    "method": "argos",
+    "zh_summary": "扩展 Marnie 的牧场, 附带可选的后期游戏动物相关项目。 完全可配置价格, 解锁年限, 以及通过 GMCM 切换 。",
+    "zh_title": "[CP] 玛妮牧场扩建店"
+  },
+  "1437597": {
+    "fingerprint": "38e953e32234288f778badcc5e86ed56e13185f2fbdfbf5e1444c6f4c838089e",
+    "method": "argos",
+    "zh_summary": "增加哈维诊所的医疗用品,并增加恢复和实用用品。 完整的可配置价格、解锁年限和通过GMCM(第2年违约年)进行切换。",
+    "zh_title": "[CP] 哈维诊所扩建商店"
+  },
+  "1439563": {
+    "fingerprint": "ec7647e5df520f8e82afff141cb50292c1964419ea1a7600861823570e212c79",
+    "method": "argos",
+    "zh_summary": "扩展 Clint 的铁匠店, 并配有可配置的后期游戏材料和通用物品。 包括支持与 Kehaan 扩展店相同的条/项添加, 以及 Geode Crusher, Quartz, Quartz, 以及Artifact Troves 。",
+    "zh_title": "[CP] 克林特的铁匠扩展商店"
+  },
+  "1439590": {
+    "fingerprint": "5003df1445e2b7c8f516696d1c31a6e8f8ad8f637f1a79e113ed7044b2e2aca5",
+    "method": "argos",
+    "zh_summary": "以额外的饮料和公用物品扩展星滴沙龙。 完全可配置的价格, 解锁年限, 并且通过 GMCM 切换 。",
+    "zh_title": "[CP] 星滴沙龙扩展商店"
+  },
+  "1439921": {
+    "fingerprint": "071db9393d16b3c9d9e5078e0ca4e190b62e7b8a0ba56e9cd47868b0ae29f81a",
+    "method": "argos",
+    "zh_summary": "皮耶尔的店铺增加了种子和后期游戏肥料/电池/喷发器。 完整的可配置价格、解锁年限和通过GMCM的切换。",
+    "zh_title": "[CP] 皮埃尔扩大商店"
+  },
+  "1439922": {
+    "fingerprint": "712883f7abb8bb4d7d1d0f6c0fc6560f4569b66956e252c867983ac2c96e3959",
+    "method": "argos",
+    "zh_summary": "以额外的矿业设施和矮人技术来扩大矮人店铺。 完整的可配置价格、解锁年限和通过GMCM的切换。",
+    "zh_title": "[CP] 矮人扩大店"
+  },
+  "1439923": {
+    "fingerprint": "2b15b5f35ba186c93b98fd55d781880e703970ee1bef7cef79ad413ff32f8bb6",
+    "method": "argos",
+    "zh_summary": "亚历克斯的冰块摊位增加了夏季小吃和饮料。 完整的可配置价格、解锁年限和通过GMCM的切换。",
+    "zh_title": "[CP] 冰块摊位扩大商店"
+  },
+  "1439925": {
+    "fingerprint": "2cd34ce3faebabb84bb4962d400afe8056e3519ccdb5bfe084f4919264c9c66f",
+    "method": "argos",
+    "zh_summary": "Krobus 的影子店, 以可配置的新项目扩展。 完整的可配置价格、解锁年限和通过 GMCM 的切换。",
+    "zh_title": "[CP] Krobus 的扩展商店"
+  },
+  "1443059": {
+    "fingerprint": "5fded81d76e40061ab0009da3e8ca53fa512ebb95f8e400f80d7eb1b598f2d45",
+    "method": "argos",
+    "zh_summary": "冒险家协会的店铺以为黄金而出售的怪物抢掠物品扩展。 设计为比Krobus高价的便利选择,以保持平衡和进步。",
+    "zh_title": "[CP] 冒险家协会扩大商店"
+  },
+  "1443063": {
+    "fingerprint": "159f1cfe94b087d4883665a6393672043dfee527a80f38305aadd7c50ab822f8",
+    "method": "reviewed",
+    "zh_summary": "在罗宾的木匠店加入机器、栅栏和材料，通过 GMCM 调整价格、解锁年份及商品开关。",
+    "zh_title": "[CP] 罗宾的木匠店扩展"
+  },
+  "1443065": {
+    "fingerprint": "c7d4e6ac42425f669b2ada99022f48c66482e5d9654775a58bb50bdba8db3092",
+    "method": "argos",
+    "zh_summary": "盖先生的胡桃房店铺增加贸易。 完整的可配置宝石成本,解锁年限,以及通过GMCM的切换。",
+    "zh_title": "[CP] 齐先生的扩大商店"
+  },
+  "1444137": {
+    "fingerprint": "7d0873d2c04bfde9a98a7d0ab674ff1ee184ae53344b4da54c87c5f8c8526fd7",
+    "method": "argos",
+    "zh_summary": "以肥料扩大JojaMart,保留土壤、烹饪成分和游戏后期便利项目。包括电池和可选季节性/技术库存。完整的可配置价格、解锁年限和通过 GMCM 切换。",
+    "zh_title": "[CP] JojaMart 扩展商店"
+  },
+  "1446585": {
+    "fingerprint": "42fc0a77ee0d6a3450e9a83208f51c593074c92e6b3f380b06a8e7eb20f78c9b",
+    "method": "argos",
+    "zh_summary": "绿洲扩展商店在卡利科沙漠中以强大的通用物品,稀有种子,以及后期进口来扩充桑迪的商店,这些商店逐年逐渐解锁,并和更高的价格保持平衡.",
+    "zh_title": "[CP] 绿洲扩展商店"
+  },
+  "1446587": {
+    "fingerprint": "052bf9b53491bdfcd6fd3c5754f7a19d2460b8aa211334fd0e61178caf8c564f",
+    "method": "reviewed",
+    "zh_summary": "让帽子鼠出售原本无法在废弃小屋购买的帽子。帽子按稀有度分三档，在第 4、5、6 年陆续解锁，售价较高。所有选项均可通过 GMCM 调整。",
+    "zh_title": "[CP] 废弃小屋帽子店扩展"
+  },
+  "1447282": {
+    "fingerprint": "8c173ddce062f90cd28b27c8fd7e132adcc264305e7ac77057b9a8094b0e6e3d",
+    "method": "reviewed",
+    "zh_summary": "为姜岛的岛屿商人添加新的主题物物交换，方便游戏后期兑换。所有选项均可通过 GMCM 调整。",
+    "zh_title": "[CP] 岛屿商人商店扩展"
+  },
+  "1447284": {
+    "fingerprint": "d72b8a4eb2d45674a412596044a6c51da6d2826b990429e50ff343be3c4c456b",
+    "method": "argos",
+    "zh_summary": "将游戏后期的Trinkets添加到Bookseller商店中,作为可配置的金水槽,每个trinke可以单独切换,单独定价,并按年解锁.",
+    "zh_title": "[CP] 书商扩展商店"
+  },
+  "1448444": {
+    "fingerprint": "7a2f1fa8830ddb720f658ad60f141fe06ebfb0e55b635ec5b10a2ee82a17d8bf",
+    "method": "argos",
+    "zh_summary": "一个进步式的RPG Modpack 具有个性构建,Stat驱动的系统,危险的战斗,以及一个巨大的开放世界来探索.",
+    "zh_title": "Dew 路径: RPG"
+  },
+  "1448447": {
+    "fingerprint": "b10b149d4b4895ff456dd08f174384c7c3811855b3845fef88014fa38b4f3e45",
+    "method": "argos",
+    "zh_summary": "这是Content Patchermod,它修改了modpack\"Dew:RPG\"的主菜单.",
+    "zh_title": "[CP] Dew 路径: RPG - 主菜单"
+  },
+  "1458182": {
+    "fingerprint": "071e9584ca277acee86d421032061119b618a301b0a0d89bcaed1fff03883d6c",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为种子制作者添加12种独特的重彩,使用彩色桶在粉红,红,绿,蓝等样式间切换.",
+    "zh_title": "[AT] Kehaan 种子制作人的变体"
+  },
+  "1458183": {
+    "fingerprint": "b0159e7dd1395a2b3ba2a3c7409d528c76fbcae993939a380e681f172a753c60",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为塔珀人添加12种独特的重彩,使用彩色桶在粉红,红,绿,蓝等样式间切换.",
+    "zh_title": "[AT] Kehaan Tapper 变式"
+  },
+  "1458185": {
+    "fingerprint": "b5e1089408080e6bc49968ceedc235eb14a65867c75e77ff476ba8a82cd40286",
+    "method": "argos",
+    "zh_summary": "使用替代纹理为回收机添加了12种独特的重彩,使用漆桶在粉红色,绿色,蓝色等样式之间切换.",
+    "zh_title": "[AT] Kehaan 再循环机器变体"
+  },
+  "1459955": {
+    "fingerprint": "96ec23da6855ab3ced6334f7e40e4df07c6ecabd510b9ade9e9a5718a6d895d5",
+    "method": "argos",
+    "zh_summary": "扩展高价值晚期游戏物品为黄金出售的火山矮人店。 设计为溢价便利选项, 每日有限库存, 以保持平衡和进步 。",
+    "zh_title": "[CP] 火山敦煌扩建商店"
+  },
+  "1466424": {
+    "fingerprint": "ddaac1b0f48d561cf757e8e7d9c97eb7163b872b16e92ddebf3162e318c15b02",
+    "method": "argos",
+    "zh_summary": "为 Kehaan 的modpacks 添加可选的游戏欢迎和引导字母, 每包可配置通过 GMCM 。",
+    "zh_title": "[CP] 基哈恩·杜指南"
+  },
+  "1468050": {
+    "fingerprint": "eb5d8f26d2b1c252d80127e7c4b18a8713dcab94b780d01663fe3c2cb78baee8",
+    "method": "argos",
+    "zh_summary": "\"控制您的音乐, 直接在 星露谷物语 内观看当前播放的曲目。 不需要登录、 插入和播放, 并且完全自定义!\"",
+    "zh_title": "祝尼魔 Jams (英语)."
+  },
+  "1473130": {
+    "fingerprint": "4088c5c35df1d339309652686e286e8480f315610a619edd3a2683eb259f7034",
+    "method": "argos",
+    "zh_summary": "A SMAPI 拖拉机 Mod的同伴, 让你立即切换游戏。 这个重塑增加了定制的排气管和货床, 提供了8种美学色彩变体; 如Rose Latte 和 Mossy Tide ; 以配合您的农场风格 。",
+    "zh_title": "拖拉机皮肤模型"
+  },
+  "1476559": {
+    "fingerprint": "b685217d8e6632d85a1664cc5b5f811aad7aec2c9522ce5162164767bfe0ade2",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为太阳面板添加12种独特的复色,使用漆桶在粉红,红,绿,蓝等样式间切换.",
+    "zh_title": "[AT] Kehaan 太阳能电池板的变体"
+  },
+  "1476565": {
+    "fingerprint": "3021c0fbe145c6bb0a910d562918b0dda7b431ed20793b5a5c436877d30c8a01",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为迷你方尖碑添加12种独特的重彩,使用彩色桶在粉红,红,绿,蓝等样式间切换.",
+    "zh_title": "[AT] Kehaan 迷你方尖碑变体"
+  },
+  "1476566": {
+    "fingerprint": "e0eaaffffb4690f83b06fbb3f71eaf61c1e7007850f2db7a15473a5242eedbe5",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为Mayonnaise机器添加了12种独特的复色,使用彩色桶在粉红色,绿色,蓝色等样式间切换.",
+    "zh_title": "[AT] Kehaan Mayonnaise 机器变体"
+  },
+  "1477352": {
+    "fingerprint": "09b03ad3d7d3891f1984e60b2671210863388de8ab23acb0c03258afdcb28c59",
+    "method": "argos",
+    "zh_summary": "增加一个鸟类小屋复制品, 供你们农场缓慢生产岛内打捞、硬木、热带作物、珊瑚和稀有岛鱼,",
+    "zh_title": "[CP] 鸟儿的小屋复制品"
+  },
+  "1477357": {
+    "fingerprint": "a926911cd5b77dd62bfb91c317c19d9b9e4fa154f5886b4d23a06d0e3a497607",
+    "method": "argos",
+    "zh_summary": "增加一个姜岛的复制品,用于你的农场,缓慢地生产热带作物,椰子(包括稀有的金椰子),火山掠夺,龙齿,景德士沙德,甚至偶发珍珠,在岛商场销售,并具有完全可配置的选择权.",
+    "zh_title": "[CP] 姜岛 复制品"
+  },
+  "1477367": {
+    "fingerprint": "2402e5a8dda4501f24de4ed81292b68d84753a0f0b14ce86bad78d9f3bfc0afc",
+    "method": "argos",
+    "zh_summary": "添加一个每场比赛一天生产一次皮尼亚科拉达(Piña Colada)或汤姆·哈·苏普(Tom Kha Soup)的2 River Road Replica。两者都是帕姆和佩妮的喜爱礼物。从3年级起在卡彭特商店出售,并配有可选的装饰。",
+    "zh_title": "[CP] 2 河路复制品"
+  },
+  "1477374": {
+    "fingerprint": "f10145ac8028bf1ba6f0ecedcdf5624d5c28541af1bdb98dbc1e4f22461f430b",
+    "method": "argos",
+    "zh_summary": "给您的农场添加一个铁路复制品,在一段时间内产生火车汽车资源掠夺,如木材、煤炭、石头、矿石、大地测量。 在木匠店出售,价格完全可塑,年锁和生产时间,加上可选的装饰版本。",
+    "zh_title": "[CP] 铁路复制品"
+  },
+  "1477383": {
+    "fingerprint": "64f087425f22ce312d5578ff7ed6a35b2b945c63032fe389ec1ce2eff802b068",
+    "method": "argos",
+    "zh_summary": "为您的农场添加一个老爷 Cannoli 复制品, 它缓慢地生产稀有种子和甜宝石贝里士. Sold in Mr.",
+    "zh_title": "[CP] 坎诺利复制品大师"
+  },
+  "1477408": {
+    "fingerprint": "a680dddc560ced4f59a56858e55a22a3b19017cf218462c8a2066b46a57a91b8",
+    "method": "argos",
+    "zh_summary": "添加一个每局内一天产生一次Skull Cavern掠夺的Skull Cavern复制品(可配置): Omni Geodes,石头,煤,矿石,骨骼,精华,以及恐龙蛋和Prisimatic Shards等稀有珍宝. Sold at the Oasis 带有可选的装饰.",
+    "zh_title": "[CP] 骷髅洞复制品"
+  },
+  "1477551": {
+    "fingerprint": "df8f259bf514cad9e671de43f7b7913115d2a337fa94fa4e357d1bcda7bdc054",
+    "method": "argos",
+    "zh_summary": "添加每个游戏中一天一次生产沙漠节基本内容的Shrouded Figure Tent Replicas(加装饰版). Sold at the Desert Festival Egg Shop 以可配置价格,解锁年限和计时器出售.",
+    "zh_title": "[CP] 沙漠节日套装复制品"
+  },
+  "1477553": {
+    "fingerprint": "b5e87bce00d20f892ca4124212587ec72520c236713c3caa0333395442bec9ec",
+    "method": "argos",
+    "zh_summary": "添加装饰船和潜艇复制品(加上装饰版),每局内一天生产一次夜市物品. 出售于夜间市场装饰船,价格可配置,解锁年限,计时器.",
+    "zh_title": "[CP] 夜市套装复制品"
+  },
+  "1477554": {
+    "fingerprint": "9b4d08e448f2e37e9aa5d0fdcda3ba3b6c636dcf0bad44a800da24f6851c93e7",
+    "method": "argos",
+    "zh_summary": "添加谷美展复制品(加装饰版),每场比赛每天制作一次节日主题项目。从三年级起在皮埃尔商店出售,价格和计时器可配置。",
+    "zh_title": "[CP] 谷地集市复制品"
+  },
+  "1478082": {
+    "fingerprint": "94d3f8009ec48195f335da468d5b2fd4c04982f6dc243fdb8e8d826210e1f715",
+    "method": "reviewed",
+    "zh_summary": "在鹈鹕镇图书馆加入自定义 NPC 布兰奇（Blanche）。",
+    "zh_title": "自定义 NPC：布兰奇"
+  },
+  "1479459": {
+    "fingerprint": "141df1fb0a8c2a513667ec9c6476015ee257b602d7c12475a481aea1c5a53354",
+    "method": "argos",
+    "zh_summary": "以新的内幕挑战增强你星露谷物语冒险的开始,这个mod在开场顺序中增加了Prairie King小游戏的Journey,让玩家在到达农场前测试他们的技能.",
+    "zh_title": "梦幻般的演练"
+  },
+  "1480722": {
+    "fingerprint": "2e35ccbee8deed9a9076dfb72f425412f06a441ca7cf7d32fda27c5a1e1b7960",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为闪电罗德添加10种独特的重彩,使用彩色桶在粉红,红,绿,蓝等样式间切换.",
+    "zh_title": "[AT] Kehaan 闪电 Rod 变体"
+  },
+  "1480723": {
+    "fingerprint": "d3d12545d141ea669234717dbb0dba59f3cc5040acef22f8f1b397f9b1d8ef31",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为 Loom 添加 12 个独特的重彩。 使用彩色桶在 Pink 、 Red 、 Green 、 Blue 等样式之间切换。",
+    "zh_title": "[AT] Kehaan Loom 变式"
+  },
+  "1480724": {
+    "fingerprint": "7c95fa0deca1a508f677291730933f5fe723a3be470b2e30901ab8e2efb4f9da",
+    "method": "argos",
+    "zh_summary": "使用另类纹理添加12种独特的重彩,使用彩色桶在粉红,红,绿,蓝等样式间切换.",
+    "zh_title": "[AT] Kehaan 制油厂的变体"
+  },
+  "1480827": {
+    "fingerprint": "64f9c4ac8a50383fe73fe4e7677656de4f662adfaa81c6e4822eeb0b1552b24f",
+    "method": "argos",
+    "zh_summary": "使用另类纹理添加了12种独特的重彩,在粉红,红,绿,蓝等样式间使用漆桶切换.",
+    "zh_title": "[AT] Kehaan Ostrich孵化器变体"
+  },
+  "1480828": {
+    "fingerprint": "65d80089d5407e5bb84229de2b9615fd1c239eb5340671f76a41822029b6fed1",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为Slime Egg Press添加12种独特的复色,使用彩色桶在粉红,红,绿,蓝等样式间切换.",
+    "zh_title": "[AT] Kehaan Slime 鸡蛋按压变体"
+  },
+  "1480829": {
+    "fingerprint": "da2d609beac595ecab16586826e6e8ad6f32a3234171c6fe4172023e9f7eb451",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为斯林姆孵化器添加了12种独特的复色,使用漆桶在粉红,红,绿,蓝等样式间切换.",
+    "zh_title": "[AT] Kehaan Slime 孵化器变体"
+  },
+  "1480832": {
+    "fingerprint": "c966e51261dd2e578bf7ca980eea035d7d7b898bb96c51f9f63a7fb37a2646ff",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为蠕虫本添加12种独特的重彩,使用漆桶在粉红,红,绿,蓝等样式间切换.",
+    "zh_title": "[AT] Kehaan 蠕虫本变体"
+  },
+  "1481682": {
+    "fingerprint": "14feaf921a59e2433e91a4022453d5a9ce56121c0008692cac3bc33252714b2f",
+    "method": "argos",
+    "zh_summary": "添加每个游戏日生产舒适家用用品的农家套装复制品(加装饰版)。从3年级起在Robin商店出售,价格和计时器可配置。",
+    "zh_title": "[CP] 农舍套装复制品"
+  },
+  "1482526": {
+    "fingerprint": "65ffb0a40d96bcea883578056980960e4ca5dad201923215f22988f8d101e4b9",
+    "method": "argos",
+    "zh_summary": "在云中增加一个新的城镇 在那里Cinnamoroll和朋友生活",
+    "zh_title": "棉花云镇"
+  },
+  "1484374": {
+    "fingerprint": "04add2d94b975994818bea88f3d0322d32b895ffc63825bbb541fa7f299c8684",
+    "method": "argos",
+    "zh_summary": "Artisan商品保持输入质量,任何机器,即使是嵌入式机器都有用!",
+    "zh_title": "通用手工业商品保持质量"
+  },
+  "1487548": {
+    "fingerprint": "a7a2bc40932b2c6ee8ec351ef0745fc119b8acdcc5e4da6ea85fb77a21295a3b",
+    "method": "argos",
+    "zh_summary": "增加更平滑的日夜过渡,并带有现实的日出和日落,改善的照明,以及更舒适的氛围.",
+    "zh_title": "隐形灯光"
+  },
+  "1487982": {
+    "fingerprint": "816681b616a2e3af5614c651a5e6229b4ad51a7a350dccf22eba98f28bb66b0d",
+    "method": "argos",
+    "zh_summary": "使用另类纹理添加12种独特的重彩, 使用彩色桶在风格间切换, 如红,绿,蓝, 紫色等 。",
+    "zh_title": "[AT] Kehaan 炭基尔式变体"
+  },
+  "1487983": {
+    "fingerprint": "5927ee306346322d549d7ecd6d683cd241d63061de5f66eba8b105ec4d88b985",
+    "method": "argos",
+    "zh_summary": "使用另类纹理添加了10种独特的剪切器重彩,使用彩色桶在样式间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] Kehaan 大地磨损器变体"
+  },
+  "1487984": {
+    "fingerprint": "ce29d5497e9d48e144da1be0063dcc0421b734e3f2b321c3a472be65a6b8555e",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为蘑菇日志添加12种独特的重彩,使用彩色桶在风格间切换,如红,绿,蓝,紫,红等.",
+    "zh_title": "[AT] Kehaan 蘑菇记录替代"
+  },
+  "1488000": {
+    "fingerprint": "5abc527c68969205af76042f65e232acab6948b5a626a6bf0de6009ad1dc2c13",
+    "method": "argos",
+    "zh_summary": "添加在 Pierre 鸡蛋节商店销售的鸡蛋节装饰。 包括 鸡蛋节背滴、 Pierre Stall 和 Table , 仅作为装饰品, 可配置价格和解锁年份。",
+    "zh_title": "[CP] 鸡蛋节的套装复制品"
+  },
+  "1488002": {
+    "fingerprint": "62c3a665392a0358514d179d67a99dbc514383e88f0e902953e507c70fd0b1e1",
+    "method": "argos",
+    "zh_summary": "添加了在\"冰店节\"(Festival Of Ice)销售的冰装装饰品,包括一个冰城堡,Igloo,和美人鱼雕塑作为仅限装饰品,带有可配置价格和解锁年份.",
+    "zh_title": "[CP] 冰壶节 复制品"
+  },
+  "1488005": {
+    "fingerprint": "78b4cb9b72462f26c7e601ac882478cc0762374baa7040a927844cea80f6b543",
+    "method": "argos",
+    "zh_summary": "添加冬星复制品(加装饰版). 冬星树复制品每天制作一次随机可能的冬星礼物的Feast,在冬星节店的Feast出售,价格可塑,解锁年限,计时器.",
+    "zh_title": "[CP] 冬季星辰集复制"
+  },
+  "1489922": {
+    "fingerprint": "a88a1ed55b81ab868de77cc7c6b8a76de285be929cc52f2a188cfa4c09a2e92a",
+    "method": "argos",
+    "zh_summary": "Dew modpack路径的轻量级内容加载,以定制添加和未来额外内容的空间为特色.",
+    "zh_title": "露水路径 - 添加"
+  },
+  "1491681": {
+    "fingerprint": "54f4ce5e22454c6f122cec2f314e7960c383dd14df1656027bd84d68c82820e0",
+    "method": "argos",
+    "zh_summary": "用于更多事件命令的框架",
+    "zh_title": "Miihau 事件帮助器"
+  },
+  "1494362": {
+    "fingerprint": "089fc47d61675474be737d8fb597d49217482cc5e11253ad53812c5d3591fe55",
+    "method": "argos",
+    "zh_summary": "一个允许您将HD肖像导入游戏的mod.",
+    "zh_title": "JP 的 Shin HD 图形框架"
+  },
+  "1494412": {
+    "fingerprint": "91a32e176fb9ea911d6eca03478961fe5775342f9ca17a046e26aede9e7200b9",
+    "method": "argos",
+    "zh_summary": "用新声音取代游戏的声音.",
+    "zh_title": "JP 山谷的声音 - 新的声音和安逸"
+  },
+  "1494420": {
+    "fingerprint": "acdead27cac9c87b3b6d5cd7efee2cfd04460fc4b7658ad075f8f7f1329f59e2",
+    "method": "argos",
+    "zh_summary": "所有农场都成一!",
+    "zh_title": "JP的农场-农场联合"
+  },
+  "1494431": {
+    "fingerprint": "0a5d18a924f1a5809af69ab9bad66b59876ec3ec625939b5cf8d27f846ad87b6",
+    "method": "argos",
+    "zh_summary": "给夜晚添加萤火虫和特效",
+    "zh_title": "JP的碎片在空气中 - 夜光"
+  },
+  "1494447": {
+    "fingerprint": "1ece5a4c579fb7148b0018eaa816c39a03a818df132dfa9606c731c782214d80",
+    "method": "argos",
+    "zh_summary": "新的欺骗菜单!",
+    "zh_title": "JP 欺骗菜单"
+  },
+  "1494484": {
+    "fingerprint": "19d6a90e2229549dcfb62252b6199893e1cbfc6037e736aec0db6a68cfec64eb",
+    "method": "argos",
+    "zh_summary": "选择默认包含在您的农场中的建筑 !",
+    "zh_title": "JP的起步建筑——起步农场动物——农场建筑"
+  },
+  "1494507": {
+    "fingerprint": "5dd8dd3f12f675608c3d42a68394a4b42ce95589475a2a3b6341714b878408c3",
+    "method": "argos",
+    "zh_summary": "3座新建筑产生被动收入!",
+    "zh_title": "JP 的“ 资源器” - 自动化资源"
+  },
+  "1494510": {
+    "fingerprint": "0d8515cbbaa441235f82be794d4f451533bffd8cab80238eb8aed2a0b35ee2c8",
+    "method": "argos",
+    "zh_summary": "这个mod增加了来自Kehaan的mod的绘画和资料包,使用了另类纹理mod.",
+    "zh_title": "[AT] Kehaan 项目绘画"
+  },
+  "1497607": {
+    "fingerprint": "416f7017e46ff4b8fb3c74721472a3edefacadcb190ce9b2ce11eb9b58a0454c",
+    "method": "argos",
+    "zh_summary": "让你把喷洒器和稻草人放在 农作物瓷砖的交汇处",
+    "zh_title": "隐形喷洒者和稻草人"
+  },
+  "1500399": {
+    "fingerprint": "5eedbc95ac285f14f7fc496ce4d6b9c085ea18945ecef1807f967495b4b5213d",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为农场计算机添加12种独特的重彩,使用彩色桶在风格间切换,如红,绿,蓝,紫,红等.",
+    "zh_title": "[AT] Kehaan 农场计算机变体"
+  },
+  "1500402": {
+    "fingerprint": "cc9f97c8b21874db4de350aad5cf955c9ac847480641a7e7ed5ba6139114c1da",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为 Deluse Worm Bin 添加 12 个独特的复彩色。 使用彩色桶在样式间切换, 如红、绿、蓝、 紫色等 。",
+    "zh_title": "[AT] Kehaan 豪华虫本变体"
+  },
+  "1500403": {
+    "fingerprint": "f2fd9d5feae37bef87d57dc5a737d1b795602141aeb5ba189e132a088732f126",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为安维尔人添加12种独特的复色,使用彩色桶在风格间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] 凯汉·安维尔备选案文"
+  },
+  "1500404": {
+    "fingerprint": "f0a84c92b84836a3626b94b6524c5516c02b3d80028f575099df6d5b177f9bb7",
+    "method": "argos",
+    "zh_summary": "使用另类纹理添加12种独特的重纹章重纹章,使用彩色桶在风格间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] Kehaan 重型塔珀变式"
+  },
+  "1500407": {
+    "fingerprint": "18b96e9d480e8c5c313db409697a9a7e9cc9e310258f1cd0a3390d64e893c321",
+    "method": "argos",
+    "zh_summary": "重排楼梯项目, 给予您独特的设计选项, 使其更容易发现 。 它通过 GMCM 可以完全定制的游戏 。",
+    "zh_title": "[CP] Kehaan 楼梯变式"
+  },
+  "1500714": {
+    "fingerprint": "4d5082def6cf79503cd9ff3114645f7c43e412d8d2d93ad222b03db0fbef8e6e",
+    "method": "argos",
+    "zh_summary": "一个精心配制的舒适的模具 专注于美丽的季节视觉 大气音频 以及智能的生活质量改进 而没有用数百种模具压倒你",
+    "zh_title": "黄金收获"
+  },
+  "1502179": {
+    "fingerprint": "9397d2d22c05da4f2726ec238ca1d8e7a1c2e24bb1f953c4793767efccbb3c49",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为大胸增加12种独特的重彩,使用彩色桶在风格间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] Kehaan 大胸变体"
+  },
+  "1502182": {
+    "fingerprint": "9a0cb868254a1a9482a5e59fe3b6b610605d8874f0139a1cdb28477831727396",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为木签添加12种独特的重彩,使用漆桶在样式间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] Kehaan 木头标志替代"
+  },
+  "1502183": {
+    "fingerprint": "c0af317e7099ff08b9b5ed6a6fa207bfb50e9a13320dbaf344b755d8f70a0215",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为祝尼魔胸口添加12种独特的重彩,使用彩色桶在风格间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] Kehaan 祝尼魔 胸形变体"
+  },
+  "1503160": {
+    "fingerprint": "0f1d4be5d67e3f7e1d7de88afdc70d8358a6b761deb596cf73c718da1455db89",
+    "method": "argos",
+    "zh_summary": "使用另类纹理添加12种独有的复彩图案, 使用彩色桶在风格间切换, 如红、绿、蓝、 紫色等。",
+    "zh_title": "[AT] Kehaan 自动绘图变体"
+  },
+  "1503163": {
+    "fingerprint": "2a507ac847ca1fa4735ea2ffbb818c485dc163ee9788bf45c1a8994b5aac4b2a",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为大石胸增加12个独特的重彩,使用漆桶在风格间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] Kehaan 大石胸的变体"
+  },
+  "1503166": {
+    "fingerprint": "05ff1745b4196e1fc99d4e9f49674de559732cd06bda08c4e9ee64d4a5e35ac5",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为装饰器添加12种独特的重彩,使用彩色桶在样式间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] Kehaan 解析器变体"
+  },
+  "1503169": {
+    "fingerprint": "316e6818971084e2b38faa615dab01193741cadfb65b40608b1a4a9717fe20c9",
+    "method": "argos",
+    "zh_summary": "使用另类纹理添加12种独特的重彩, 使用彩色桶在样式间切换, 如红、绿、蓝、 紫色等。",
+    "zh_title": "[AT] Kehaan 剧组的变式"
+  },
+  "1503170": {
+    "fingerprint": "655997e1e5d290b6ab15782a0e0354096f7567655b199bca5c08dc6e04bc5503",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为迷你脊添加12种独特的重彩,使用彩色桶在风格间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] Kehaan 小型山脊替代物"
+  },
+  "1503171": {
+    "fingerprint": "206068f5de916781dc824a58f2d0f1a505a3b4fa21bdcec3a1ecff66815b0b83",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为石胸增加12种独特的复色,使用漆桶在风格间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] Kehaan 石胸变式"
+  },
+  "1503173": {
+    "fingerprint": "38424247f2b08516c4d16b90ba7ed78b8ee36553c984b3e06af22d2698302628",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为电话添加12种独特的复色。 使用彩色桶在样式间切换, 如红、绿、蓝、 紫色等。",
+    "zh_title": "[AT] Kehaan 电话变体"
+  },
+  "1503175": {
+    "fingerprint": "3a775fee295520dfec5309e743039bb85164c16d00de406336248faaf968a161",
+    "method": "argos",
+    "zh_summary": "使用另类纹理添加12种独特的重彩, 使用彩色桶在风格间切换, 如红、绿、蓝、 紫色等。",
+    "zh_title": "[AT] Kehaan Wood Chipper 变体"
+  },
+  "1503178": {
+    "fingerprint": "7f499a2456fdb624172551ab85605aafad3261f111c10f93c75cce87970f6aed",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为鱼缸添加了总共60种独特的重彩,使用漆桶在样式间切换,如红,绿,蓝,紫,紫等.",
+    "zh_title": "[AT] Kehaan 鱼缸变体"
+  },
+  "1505135": {
+    "fingerprint": "0bf52b58ac00fb96675ef44ba71c46f13a41a784a673f6ac93b58016cccab016",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为咖啡制作者添加22种独特的重彩. 使用彩色桶在风格间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] Kehaan 咖啡制造器变体"
+  },
+  "1505136": {
+    "fingerprint": "35cd072cce95441cd8849004dd96fb18abf11096ba22955949cc845ae488fdbe",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为迷你福尔格添加了12种独特的复色,使用彩色桶在风格间切换,如红,绿,蓝,紫红等.",
+    "zh_title": "[AT] Kehaan 小型伪造变体"
+  },
+  "1505140": {
+    "fingerprint": "93fd6494846267c6897bc7719bc69158ccbc5969ec45b558a69ba01f9fa90ba0",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为迷你-Jukebox添加12种独特的重彩,使用彩色桶在风格间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] Kehaan 小型变体"
+  },
+  "1505141": {
+    "fingerprint": "ca8e49e093a46022a2ce8fc1cc388e534df813b71ab74edc78887b0edb9099bd",
+    "method": "argos",
+    "zh_summary": "使用另类纹理添加22种独特的暗黑标志重彩,使用彩色桶在样式间切换,如红,绿,蓝,紫,红等.",
+    "zh_title": "[AT] Kehaan 暗号变体"
+  },
+  "1505359": {
+    "fingerprint": "f3b8a41438aa5dfc174c971c200b2adc95b8acc70ddfeb5b4e36e871b3f6a928",
+    "method": "argos",
+    "zh_summary": "新的定制菜单可以传送到任何您想要的地方 !",
+    "zh_title": "JP 的远程传送器菜单模式 - 扭曲菜单"
+  },
+  "1505889": {
+    "fingerprint": "6e7a69c8505eb74c81ef8e886108eac21de526adea2f906bdf245df9fcbe619c",
+    "method": "argos",
+    "zh_summary": "种下种子,看着它们生长!",
+    "zh_title": "JP 的实用机 - 裁剪压缩器 - 移动温室"
+  },
+  "1505944": {
+    "fingerprint": "b357da18b4218ee669c22cf8d461abcf4a92602385b44a389f4968c1b74b7129",
+    "method": "argos",
+    "zh_summary": "整个河谷都在种植野生作物",
+    "zh_title": "JP攻击野生作物-野生作物"
+  },
+  "1505946": {
+    "fingerprint": "36f29031cf7d6632431deafc4f4b86095bfbb5ea31a8361837bcae321ed9c8c3",
+    "method": "argos",
+    "zh_summary": "把动物搬到其他农场去",
+    "zh_title": "JP 将动物移到农场之间"
+  },
+  "1505951": {
+    "fingerprint": "9671b918e1a84dc8036705bf3b732007d095172734b20b48b62f479fbf2ebc0e",
+    "method": "argos",
+    "zh_summary": "星露谷物语 硬模式",
+    "zh_title": "JP 的 Hardew 谷 CU - 慢生活 - 专家模式"
+  },
+  "1505956": {
+    "fingerprint": "cb112951aa1211d16fb2186a4fe3720859fd1e98452d3f1178714160e6af1789",
+    "method": "argos",
+    "zh_summary": "砍掉树,你就会看到定制动画",
+    "zh_title": "JP's I cut down a tree and it flew away (我砍下一棵树,它飞走)"
+  },
+  "1505958": {
+    "fingerprint": "9ec5ff28179e9d5d9dba52ca3f61150d1f5a11eb617c7ed6953b27be08e4a99e",
+    "method": "argos",
+    "zh_summary": "魔法肥料,用于你的植物",
+    "zh_title": "JP 的魔法肥料"
+  },
+  "1505962": {
+    "fingerprint": "4cea71ff7a796fbb21e42f128bbdfa890e05fed52d496c853a2ac959423eddf2",
+    "method": "argos",
+    "zh_summary": "新建购物必读书",
+    "zh_title": "JP 的《商贸图书》"
+  },
+  "1505970": {
+    "fingerprint": "2b38f9897d62765ee0ad26319df2f2d84a9993f4c612f6a246028c408dc4853f",
+    "method": "argos",
+    "zh_summary": "更好的猪,猪改良",
+    "zh_title": "JP的\"好猪——更好的猪\""
+  },
+  "1505973": {
+    "fingerprint": "21eb18f14b79771034ac113f322ae3c38298132286462f3cc918d5d42c56c56c",
+    "method": "argos",
+    "zh_summary": "动物们在任何天气下都会出去",
+    "zh_title": "JP的动物在冬雨中外出"
+  },
+  "1506410": {
+    "fingerprint": "2d2d180b1d38795870da9e041d6a9330facdc18f0bc5bd7773ad37e19e8b7077",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为缝纫机添加22种独特的重彩,使用彩色桶在样式间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] Kehaan 缝纫机变体"
+  },
+  "1509308": {
+    "fingerprint": "0ce45c7a78850f475f927f806c9781748a2f80775b0ecc7f77884e7675fb3137",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为6 NPC 机型添加4 种独特的复色,使用漆桶在不同样式间切换.",
+    "zh_title": "[AT] Kehaan NPC 机器变体-学士"
+  },
+  "1509309": {
+    "fingerprint": "471b3208d7c110222def2d2e0afac20df19de578f733236cd0c006ec3ddfc732",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为6 NPC 机型添加4 种独特的复色,使用漆桶在不同样式间切换.",
+    "zh_title": "[AT] Kehaan NPC 机器变体 - 百叶窗"
+  },
+  "1509310": {
+    "fingerprint": "7ff937b7181733a89db250866768e0c98b0b82905486f7e2789c8493120c6c47",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为18台NPC机器添加4种独特的重彩,使用漆桶在不同样式间切换.",
+    "zh_title": "[AT] Kehaan NPC 机器变体 - 村民"
+  },
+  "1509312": {
+    "fingerprint": "5f02ef027716d753880c022ed0b66e53eef0dbe960908e8c7dcd902e1150dae7",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为12台NPC机器添加4个独特的重彩,使用漆桶在不同样式间切换.",
+    "zh_title": "[AT] Kehaan NPC 机器变体 - 特别的NPC"
+  },
+  "1512075": {
+    "fingerprint": "28cdb0cb1b577cdde3e49c4b80c41c552e7c2c56dab4238bd50349c26ae8f261",
+    "method": "reviewed",
+    "zh_summary": "通过 Content Patcher 和 GMCM 更改巴士颜色。可选水蓝、蓝色、深紫、绿色、粉色、红色、黄色，也可保留原版配色。",
+    "zh_title": "[CP] 自定义巴士颜色"
+  },
+  "1515833": {
+    "fingerprint": "95773ca85eead6e55f3749e0f2c877838c61b167c8b1f168d10044df10454531",
+    "method": "argos",
+    "zh_summary": "除了Dew以外,还有一个大型的星露谷物语Modpack,它建在A World Of Dew上,其特色是突如其来的扩张,不寻常的作物,交叉激发的内容,可爱的同伴,主题动物,创造了更梦幻和意想不到的Stardew体验.",
+    "zh_title": "绕过露水"
+  },
+  "1516452": {
+    "fingerprint": "178e5d3e2ea7585c9974a1ee3f67b364f7c0241b25be48682c83cb87bb06c283",
+    "method": "argos",
+    "zh_summary": "这是一个Content Patchermod,它修改了modpack\"Beyond Dew\"的主菜单.",
+    "zh_title": "[CP] 超越 Dew - 主菜单"
+  },
+  "1517890": {
+    "fingerprint": "ea543b64fc513ff967071ee85535605e858d73d9f8f23bcb3e2c05a2c88aa2bc",
+    "method": "argos",
+    "zh_summary": "每天产生资源的图腾.",
+    "zh_title": "JP 的资源图腾"
+  },
+  "1517905": {
+    "fingerprint": "febc7d58029a74686e76f8adba77bad8f6626df16cec4a92548f1368b965f8cc",
+    "method": "argos",
+    "zh_summary": "白天的新颜色",
+    "zh_title": "JP 的碎片在空气中 - 环境灯"
+  },
+  "1518894": {
+    "fingerprint": "6bd08ab66e0b151da817f53a6701b231c61639c3c25352d0237f505d64282e99",
+    "method": "argos",
+    "zh_summary": "增加了12种独特的重彩,用于木栅,石栅,铁栅,硬木栅,以及使用替代纹理的门.",
+    "zh_title": "[AT] 基哈恩栅栏重彩"
+  },
+  "1520016": {
+    "fingerprint": "000c4c638025051e1c274a2e5225670e9d6939ec2abf7c9d5138118ea0519d45",
+    "method": "argos",
+    "zh_summary": "扩展的普法尔鱼通过在游戏中引入10种新的普法尔鱼品种,将全新的普法尔鱼变种带到星露谷物语.",
+    "zh_title": "扩展的普法鱼"
+  },
+  "1528717": {
+    "fingerprint": "5e060c9dbb02c8a500b1619f022627d3dcb17ac96636347f2ed410647def1b04",
+    "method": "argos",
+    "zh_summary": "杜鹃花世界是一个更难、更慢、更进步的聚焦版本。 在哈代谷周围建造的杜鹃花世界,可以重新平衡经济、捆绑、工艺、建筑、动物、战斗、机器,更有利于长期的专家经验。",
+    "zh_title": "杜鹃花专家世界"
+  },
+  "1528723": {
+    "fingerprint": "ce73dbe61fca83682247bc8da7ea5d8ef7ec8a9f1ee8c023bdd29f458d8092cb",
+    "method": "argos",
+    "zh_summary": "这是一个Content Patchermod,它改变主菜单的modpack\"A World Of Dew Expert\"",
+    "zh_title": "[CP] 杜鹃花专家世界-主菜单"
+  },
+  "1532606": {
+    "fingerprint": "32f4bbd82384b1809071f598886f26263133799f8282354d57199ceb4131ad67",
+    "method": "argos",
+    "zh_summary": "一个更硬化的专家版的Path Of Dew: RPG, 由STA驱动的角色构建,危险的战斗, 大规模的开放世界探索,更坚固的捆绑,更强大的怪物, 和重新平衡的长期进步.",
+    "zh_title": "Dew路径:RPG专家"
+  },
+  "1532611": {
+    "fingerprint": "80470b81c95c32366e4259214fe5cfdfde97fd03b4b51654c029069675616212",
+    "method": "argos",
+    "zh_summary": "这是一个Content Patchermod,它修改了modpack\"Dew:RPG 专家的Path\"的主菜单.",
+    "zh_title": "[CP] Dew路径:RPG专家-主菜单"
+  },
+  "1533477": {
+    "fingerprint": "4ce6a6fa07801633a49ab2aa4337008a7008732ccfdd90a03cd0d9362fa1ed74",
+    "method": "argos",
+    "zh_summary": "加上Robin的锯木座,生产木板和硬木板,还有两张装饰板凳,售价罗宾的木匠店. 配置价格,解锁要求,以及制作时间.",
+    "zh_title": "[CP] 罗宾的木匠法官"
+  },
+  "1533479": {
+    "fingerprint": "baa86e14785de46dc369f1039d7d6ddd5c0294c40f15e58e96ea4ed8e2f05d99",
+    "method": "argos",
+    "zh_summary": "添加8种果树复制品,每场比赛每天生产一次果树。 在皮埃尔的店铺出售,价格可塑,年限不锁,店铺切换和计时器。",
+    "zh_title": "[CP] 水果树的复制品"
+  },
+  "1533480": {
+    "fingerprint": "520be4af40fbd5db1142dcfb0d1c9bb7c6a5de58c0e1144ea5db9444258a0258",
+    "method": "argos",
+    "zh_summary": "加上了小提琴头刺、鲁什野树、蘑菇树和神秘树复制品,它们每游戏一天生产稀有森林、苔藓、蘑菇和神秘物品。 在齐先生的店铺出售,价格可塑,店面切换和计时器。",
+    "zh_title": "[CP] 神秘树 设定复制品"
+  },
+  "1533481": {
+    "fingerprint": "7ffa6585588fb0ae16a846493d66173f1fd97e22ca4830fb27df9685620052e6",
+    "method": "argos",
+    "zh_summary": "加上枫树、橡树、松树、马霍加尼和棕榈树复制品,每个游戏日生产木材、种子、糖浆、树脂、焦油、硬木或椰子一次。 在Robin的店铺出售,价格可塑,没有解锁年限、店面切片和计时器。",
+    "zh_title": "[CP] 野树套装复制品"
+  },
+  "1541021": {
+    "fingerprint": "0d5120c9246ec906b4d7fc31408e19f1e0c79bfbab1443b129e91c7591af0107",
+    "method": "argos",
+    "zh_summary": "Dew More Creative是一款具有创意的沙盒模具,有作弊,物品产卵,飞翔的飞马座,伴奏,早期的舒适特征,以及建立重点的生活质量.",
+    "zh_title": "Dew 更多创意"
+  },
+  "1541130": {
+    "fingerprint": "94ee4639b1b517108f589170fcd6b74fd655cc16b6fa4dbc0724381efa4bcc61",
+    "method": "argos",
+    "zh_summary": "这是一个Content Patchermod,它修改了modpack\"Dew More Creative\"的主菜单.",
+    "zh_title": "[CP] Dew More Creative - 主菜单"
+  },
+  "1548995": {
+    "fingerprint": "8a9c908a26305603712b6007a71206a3c59411be15ae64e9ff522cf4f5149c17",
+    "method": "argos",
+    "zh_summary": "增加13个可配置的变体\"秘记\".",
+    "zh_title": "[CP] Kehaan 秘密笔记的变式"
+  },
+  "1552731": {
+    "fingerprint": "73017f7403c5d2bcc197f5b2a755ab50c339d700e03b714866116d9468a2d450",
+    "method": "argos",
+    "zh_summary": "这是Content Patcher的mod,它修改了modpack\"Dew Invasion\"的主菜单.",
+    "zh_title": "[CP] Dew 入侵 - 主菜单"
+  },
+  "1552732": {
+    "fingerprint": "ca0173269e2f39474e674a7e2d24d27c779611e62ba14fb5da571798ddd68afb",
+    "method": "argos",
+    "zh_summary": "山谷已经不安全了。面对随机的怪物伏击,罕见的老板遭遇,矿井转移,进步更困难,生存游戏在这场以战斗为重点的专家模具游戏中。",
+    "zh_title": "露水入侵"
+  },
+  "1552736": {
+    "fingerprint": "f4cee9207be591049ed22c70c89a8c4bc176096f9cbbe0884d931d5ccc1ad58f",
+    "method": "argos",
+    "zh_summary": "添加5个装饰性的Mastery柱用于农耕,采矿,饲料,钓鱼,以及战斗,每根柱子在玩家达到匹配技能的10级时都会通过邮件发送,装饰只有Content Patchermod.",
+    "zh_title": "[CP] 主控支柱设置复制"
+  },
+  "1552739": {
+    "fingerprint": "f1c441a2cb4fc59e8db9e221f9c2bf6a0f8531b0131dd5dc033a358241b1f8ce",
+    "method": "argos",
+    "zh_summary": "添加一个小的布克塞尔店柜台,后面是布克塞尔店。每天生产布克塞尔的普通商店物品之一。在布克塞尔店售出后,要满足可配置的黄金需求。",
+    "zh_title": "[CP] 书商的小店主复制品"
+  },
+  "1552740": {
+    "fingerprint": "3c09d7dcd37acb47653d3c6d26b57f05853f2740a6a1e800574f06f9867f3b02",
+    "method": "argos",
+    "zh_summary": "加上一个小赌场出纳柜台,后面是出纳员。 每天生产赌场的普通商店物品之一。 在一个可以想象的黄金需求之后,在赌场出售。",
+    "zh_title": "[CP] 赌场出纳员的小店主复制品"
+  },
+  "1552741": {
+    "fingerprint": "a1047bb95fd3c3ba0fe3162cc2ae9a3fc3200c748ec5622317e29ffbb8595844",
+    "method": "argos",
+    "zh_summary": "添加一个小的克林特商店柜台,后面有克林特。每天生产克林特的普通商店物品之一。在铁匠店出售时,需要可配置的黄金。",
+    "zh_title": "[CP] 克林特的小店主复制品"
+  },
+  "1552742": {
+    "fingerprint": "9abfa7a890d07e1277dc49c00751b27cfb46f29f88341afbaa6f27ea4f611f9a",
+    "method": "argos",
+    "zh_summary": "增加一个小矮人商店柜台,后面有矮人。 每天生产矮人普通的商店物品之一。 在矮人商店出售时,需满足可配置的黄金需求。",
+    "zh_title": "[CP] 小矮人的小店主复制品"
+  },
+  "1552744": {
+    "fingerprint": "7574b8602cf936cee5707fd0872841cc78c108e7b7de7d1a6a38dd528992e83d",
+    "method": "argos",
+    "zh_summary": "增加一个小的Gus商店柜台,Gus站在柜台后面。 每天生产Gus一个普通的店面。 在Stardrop沙隆出售时,需要的是可配置的黄金。",
+    "zh_title": "[CP] 盖斯的小店主复制品"
+  },
+  "1552745": {
+    "fingerprint": "feebb15192571249b8af3f0f75011d1bc1c9d91c490bd2a7adc849f5dda1679c",
+    "method": "argos",
+    "zh_summary": "增加一个小的哈维商店柜台,而哈维则站在柜台后面。 每天生产哈维正常的商店物品之一。 在哈维诊所销售时,需要的黄金总额可以估计。",
+    "zh_title": "[CP] 哈维的小店主复制品"
+  },
+  "1552747": {
+    "fingerprint": "e715d7d0a9dbd35faf7940e56e29afcb75683cd6ac9a9edf40e1a05c8d7ca7b6",
+    "method": "argos",
+    "zh_summary": "加上一个小的岛贸易商商店柜台,后面是岛贸易商。 每天生产岛贸易商的普通店面之一。 岛贸易商在满足可配置的黄金需求后在岛贸易商出售。",
+    "zh_title": "[CP] 岛商的小店主复制品"
+  },
+  "1552748": {
+    "fingerprint": "a438245c902c8ad2917300f0166c59b04a3ba0d66bfa447c8c68e59ca33e317b",
+    "method": "argos",
+    "zh_summary": "增加一个小的JojaMart收银台,后面是收银员。 每天生产JojaMart的普通店面。 在JojaMart出售时,需要可塑黄金。",
+    "zh_title": "[CP] JojaMart 出纳员的小店主复制品"
+  },
+  "1552749": {
+    "fingerprint": "ec1fc73cb7f0037c30839d719a0a11d2731e3d92102f2b81f9bace1f8f1ca3c4",
+    "method": "argos",
+    "zh_summary": "加入一个装饰性的微型版本的冒险家协会的商店柜台,由Marlon站在后面。 冒险家协会的售价是可估量的黄金收入总额。",
+    "zh_title": "[CP] 马龙的小店主复制品"
+  },
+  "1552750": {
+    "fingerprint": "0d63d35c47eb5dc7c4083dcaadc5af660f5329e1a58cd9341bb89ae69af46fe2",
+    "method": "argos",
+    "zh_summary": "增加一个小的玛尔尼商店柜台,玛尔尼站在柜台后面。 每天生产玛尔尼一个普通的商店物品。 在玛尔尼牧场出售时,需要的是可塑黄金。",
+    "zh_title": "[CP] 玛妮的小店主复制品"
+  },
+  "1552752": {
+    "fingerprint": "00d12e1251b814629ae251714fdcb5b9fb9ecf1c69a35ec0e87cdf4d32d23d93",
+    "method": "argos",
+    "zh_summary": "添加一个装饰性的迷你版本的Hat Mouse商店柜台,上面有Hat Mouse的后台。 由Hat Mouse在可配置的所得黄金总需求后出售。",
+    "zh_title": "[CP] 帽子鼠的小店主复制品"
+  },
+  "1552753": {
+    "fingerprint": "69d1be6a7329aa0446d9ca821e5798695a1fea8acfb14c6fa1f2fd3efb5adea4",
+    "method": "argos",
+    "zh_summary": "增加一个小的皮埃尔商店柜台,皮埃尔站在柜台后面。 每天生产皮埃尔的普通商店物品之一。 在皮尔店售出时,需要可塑的黄金。",
+    "zh_title": "[CP] 皮埃尔的小店主复制品"
+  },
+  "1552756": {
+    "fingerprint": "13870af3d5c472669fa00e83acbb057d47bbf4c436642b3c695d5414bafdfe3d",
+    "method": "argos",
+    "zh_summary": "增加一个小的Sandy商店柜台,由Sandy站在后面。 每天生产Sandy的普通商店物品之一。 在绿洲出售时,需要可塑黄金。",
+    "zh_title": "[CP] 桑迪的小店主复制品"
+  },
+  "1552757": {
+    "fingerprint": "57a20ff802619ba39cc51e7d509f7c79b21575352e2787eae1a3ca73a9b58bc2",
+    "method": "argos",
+    "zh_summary": "添加一个小火山矮人店柜台,后面是火山矮人店。 每天生产火山矮人店的普通物品。 在火山中出售时,需要可配置的黄金。",
+    "zh_title": "[CP] 火山矮人小店主的复制品"
+  },
+  "1552758": {
+    "fingerprint": "6d6f2c3f3c4ef2d9b85c7ff5f6a20f169484bc0f762e73f9b0e677bf980e2453",
+    "method": "argos",
+    "zh_summary": "加入一个小威利商店柜台,威利站在柜台后面。 每天生产威利的普通商店物品之一。 在威利的鱼店销售时,需要的可塑黄金。",
+    "zh_title": "[CP] 威利的小店主复制品"
+  },
+  "1553955": {
+    "fingerprint": "7b3546a3aae2b210de9f80093a205ca64562b3bc401d407b203f4d5f15a154fd",
+    "method": "argos",
+    "zh_summary": "一次解锁 星露谷物语 。 每一块瓷砖都要付钱, 费用会增加, 您购买得越多。 通过社区中心项目或博物馆捐赠, 收入奖金瓦片, 每个保存文件都可以配置 。",
+    "zh_title": "夹层的谷地模式"
+  },
+  "1556275": {
+    "fingerprint": "f98a5db8827465b53634ee7081ff7f9a2a36fa808f11070cec1cb15725f5a504",
+    "method": "argos",
+    "zh_summary": "一个智能手机,你可以与NPC进行实际聊天,拍照,并在StardewSocial上写文章,前1媒体频道为星露谷物语",
+    "zh_title": "智能手机"
+  },
+  "1556682": {
+    "fingerprint": "aa55dfa8387cad87f39f8a2d3188829d6ca98b2fa637dc4d6ce0f13b90a04240",
+    "method": "argos",
+    "zh_summary": "这是一个Content Patchermod,它修改了Modpack\"Dew By Tile\"的主菜单.",
+    "zh_title": "[CP] Dew by Tile - 主菜单"
+  },
+  "1556684": {
+    "fingerprint": "536516ea72eb8146308aee3cf5f03d10dc5a6d144b5f834e776b88db74227ee2",
+    "method": "argos",
+    "zh_summary": "解锁 星露谷物语 , 一次一个砖块, 位于这个 SkyBlock 风格的挑战 Modpack 中。 在 Tile-Locked Valley 周围建有 Morning Dew QoL 特性, Kehaan 的定制内容, 以及 砖瓦逐瓦的推进 。",
+    "zh_title": "Dew by Tile (英语)."
+  },
+  "1557092": {
+    "fingerprint": "aa303b454ed2f6594a17b5b83ffc5302916697b55a53f83911eb930f54fb3118",
+    "method": "argos",
+    "zh_summary": "让玩家敲门内门,导致房主在房间时会接门.",
+    "zh_title": "门敲门"
+  },
+  "1557856": {
+    "fingerprint": "725411cca91723767252fcb14ca23ae06304f462974b070d56fb19d3f947c995",
+    "method": "argos",
+    "zh_summary": "增加您可以装备的功能性三角形数量,最多24个,默认情况下会增加4个三角形槽.",
+    "zh_title": "JP 的 Trinkets - 穿着更多的 Trinkets Name"
+  },
+  "1560783": {
+    "fingerprint": "8c45dd2d527149669d33880476e8609da9b9ccc634edaf4a57579352d9aef264",
+    "method": "argos",
+    "zh_summary": "让你种植一些小作物 4-每瓦,或者可选地让它看起来那样。",
+    "zh_title": "更近的裁剪"
+  },
+  "1565181": {
+    "fingerprint": "593c6ff837ea4bc8d122cad7db01d5b4bcd4526784da25c901202f49aa899fb0",
+    "method": "argos",
+    "zh_summary": "剪草造草 动态视觉草生长 利用皮条斧从草丛中恢复草原 草坪生长速度慢一点 一点都没有",
+    "zh_title": "草坪"
+  },
+  "1575313": {
+    "fingerprint": "472cbcf6f66b304d4591b244d707c8606b65919a3023730b33406f065090fe13",
+    "method": "argos",
+    "zh_summary": "从一开始就把Trinkets解锁 不需要战斗大师!",
+    "zh_title": "JP 的 Trinkets - 早期的 Trinkets 语言"
+  },
+  "1577444": {
+    "fingerprint": "b2b89312068efbb36f8462c7d42087fdb878311d463f78a2c8884aebdfd3308b",
+    "method": "argos",
+    "zh_summary": "在预算Tv,Floor Tv,Plasma TV,Retro TV和热带TV中增加12种独特的复色,使用替代纹理,使用彩色桶在风格间切换,如红,绿,蓝,紫金等.",
+    "zh_title": "[AT] Kehaan 电视变体"
+  },
+  "1577445": {
+    "fingerprint": "368163aaefcd187d2847c4e72b0db0457edb273c1132e1568ea25e3b6d7b5f5a",
+    "method": "argos",
+    "zh_summary": "使用另类纹理添加12种笛形块和鼓形块的独特复色,使用彩色桶在样式间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] Kehaan 音乐块变体"
+  },
+  "1578423": {
+    "fingerprint": "78d554e0b345faad45505248af40baec8753eadf4baa37bb5ce9c6f22be6445c",
+    "method": "argos",
+    "zh_summary": "使用另类纹理添加所有目录的12种独特的重彩。 使用彩色桶在样式之间切换, 如红、绿、蓝、 紫色等。",
+    "zh_title": "[AT] Kehaan 目录变体"
+  },
+  "1578716": {
+    "fingerprint": "0dbc49a58226f9741ef5f7f31f2023dc8aeb7e5f6ce852e7f50f0e94fdd1ccb0",
+    "method": "argos",
+    "zh_summary": "Dew It All是Kehaan最狂野的“添加所有模式 ” 星露谷物语 Modpack:961 mods 在一个巨大的实验性风格体验中。 与Everything Dew相比,它没有那么精细,而是为那些想要最大的Dew包的玩家装满了内容。",
+    "zh_title": "都露出来"
+  },
+  "1580843": {
+    "fingerprint": "9f3f18d9c02e785a9d9f3e78a7be0a86514ade9e9721a8dbd2b25d94403ef71f",
+    "method": "argos",
+    "zh_summary": "这是Content Patcher个mod,它修改了modpack\"Dew It All\"的主菜单.",
+    "zh_title": "[CP] Dew It all - 主菜单"
+  },
+  "1582175": {
+    "fingerprint": "c5ba35e0ca9d5075b3dc5fcbe7cfcf659f095a3a14e3ab37695ff7f380919e7d",
+    "method": "argos",
+    "zh_summary": "加上一个小的Krobus商店柜台,后面有Krobus。 每天生产Krobus的店面物品。 在Krobus商店销售时,需要的是可塑的黄金。",
+    "zh_title": "[CP] Krobus 小型商店管理员复制品"
+  },
+  "1582177": {
+    "fingerprint": "db3473abeba83d7a9daab8819269f92cdeeaa3a9d42b1c2e8367f3e90744c812",
+    "method": "argos",
+    "zh_summary": "加上一个小齐店柜台,后面是齐店,每天生产齐店的一件普通物品。 在齐店出售齐店,是经过可塑金矿要求后。",
+    "zh_title": "[CP] 齐小店主的复制品"
+  },
+  "1582178": {
+    "fingerprint": "3efdce34ba47d390e93804c247acb936fc4dce26728edbbdb479dbfd000ade81",
+    "method": "argos",
+    "zh_summary": "添加一个小浣熊商店柜台,后面有浣熊。 每天生产浣熊商店的一件普通物品。 浣熊商店是经过可塑黄金需求后出售的。 浣熊商店的售卖量比以往要高。",
+    "zh_title": "[CP] 浣熊的小店主复制品"
+  },
+  "1582180": {
+    "fingerprint": "944484bb0f483320932ddc274f3b548adde3444bc66bb7f03896bcbff9935285",
+    "method": "argos",
+    "zh_summary": "添加一个小的“ 巫师” 商店柜台, 后面有“ 巫师” 。 每天制作一个“ 巫师” 的套件。 在 Krobus 商店销售时, 需要可配置的黄金。",
+    "zh_title": "[CP] 巫师的小店主复制品"
+  },
+  "1582182": {
+    "fingerprint": "c6dc2639111bcd95d66610c822b22e3c430d545ccaf24ae97a285dd0c3eb6005",
+    "method": "argos",
+    "zh_summary": "增加一个海滩地图复制机,每游戏日生产一个海滩饲料项目一次,以及一个海滩地图装饰. Sold at the Fish Shop.",
+    "zh_title": "[CP] 海滩地图复制"
+  },
+  "1582183": {
+    "fingerprint": "cb2c001b0c486e94da55b9abc2b84ca3d0b3707407df2dff88ea513769cb5754",
+    "method": "curated",
+    "zh_summary": "添加一台沙漠石柱复制机和一个装饰品。复制机每个游戏日会产出一件沙漠物品。可在绿洲商店购买。",
+    "zh_title": "[CP] 沙漠石柱复制机"
+  },
+  "1582184": {
+    "fingerprint": "a358742878dbdef15092f779d3d4bf21c74219899edd3e2104b2eb7416963260",
+    "method": "curated",
+    "zh_summary": "添加一台山区地图复制机和一个山区地图装饰品。复制机每个游戏日会产出一件物品，可能是山区采集物、采石场战利品或鱼。可在罗宾的木匠店购买。",
+    "zh_title": "[CP] 山区地图复制机"
+  },
+  "1582185": {
+    "fingerprint": "3fd6891b99a95f082fbc42a71d015ef28b1d7bcd1bf1676f289d63b8353299c0",
+    "method": "argos",
+    "zh_summary": "增加一台秘密森林地图复制机,每场比赛每天生产一次秘密森林饲料或鱼品,并增加一个秘密森林地图装饰。 出售在玛尔尼牧场。",
+    "zh_title": "[CP] 秘密森林地图复制品"
+  },
+  "1582201": {
+    "fingerprint": "849c3ef900c0e425c99b2699bca6b2e444c9cc508d1ada68c91b03f991ca301a",
+    "method": "argos",
+    "zh_summary": "将八个小农场地图牌加到星露谷物语,由Robin从第2年开始销售,这是为您最喜欢的农场布局设置的墙壁装饰.",
+    "zh_title": "[CP] 农场花旗"
+  },
+  "1582881": {
+    "fingerprint": "ee02080cdc63f633eafacdcc532172031f368d3563661856dfa2d874c25c6b38",
+    "method": "argos",
+    "zh_summary": "给巨型作物门和内部空间.",
+    "zh_title": "大型作物内部公司"
+  },
+  "1584402": {
+    "fingerprint": "e277d5c85d72e51a43429d233977525b07b5f11e75f6010e01d2018de8126293",
+    "method": "argos",
+    "zh_summary": "加上一个小的罗宾店柜台,罗宾站在柜台后面。 每天生产罗宾的普通店面。 在卡彭特商店销售时,要满足可塑黄金的需求。",
+    "zh_title": "[CP] 罗宾的小店主复制品"
+  },
+  "1586754": {
+    "fingerprint": "2212d4dc51e7958e5413475543742213302e003ed266be9529c687b31bf2b369",
+    "method": "argos",
+    "zh_summary": "Pokehaan Dew将Pokehaan体验带到星露谷物语. 受Pokehaan手工业Minecraft Modpacks的启发,并在Morning Dew上建构,它使用Pelipper Town作为其主要游戏机mod与QoL功能并列,以及大量定制的Kehaan内容集.",
+    "zh_title": "Pokehaan Dew (英语)."
+  },
+  "1586756": {
+    "fingerprint": "fa07b24c58282a31fc81da6addec763c73951f2702d0a8e041ea5d510fec1c83",
+    "method": "argos",
+    "zh_summary": "这是Content PatcherMod,它修改了modpack\"Pokehaan Dew\"的主菜单.",
+    "zh_title": "[CP] Pokehaan Dew - 主菜单"
+  },
+  "1596608": {
+    "fingerprint": "92b2f750529eebc1764d4a0b7907bbdbd962449ed81b282e92c05a6d801b7f58",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为Shipping Bin添加12种独特的重彩,使用漆桶在粉红,红,绿,蓝等样式间切换.",
+    "zh_title": "[AT] Kehaan 航运本的备选案文"
+  },
+  "1613049": {
+    "fingerprint": "0ad7a944e02b3d919c8fbb1620854403880d0a8294563303537b5d46cdb0a081",
+    "method": "argos",
+    "zh_summary": "显示您当前位置为 HUD 弹出( 样式与“ 越来越晚 ” 相同 ) 。",
+    "zh_title": "简单定位"
+  },
+  "1627027": {
+    "fingerprint": "abaaf441021314ff1e75be2dcef6cfaf6aa096c4f072331606b3fb9558d11a20",
+    "method": "argos",
+    "zh_summary": "加上奥黛丽,一个新的国家警察局 住在你农场上面的后木山上",
+    "zh_title": "欧蕊 - 新定制 NPC"
+  },
+  "1644880": {
+    "fingerprint": "142505b23edaaa6d702aae762dada87b302fb85e57e56d22e1be77eb654938f4",
+    "method": "argos",
+    "zh_summary": "让Pokémon协助你绕过山谷,帮助农场工作,并参加熟悉的城镇居民的新征程.",
+    "zh_title": "佩利珀镇"
+  },
+  "1656962": {
+    "fingerprint": "ce017258ce56a3978da71024c8bcf333346003d618f7a1cc6c5a490dcec47c9e",
+    "method": "argos",
+    "zh_summary": "一个更清洁的对话界面,可以消除木箱,并在谷地的对话中引入一个颜色梯度.",
+    "zh_title": "JP 的 Shin 对话框"
+  },
+  "1658597": {
+    "fingerprint": "94b0016399980af5af9f13b2433b87acb56490faf426f1955c6f577fd842ecd8",
+    "method": "argos",
+    "zh_summary": "添加芳香商品、技能和职业,鼓励您在多种游戏技能中进行觅食和提升生产。对不需要玩的OVR Omara设备的可选实时支持。",
+    "zh_title": "药剂师"
+  },
+  "1661099": {
+    "fingerprint": "64ca992c639388b129fbea72d4c5c23dd3b03e15adb90a70f1ddaa8a70dd02e5",
+    "method": "argos",
+    "zh_summary": "Pokehaan Dew Adders将可选的Pokehaan主题视觉和物品修改增加为星露谷物语,并计划为未来的更新增加更多的内容.",
+    "zh_title": "Pokehaan Dew - 添加数"
+  },
+  "1666649": {
+    "fingerprint": "c362a3d045368ce396d2eb4922adb640a1f3b169c1a131bfc58d837fc2fd6a88",
+    "method": "argos",
+    "zh_summary": "你想玩舍洛克·福尔摩斯第一章和\"觉醒\"(The Aleadyed into 星露谷物语)吗?本游戏模式中有9套FW夏洛克·福尔摩斯游戏的服装:夏洛克4套,华生2套,乔恩1套,麦克罗夫特1套,沃格尔1套.",
+    "zh_title": "马莱·克洛辛 - 蛙类软件 夏洛克·福尔摩斯包 - 外装预设 FS - 时尚感"
+  },
+  "1666662": {
+    "fingerprint": "996dbd827cdcdebbdfcf13e40da694e1e40c68ee4d53af3b6729c34bfd58bbc6",
+    "method": "argos",
+    "zh_summary": "一套基于Bonestealer的男装,由marmuruah制作的漫画,其中也包括一些皮肤色调变异,所以即使你对漫画不熟悉,你也可以发现这套服装很有用.",
+    "zh_title": "马雷·克罗廷 - 骨质动物包 - 外型预设 FS - 时装"
+  },
+  "1668002": {
+    "fingerprint": "471769bdcf9ce0663d181e6bda90bd6b41379691a82e22828619f79d68f07762",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为鱼塘楼添加12种独特的重彩,使用彩色桶在风格间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] 凯哈恩鱼塘替代物"
+  },
+  "1668241": {
+    "fingerprint": "60490361e75a0ab7d2052e6b4f4568de16c30002ff863ba7d3e745c4574c8421",
+    "method": "argos",
+    "zh_summary": "打开电视,让本地新闻主播 重现你在山谷里的一周, 由你自己的作品产生,与其他电视模式合作。",
+    "zh_title": "这周在鹈鹕镇"
+  },
+  "1668335": {
+    "fingerprint": "9c1ad9984c9a662a66a78495d79e0d01df9fccf36417ad89dc3fe32849054703",
+    "method": "argos",
+    "zh_summary": "一个让内容包和C#mods附加一个交互菜单的modding框架,其中包含条件,成本,冷却和效果等内容,用于任何大型的可手动或家具. 要求Content Patcher创建对象.",
+    "zh_title": "交互式对象框架"
+  },
+  "1668883": {
+    "fingerprint": "d46228d46ebb225bec7cebf3e159196c3f8d991559765dff0b0cee7fb49f48e0",
+    "method": "argos",
+    "zh_summary": "True Zom保持了星露谷物语的世界和UI的锐度,在任何缩放级别上都有平稳的过渡。 原生控制和分屏工作如期进行,如果另一个模式触碰了相同的渲染码,True Zom步骤就放在一边而不是相互冲突。",
+    "zh_title": "真缩放"
+  },
+  "1668937": {
+    "fingerprint": "83ecb7f4d93f88720ddaba5427091094567648d2b847d5a422c65e8f26a54b8c",
+    "method": "argos",
+    "zh_summary": "一个将自己的迷你游戏插入街机柜的依赖性框架,其中包含一个共享的售票钱包、高分和奖座。它提供了一个C# API, 以及一个增加三个游戏的范例。 自己什么都不做 。",
+    "zh_title": "拱门框架"
+  },
+  "1669136": {
+    "fingerprint": "512637c7eac6c1bf5402555d4b0d9a42680298a650a75f7d38e523eceb0f400f",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为稳定建筑添加12种独特的重彩,使用漆桶在风格间切换,如红,绿,蓝,紫,红等.",
+    "zh_title": "[AT] Kehaan 稳定变式"
+  },
+  "1669288": {
+    "fingerprint": "f5aec059f3cb69b1b73eedf4161c3bc965234a595e8dbf29e029e89512cb1bac",
+    "method": "argos",
+    "zh_summary": "销售价格与你销售的多少相呼应。 市场和价格暴跌,以微薄的溢价出售。 作物、手工业品、饲料、动物产品和鱼类的工程,有彩色工具提示、市场报告电视频道和GMCM支持。",
+    "zh_title": "供应和需求"
+  },
+  "1671248": {
+    "fingerprint": "844697eeae38603122f206821ac7b3dcd74966c5beec73d77e95971d71ae7518",
+    "method": "argos",
+    "zh_summary": "一个能提高你移动速度的简单模式,还有Bug Fixes.",
+    "zh_title": "JP 运行快捷模式"
+  },
+  "1671251": {
+    "fingerprint": "9d45cf64dd7556cebd91638f17562323124fa6192b534911efe70785149e0d31",
+    "method": "argos",
+    "zh_summary": "在Terraria的闪光的启发下,你可以把一个物品扔进井里,它会变成完全不同的东西.",
+    "zh_title": "JP 的闪光井 - 项目传输"
+  },
+  "1673927": {
+    "fingerprint": "046dbcba6f2353c82786aa2bbe0295e376ddb55b1653f97b8194f6369901b0f8",
+    "method": "argos",
+    "zh_summary": "这里有一些游戏目录(墙纸和家具) 重排,以匹配莫尔的家具和墙纸.",
+    "zh_title": "AT x CP - Molamole 目录重排"
+  },
+  "1673929": {
+    "fingerprint": "940928862723d293b3676befbbe92fce3a75dcf2b0895b53f47b654159cf391b",
+    "method": "argos",
+    "zh_summary": "给一些公园的纹理装饰你的农场!",
+    "zh_title": "AT x CC - Molamole 公园座椅"
+  },
+  "1676112": {
+    "fingerprint": "ffaa776bb8a92ef46e14abe577a897882bf5f4bfc1b43a242641eb08edcf156f",
+    "method": "reviewed",
+    "zh_summary": "为遗失之书增加 12 种纹理。默认使用原版外观，通过 Generic Mod Config Menu 可以切换配色。",
+    "zh_title": "[CP] Kehaan 遗失之书配色"
+  },
+  "1676244": {
+    "fingerprint": "c4e498b9e95358abec0441eb1ddbe4b461c96dcd8e655b84ba4e4b07619dd2a3",
+    "method": "argos",
+    "zh_summary": "Dew - 添加了可选的Dew主题视觉和项目修改到星露谷物语,并计划为未来的更新增加更多的内容.",
+    "zh_title": "Dew - 添加数"
+  },
+  "1680453": {
+    "fingerprint": "5bed5f7468aa05a281842d9b05fe05c474be01ff003349713f0bd94b7f84e310",
+    "method": "argos",
+    "zh_summary": "这是Content Patchermod,它修改了modpack\"Pokehaan Dew: RPG\"的主菜单.",
+    "zh_title": "[CP] Pokehaan Dew: RPG - 主菜单"
+  },
+  "1680456": {
+    "fingerprint": "0dbc6fbcc48fbaaa4493881a99d6eb5a6a291a8d54d83a2904cd4442ae84735a",
+    "method": "argos",
+    "zh_summary": "这是一个Content Patchermod,它修改了modpack\"Everything Pokehaan Dew\"的主菜单.",
+    "zh_title": "[CP] Pokehaan Dew - 主菜单"
+  },
+  "1680457": {
+    "fingerprint": "02de6170f24de40b1fc6a02f81bd3babac72193114fb93cab5083dd9d5fa376a",
+    "method": "argos",
+    "zh_summary": "Pokehaan Dew将Pokehaan Dew的冒险与Everything Dew的大量内容结合在一起。在探索新的NPC,区域,事件,服装,探险的同时,与Pelipper Town进行抓捕,训练,以及战斗,并跨越700+mods.",
+    "zh_title": "所有的东西 Pokehaan Dew"
+  },
+  "1681032": {
+    "fingerprint": "d6768c720a26f13d9884f81e875da6b25da2edd513be7563d96aaec07eb0d97f",
+    "method": "argos",
+    "zh_summary": "一个显示您 \" 星露谷物语 \" 的 Mod 实时保存在 Discord 上, 不仅仅限于统计,而且还显示您的性格和额外内容 !",
+    "zh_title": "星际存在( Discord)"
+  },
+  "1681690": {
+    "fingerprint": "e8a00e0e31a4e39d524af642c53ee57070014c4e53ccd4561f35a5a847e739a4",
+    "method": "argos",
+    "zh_summary": "盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖,盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖,盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖,盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖,盖盖盖盖,盖,盖,盖盖盖盖,盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖,盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖,盖盖,盖,盖,盖盖盖,盖,盖盖盖盖盖盖盖,盖盖盖盖,盖,盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖,盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖,盖,盖盖盖盖盖盖盖盖盖盖盖,盖,盖盖盖,盖盖,盖盖盖,盖,盖盖盖盖盖盖盖盖盖盖,盖盖盖盖盖盖盖,盖盖盖盖盖盖盖盖盖,盖,盖,盖,盖,盖盖盖盖盖,盖,盖盖,盖盖盖盖,盖盖盖盖盖盖盖盖盖盖盖盖盖盖,盖,盖,盖,盖,盖盖,盖,盖,盖盖盖,盖,盖,盖,盖,盖,盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖,盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖盖,盖盖盖,盖盖盖盖,盖盖盖盖盖,盖,盖,盖,盖,盖,盖,盖,盖盖,盖,盖盖,盖盖,盖,盖盖,盖,盖,盖,盖,盖,盖,盖,盖盖,盖,盖盖盖盖盖盖,盖,盖,盖,盖,盖,盖,盖盖,盖,盖盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖盖,盖盖,盖,盖,盖,盖盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖盖,盖,盖,盖,盖,盖盖,盖盖,盖,盖,盖,盖,盖,盖,盖盖,盖,盖盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,盖,",
+    "zh_title": "学习"
+  },
+  "1681969": {
+    "fingerprint": "5d7612c3d806f0b7ef4ad54e8c76bed8a2be9b30fcc0a9491c1b874989e89c95",
+    "method": "argos",
+    "zh_summary": "把没人用的婴儿床换成巨大的豚鼠笼",
+    "zh_title": "几内亚猪笼草(更换婴儿)"
+  },
+  "1684219": {
+    "fingerprint": "db4c4542214c22d16687419a5e00a465369aa432543389b5286ae3849f50cead",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为井楼添加12种独特的重彩,使用漆桶在风格间切换,如红,绿,蓝,紫,红等.",
+    "zh_title": "[AT] Kehaan 井的变式"
+  },
+  "1684222": {
+    "fingerprint": "5bd9583f8a326bb8ed94d8a28ce34b5efdea8a3dcf40c7ab84188694c0b22509",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为Slime Hutch 建筑添加12种独特的复色,使用彩色桶在风格间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] Kehaan Slime Hutch 备选案文"
+  },
+  "1684224": {
+    "fingerprint": "fae5640d255fd3b861169f8cb8bdb09ef6abf2c792699a10e0dbab952bf044b7",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为 Silo 建筑添加12 个独特的重彩, 使用彩色桶在风格间切换, 如红,绿,蓝, 红, 红等 。",
+    "zh_title": "[AT] Kehaan Silo 变式"
+  },
+  "1684226": {
+    "fingerprint": "84c12ee1ce38597bfa44e308fd0545d438a8dd95735925fca46247474652453f",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为磨坊建筑添加12种独特的重彩. 使用漆桶在风格间切换,如红,绿,蓝,紫,红等.",
+    "zh_title": "[AT] Kehaan 磨坊变体"
+  },
+  "1684232": {
+    "fingerprint": "16f55c9b26bd027c11b876ac51f47d0d27bd4c0db9c9d80061d1aa0717836414",
+    "method": "argos",
+    "zh_summary": "使用另类纹理为黄金时钟建筑添加12种独特的重彩,使用彩色桶在风格间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] Kehaan 黄金时钟变换"
+  },
+  "1684235": {
+    "fingerprint": "81838dc10c506af6a9cbfc704be69443084c147b64c07f2485b43a69a58fe1ec",
+    "method": "argos",
+    "zh_summary": "使用替代纹理为温室建筑添加12种独特的重彩,使用漆桶在风格间切换,如红,绿,蓝,红等.",
+    "zh_title": "[AT] Kehaan 温室变体"
+  },
+  "1685634": {
+    "fingerprint": "7e4b02c3c43de42cb735d2d64e601f77b83f6778a412e9a4da7329345b09dc5d",
+    "method": "argos",
+    "zh_summary": "增加了290个香草色书架",
+    "zh_title": "(反)书架"
+  },
+  "1686933": {
+    "fingerprint": "ac68739153075e033d2833274e5699d8d408c9da5943556659a52608c09ecf73",
+    "method": "argos",
+    "zh_summary": "威利的鱼店在达到100%的完美后,将五条原始传说鱼添加到购买中。 通过GMCM,可以完全配置的价格、股票和每条鱼的切换。",
+    "zh_title": "[CP] 威利的完美店铺"
+  },
+  "1686963": {
+    "fingerprint": "ceda971fb7ed1588b36ca71df7272253d18adf525bbfa58685c25b473b6d213a",
+    "method": "argos",
+    "zh_summary": "在达到100%的完美后,扩展克林特的铁匠,增加强大的后期游戏项目,如迷你福尔格、安维尔、银河灵魂和龙牙。 通过GMCM,完全可配置的价格、股票和每件切换。",
+    "zh_title": "[CP] 克林特的完美商店"
+  },
+  "1687319": {
+    "fingerprint": "96dcc62188d2325041a5039b6f14a146867c4586a06207243bd62ca25cbaa87d",
+    "method": "argos",
+    "zh_summary": "马龙的完美店让无限刀,无限刀,无限刀在达到100%的完美后,可以在冒险家协会购买.",
+    "zh_title": "[CP] 马龙的完美店"
+  },
+  "1687339": {
+    "fingerprint": "5b5f92e683a608e8d16071f912ae7f0dfb7396c64f13566c806297d63f788f66",
+    "method": "argos",
+    "zh_summary": "在Qi先生的胡桃室店里加入\"Mastery Star and Stardrop\",用于Dew路径:RPG,默认情况下需要100%的完美,并且完全可配置的Qi宝石成本,股票,以及解锁要求.",
+    "zh_title": "[CP] 露水完美店的路径"
+  },
+  "1687340": {
+    "fingerprint": "3141e170b20d41009f295aa7290252b4c0457c392219973ff64277214a91ce6d",
+    "method": "argos",
+    "zh_summary": "将Pelipper镇的Paradox Emitter和Ultra空间灯塔加到Qi先生的胡桃室店里,供Qi Gems在达到100%完美后使用。 完美要求、价格、股票和单个物品是可以配置的。",
+    "zh_title": "[CP] Pokehaan Dew 完美店(英语:Pokehaan Dew 完美店)"
+  },
+  "1687416": {
+    "fingerprint": "6e86717848a28caea34c31f1f28c9e9d5cf75bc5fc02a5a8504c32b3375d1dff",
+    "method": "argos",
+    "zh_summary": "PocketBin 在您的库存菜单中直接添加一个小运货箱, 这样您就可以从任何地方运送产品",
+    "zh_title": "口袋纸"
+  },
+  "1691746": {
+    "fingerprint": "93e82dd27516131efdb1b4b0cd04a6a74c185aa1487c1dea6bd1708154c10619",
+    "method": "argos",
+    "zh_summary": "不许离开农场,不准播种子,不准永久死亡,禁止储存,还有更多的挑战!",
+    "zh_title": "JP 的挑战模式 - Stardew 挑战"
+  },
+  "1691748": {
+    "fingerprint": "82479b605a602ff736bc667c8145bbd8fd2818820ad15c6c1321951f0bfcfe0b",
+    "method": "argos",
+    "zh_summary": "一个断裂或故障的电梯和楼梯不再通往矿井入口,而是通往前一层楼. .",
+    "zh_title": "JP的硬核地雷——地雷电梯"
+  },
+  "1691757": {
+    "fingerprint": "e6891740b277c9e77ecb7ac997da5e911ce99bde904ffd75d5a0c15e7cd54fbd",
+    "method": "argos",
+    "zh_summary": "防止时间在打开菜单,钓鱼,与NPC交谈等时停止.",
+    "zh_title": "JP 的无时止步 - 实时"
+  },
+  "1696762": {
+    "fingerprint": "b7ebf60b21431fff2feae65f73f0b87e00bfed4daa1752423dcd56abc4d72f3e",
+    "method": "argos",
+    "zh_summary": "你需要一些衣服 足够华丽",
+    "zh_title": "[FS] 奥里亚多的服装包0028"
+  },
+  "1699482": {
+    "fingerprint": "5935fa1801a7cc56e9d6dc40a15e870751d3ac35620bc42bcd20f7f15fce7529",
+    "method": "argos",
+    "zh_summary": "Kehaan Custom Shops 允许您在 22 星露谷物语 商店中加5个自定义项目。 选择项目标识、 价格或交易成本、 解锁年限, 只允许您想要的商店和插槽 。",
+    "zh_title": "[CP] Kehaan 定制商店"
+  },
+  "1700241": {
+    "fingerprint": "efc3e320bafe05252e6b54ea2e482d6cc3a6ea21f2ad792310ba86cbfcfbc639",
+    "method": "argos",
+    "zh_summary": "将每个喷洒器的浇水范围增加一个额外的瓦片外向。",
+    "zh_title": "简单喷洒器升级"
+  },
+  "1703043": {
+    "fingerprint": "fbe511485bf147e28fe87555163321f8e6c7690cb9ac9ceb1dbe4585b244f5a3",
+    "method": "argos",
+    "zh_summary": "增加两个新的背包升级,将你的库存增加到48和60个档位.",
+    "zh_title": "简单的后包升级"
+  },
+  "1703044": {
+    "fingerprint": "2a6771c68f535e2f6b1f2bfa2f11b897f50a15be9093202bd430f598c79f07db",
+    "method": "argos",
+    "zh_summary": "在放置你的物品前,看看国家计委走哪里.",
+    "zh_title": "简单的 NPC 路径"
+  },
+  "1703047": {
+    "fingerprint": "557e65ab330efd29950a5eb2a6da54e78146eeda0e164ff8fbffa95e10676071",
+    "method": "argos",
+    "zh_summary": "简单终端存储器为 星露谷物语 添加了一个可操作的存储终端。 它允许您通过一个合并的库存菜单访问附近的多个胸部 。",
+    "zh_title": "简单终端存储"
+  },
+  "1703049": {
+    "fingerprint": "7c205f80c2881b97b8a4f4555bc32c0b404b60cf8eb5e98547c5ed89ba402898",
+    "method": "argos",
+    "zh_summary": "简单工具交付让 Clint 的工具升级提前一天完成,并将您的升级工具直接发送到您的邮箱.",
+    "zh_title": "简单工具交付"
+  },
+  "1703055": {
+    "fingerprint": "a95d952eaf8742cf8011d342edf30cdd4ecc92f441ed6e4e1a5e183fcdc2e924",
+    "method": "reviewed",
+    "zh_summary": "用古老魔法搭建自己的快速旅行网络。在农场建造一座古代传送石，再将小型传送石放到常去的户外地点。",
+    "zh_title": "简易传送石"
+  },
+  "1703059": {
+    "fingerprint": "63db0b62c505c68ddb79f24b2b9a7a66f90c29c318a12205c72dbafdd379e866",
+    "method": "argos",
+    "zh_summary": "简而言之,Silo升级可以让你在Robin的仓房由240间提升到480间,960间和1,920间干草,而无需占用更多的农地。",
+    "zh_title": "简单的仓储升级"
+  },
+  "1703064": {
+    "fingerprint": "0ae61e28340fb4dda3e6e089894ab9d022568f5036a3f06ab8a7c5e289a788f9",
+    "method": "argos",
+    "zh_summary": "简单的生日礼物会显示在日历生日上徘徊时所喜爱和喜欢的礼物,首先突出物品图标和背包礼物。它具有一个温暖、易于阅读的界面,并支持所有12种游戏语言。",
+    "zh_title": "简单的生日礼物"
+  },
+  "1703067": {
+    "fingerprint": "be61ed80b73ccff6843cb823cdbd565531af60c71baedfb85038c2b9c68847e7",
+    "method": "argos",
+    "zh_summary": "一个单独的,可升级的邮袋,最多60个插槽,排序,最爱,以及可选的自动拾取器全部在一个星露谷物语 - 风格的接口中.",
+    "zh_title": "简单的邮袋"
+  },
+  "1703071": {
+    "fingerprint": "4aca01ea8eb842997fb5e5568eb6f8e55fdeca29bd33e596e6d7c1d19282e777",
+    "method": "argos",
+    "zh_summary": "简单的胸口升级可以让你强化大胸和大石胸,以持有120个物品堆栈.",
+    "zh_title": "简单的胸口升级"
+  },
+  "1703075": {
+    "fingerprint": "4716d1076ba7a2a59cb970ef9d994d217b4bc2e1151608086e80182ec10e8b36",
+    "method": "argos",
+    "zh_summary": "12个具有装饰性边框的软季节性菜单主题,自动季节性切换,GMCM支持,并与扩大的库存兼容.",
+    "zh_title": "简单的 UI 主题"
+  },
+  "1703081": {
+    "fingerprint": "a2341df0917428c8aeae08e43e337f534fc9612386b83ea44d4d7f0c10d2c897",
+    "method": "argos",
+    "zh_summary": "将普通的螃蟹罐头升级为Deluxe Crab Pots,采用rid-纯ple设计,每天捕获两只,额外储存和简单的菜单.",
+    "zh_title": "简单的蟹块提升"
+  },
+  "1703116": {
+    "fingerprint": "c00f989b0660576cbe397bfc16adae056047538d4e23fe23dfbe2bb0aa06b089",
+    "method": "argos",
+    "zh_summary": "简单的工具带在一个背包槽中储存了六个日常的工具:你的斧头,小斧头,蹄,水罐,锡石,和锅.",
+    "zh_title": "简单工具带"
+  },
+  "1703774": {
+    "fingerprint": "d1d1eab68822cce94f6c4fb00ff6dacd0d9a093b52dae32a77f434639078132f",
+    "method": "argos",
+    "zh_summary": "一个框架,允许您使用Content Patcher修改游戏的声音,并区分来自各种来源的重复使用的声音.",
+    "zh_title": "JP 的谷歌框架"
+  },
+  "1703794": {
+    "fingerprint": "95dbf58d0f3ee47164340477ddb6491e5021ae2e0662f2d2e0d1b29c2f5cdbbd",
+    "method": "argos",
+    "zh_summary": "重新配置在位置变化的情况下安装或卸载模式重叠的对象。",
+    "zh_title": "JP 重置地形特征 Omega"
+  },
+  "1707049": {
+    "fingerprint": "3102a9e7b9f80ccbc2bfd61cfbbd7d0ad4d7acd1882f7148b27f996f6fb3338f",
+    "method": "argos",
+    "zh_summary": "玛尔尼完美店在达到100%完美后,将欧斯特里奇蛋,欧斯特里奇孵化器,恐龙蛋加入玛尔尼牧场.",
+    "zh_title": "[CP] 玛妮的完美店"
+  },
+  "1707397": {
+    "fingerprint": "b112a275a5fb3d34c3b4c17ec3f2ceb1fd3a1a659d5d8c57f8c96548439f4846",
+    "method": "argos",
+    "zh_summary": "Fish Bonanza TV增加了一个定制电视频道,每天播放不同的Fish Bonanza鱼,并介绍在哪里和何时可以捕获。",
+    "zh_title": "[CP] \" 鱼肉\"电视台"
+  },
+  "1707552": {
+    "fingerprint": "ee3b384751de2bc7e8aaaf9d714abb4d516a96c6a297bfa469412348e19f6e0a",
+    "method": "argos",
+    "zh_summary": "Pokehaan TV增加了一个定制电视频道,其中Kehaan分享Pelipper Town游戏播放提示并解释有用的项目,信息基于Pelipper Town自己的玩家指南和模式文档.",
+    "zh_title": "[CP] 波克汉电视台"
+  },
+  "1709772": {
+    "fingerprint": "fc263a581a7b7b1a6ac7fef4de5c9d23fdc1eebae16ecaab8292eedeb014f546",
+    "method": "argos",
+    "zh_summary": "加上20个咖啡饮料,配有HD图案和独特的食谱. 烤咖啡豆装在古董烤炉中,在密林中收集春水,酿造一些特别的.",
+    "zh_title": "再来点咖啡"
+  },
+  "1709959": {
+    "fingerprint": "9092280e9d1d6965366eebd983612a520453e144d09d3a216b7bd6b12a30a196",
+    "method": "argos",
+    "zh_summary": "添加了20种美制的日本华加士甜品,以及传统配方。 包括新食谱、布法, 以及支持科努科皮亚、 Wildflour、 和 More Coffee & More Tapioca 。",
+    "zh_title": "更多瓦加什语Name"
+  },
+  "1709974": {
+    "fingerprint": "210c0c73a688d18ea26301772d0c75c981284e8a506f4b25251dd46f55d0b86d",
+    "method": "argos",
+    "zh_summary": "创建您自己的曲点, 并按一次键将其扭曲 。 为什么不直接曲速到您的农舍床上 。 完全支持鼠标/ 键盘和控件播放 。 准备去任何地方 ?",
+    "zh_title": "随处摇摆"
+  },
+  "1710022": {
+    "fingerprint": "a054decd8447ac477e85308ba6998e433da5198a8c0bb3ad1345558c76f603cb",
+    "method": "argos",
+    "zh_summary": "增加Kehaan TV,一个有趣的广播API频道,每周五播放随机的Modpack聚光灯,包括覆盖Kehaan的星露谷物语和Minecraft Modpacks的30个广播.",
+    "zh_title": "[CP] Kehaan电视台"
+  },
+  "1710899": {
+    "fingerprint": "e8a49abd7d09580d1c00b705b589bd4b56243516bec7e1e79a0b9c24036789b4",
+    "method": "argos",
+    "zh_summary": "此模式将 星露谷物语 对话框和字符表翻译为罗马尼亚语! 这个模式目前 ** does Not translate everything ** in the game yet (项目、求寻日志、菜单和描述目前仍用英语), 我需要更多的时间来完成此任务 。",
+    "zh_title": "罗马尼亚语翻译(英语:Traducere in romana) - 早期访问"
+  },
+  "1713577": {
+    "fingerprint": "747ec0cc9843dc125bdbc3037b90962c27bbae1f784de11c8f115c08aee7424a",
+    "method": "argos",
+    "zh_summary": "最终的游戏中欺骗菜单为星露谷物语. 按 P 访问工具, warps, 金钱, 关系, 并完全控制您的游戏!",
+    "zh_title": "博奇·凯瑟菜单"
+  },
+  "1715553": {
+    "fingerprint": "6baa5b781b5952c7ab4c9f5f08507a5f3a0e884cae9a2e70c7aa6313c9e15dc4",
+    "method": "argos",
+    "zh_summary": "这个mod增加了草药葡萄酒的产量,可以生产35种不同的草药葡萄酒,高分辨率的丝绸,与上等酒(Bigger Keg)兼容.",
+    "zh_title": "科努科皮亚和野花的草药酒"
+  },
+  "1715614": {
+    "fingerprint": "473b184495bc5c68160308167db71cb2b0a9dd3127f38842848fe6091b8d019c",
+    "method": "argos",
+    "zh_summary": "持有180件物品。 与 Automate、 胸口随处可见、 更好排序、 和替代纹理兼容 。",
+    "zh_title": "玉子胸围"
+  },
+  "1716133": {
+    "fingerprint": "72f060c839e849245f38a31ee646a622809a1d4c2bb15aef6a23134ac6ec239d",
+    "method": "argos",
+    "zh_summary": "矢量谷让游戏中的所有纹理都平滑地 给他们的HD和柔滑的外观",
+    "zh_title": "矢量谷区"
+  },
+  "1722128": {
+    "fingerprint": "f8f085665089065860eba69e386c2ca4be94b82573d456e03e77cbb30509862b",
+    "method": "argos",
+    "zh_summary": "允许所有标志都显示文本, 如文本标志。 启用上下文标记来制作任何放置对象显示的文本 。",
+    "zh_title": "自定义文本符号"
+  },
+  "1722338": {
+    "fingerprint": "6f18793017d102f4c9aca2010a53a25d1aaafa1d870a886552adf5c1dbe24801",
+    "method": "argos",
+    "zh_summary": "沙漠贸易商完美商店在达到100%完美后,将幸运环,Prismatic Shard,以及Iridium乐队加入沙漠贸易商.",
+    "zh_title": "[CP] 沙漠商人完美商店"
+  },
+  "1722340": {
+    "fingerprint": "b5546b04e793b091ef9c88e4b0c9db105b5dabe0aecb9c2320b4ccdea302ceb5",
+    "method": "argos",
+    "zh_summary": "皮埃尔完美店在达到100%完美后,将古老种子,神秘树种子,摩西种子加入皮埃尔总店.",
+    "zh_title": "[CP] 皮埃尔的完美店"
+  },
+  "1722341": {
+    "fingerprint": "70b56d79de0183f5b20c871a54fbc39f1a1fa1cf5597f2bfda41faa9d3a985e6",
+    "method": "argos",
+    "zh_summary": "火山敦煌完美店使得龙牙刀刀,龙牙俱乐部,龙牙什夫在达到100%完美后可以购买.",
+    "zh_title": "[CP] 火山敦煌完美商店"
+  },
+  "1722344": {
+    "fingerprint": "07f1a9bf62712c78a45fde36d158517e5711764ac070a50d04df7f06e7b9c970",
+    "method": "argos",
+    "zh_summary": "岛商完美店在达到100%完美后,将虎石蛋,美人鱼靴,龙阶靴加入岛商.",
+    "zh_title": "[CP] 岛屿商人完美商店"
+  },
+  "1722345": {
+    "fingerprint": "47f8b3da5e9cde312bca8855795c4d946bf58a31ddba46175a16fdc83061480b",
+    "method": "argos",
+    "zh_summary": "小矮人完美店在达到100%完美后,将小矮人锤子,小矮人匕首和小矮人王的女神像加入小矮人商店.",
+    "zh_title": "[CP] 矮人完美店"
+  },
+  "1722350": {
+    "fingerprint": "97d74f08f60f090a1ccaf4ab388e11201bd7ad4dbc723fad2aadda5f29fa89a1",
+    "method": "argos",
+    "zh_summary": "Robin's Carpenter Perfection Shop在达到100%的完美后,在Robin的商店中加入了农场电脑,Mini-Obelisk,以及\"祝福的女神像\".",
+    "zh_title": "[CP] 罗宾的木匠完美店"
+  },
+  "1726190": {
+    "fingerprint": "397ff581769f447626b4994a6a358082be18429e4bae3f81f00dda98fb9e747c",
+    "method": "argos",
+    "zh_summary": "书商完美店在达到100%完美后,又向书商添加了\"神秘书\",\"钻石猎人\",\"宝藏评估指南\".",
+    "zh_title": "[CP] 书店"
+  },
+  "1726194": {
+    "fingerprint": "841e5f89442a338ab68cf30c9c7a40d305c268e912ca6159c5faea34ab033c1b",
+    "method": "argos",
+    "zh_summary": "星珠沙隆完美店在达到100%完美后,将海泡沫普丁,Squid Ink Ravioli,热带咖哩加入星珠沙隆.",
+    "zh_title": "[CP] 星滴沙龙完美店"
+  },
+  "1726195": {
+    "fingerprint": "b1bc5d376a9b12752cf3e0f99a9cca63076a20315a39b1acaed59250749c040f",
+    "method": "argos",
+    "zh_summary": "乔贾马特完美商店在达到100%完美后,将压力喷嘴,恩里彻,霍珀加到乔贾马特身上.",
+    "zh_title": "[CP] 乔贾玛特完美店"
+  },
+  "1726199": {
+    "fingerprint": "6a690bed29735da6323f7c6b6a5965ee26a9cf24f384dad1a6371f6527fd0c9a",
+    "method": "argos",
+    "zh_summary": "Krobus的完美店在达到100%完美后,将Iridium Krobus,暗剑,威克德女神像加入Krobus的店面.",
+    "zh_title": "[CP] 克罗布斯的完美店"
+  },
+  "1726202": {
+    "fingerprint": "782c7939d9047699c838abdad50cf02b8580396311e357ddf08bdb5a0008b5e3",
+    "method": "argos",
+    "zh_summary": "绿洲完美店在达到100%完美后,将\"魔法牛仔帽\",\"魔法巾\",\"金色面具\"加入绿洲.",
+    "zh_title": "[CP] 绿洲完美商店"
+  },
+  "1726203": {
+    "fingerprint": "af1728cb36cdcc62bcc2c51075c5112e0cdbf70e48513f82ab089406f25753ff",
+    "method": "argos",
+    "zh_summary": "哈维的诊所完美店在达到100%完美后,将凤凰环,保护环,豁免乐队加入哈维的诊所.",
+    "zh_title": "[CP] 哈维的诊所完美商店"
+  },
+  "1727073": {
+    "fingerprint": "eeb066f63b1edb584afdfbf4829670438efa92782ac66b3aa414d0909d612e85",
+    "method": "argos",
+    "zh_summary": "新增4个农场地图互联互通,各有全年功能全季!.",
+    "zh_title": "JP的农场——四季农场"
+  },
+  "1727081": {
+    "fingerprint": "717b708a0dca795e256e2934ba11a7d2951939f94bd0ebc80b4cc93d962b03d3",
+    "method": "argos",
+    "zh_summary": "增加4个农场地图互相连接,一个总是下雨,一个总是白天,一个总是晚上,一个时间流逝得比较慢.",
+    "zh_title": "JP的农场——四奇农场"
+  },
+  "1727096": {
+    "fingerprint": "7ab2b7e273eb6518b321be5803de99751b4bccced5585533dfab3236df7ac7ca",
+    "method": "argos",
+    "zh_summary": "Stamina 随时间而再生,不是当你们吃东西时立即产生;武器和锡石消耗体力,水恢复体力的速度比较慢.",
+    "zh_title": "JP 能源系统(Add-on)"
+  },
+  "1727101": {
+    "fingerprint": "4771e2ad35f197a0222b77eaade69de62c7c23b5ba20a3b554a4a023d79242d8",
+    "method": "argos",
+    "zh_summary": "一个简单的修改,影响你与NPC的友谊量。",
+    "zh_title": "JP的友谊系统(Add-on)"
+  },
+  "1727112": {
+    "fingerprint": "67863cea49f49f932ca40a8864f864db15d0f9f1a38607653dec47afdaf81c4d",
+    "method": "argos",
+    "zh_summary": "允许您在 Robin, Marnie 和 Wizard 的动物/ 建筑放置屏幕上更快移动。 在非常大的自定义地图上非常有用 。",
+    "zh_title": "JP 菜单滚动速度"
+  },
+  "1727148": {
+    "fingerprint": "baecdf9cff30812c9db0759a2970a9b062ab86aab3225b8ee14f98eab5509595",
+    "method": "argos",
+    "zh_summary": "3个仙女Trinkets,可以帮助你清理,准备,培育,收获你的田地,每个田地都为特定类型的任务设计.",
+    "zh_title": "JP 的 Trinkets - 帮助者"
+  },
+  "1727158": {
+    "fingerprint": "950cb0760cbfedae790abfc6b5443fc7b7e21ff72a581cc87d42d59c7d4748a8",
+    "method": "argos",
+    "zh_summary": "修复高度巨大的地图上的树上的绘图错误。",
+    "zh_title": "JP 的树画修正"
+  },
+  "1735687": {
+    "fingerprint": "350e9a3b178accce50c0f2506b43084acdaaeaa7b4f82eeb7a1a77296b221108",
+    "method": "argos",
+    "zh_summary": "今天你应该买哪种种子?按利润来排列每个作物,以节省和规划最佳的种植顺序直到季节结束。迷你窗口,社区中心提示,11种语言。",
+    "zh_title": "种子规划员"
+  },
+  "1738253": {
+    "fingerprint": "9b4df32a714369c62e7b2a96c2122168322949f7495e9f3dbc97534104bb8944",
+    "method": "argos",
+    "zh_summary": "显示一个物品是否已经捐赠, 以及需要捐赠多少 。",
+    "zh_title": "软体掩体"
+  },
+  "1741656": {
+    "fingerprint": "61e9dd0d8804771d1039e7696a2bf2a3b335634271da0abe9f23f7c78f32e3ce",
+    "method": "argos",
+    "zh_summary": "给山谷带来一点魔法 与Hedgewitch的Almanac, 一个舒适的巫术和草药扩张",
+    "zh_title": "海奇奇奇人阿尔马纳克"
+  },
+  "1747197": {
+    "fingerprint": "f3748b7848de67527741e55b15962563fa9fdeda64ff6f80b388537e2af37c2b",
+    "method": "argos",
+    "zh_summary": "ApriBall 手工业与种植",
+    "zh_title": "Poke 球收藏"
+  },
+  "1747618": {
+    "fingerprint": "4006b787fee04acb60fa400f2262ce79d9b6b4ec4bec3e8aec086ad900cc3eba",
+    "method": "reviewed",
+    "zh_summary": "让 Mortar MOD 管理器向运行中的星露谷物语发送 SMAPI 控制台命令，直接重载或配置 MOD，无需手动输入命令。游戏玩法和内容维持原样。",
+    "zh_title": "Mortar SMAPI 桥接工具"
+  },
+  "1749097": {
+    "fingerprint": "c589e460ed42d8490774ffe265abd21492327d8789a9a9110f0a5c5caf588ae1",
+    "method": "argos",
+    "zh_summary": "用金发的版本取代女孩的幼稚小精灵",
+    "zh_title": "金发宝贝女孩"
+  },
+  "1749907": {
+    "fingerprint": "9f1bbdc5f29ed2ed5067031f6b749e5dee80f1bbc31970df3108339c7ecdff1c",
+    "method": "argos",
+    "zh_summary": "与配偶交谈的次数随你喜欢多少次! Infinite Dialgue 取消了配偶对话的香草限制, 让你有更多的对话来发现, 而不是快速地耗尽言语。",
+    "zh_title": "无限对话"
+  },
+  "1750244": {
+    "fingerprint": "72d1f5c2fe1e5379b4c37077fe59b97eecb415aa32b8d9663c188352fb1b1074",
+    "method": "argos",
+    "zh_summary": "更适合秋天的卡其装",
+    "zh_title": "[FS] 奥里亚多的服装包 0029"
+  },
+  "1750266": {
+    "fingerprint": "c0204087b5cf3a1c47e1d45ef41b92360d23ac4fa5a2e5af3c95bcdef077abb9",
+    "method": "argos",
+    "zh_summary": "这个模式可以让你在不昏倒的情况下播放过 2AM 。 “ 到达 6AM” 将开启全新的一天, 但不会卖掉您的盒子内容 。",
+    "zh_title": "我睡不着"
+  },
+  "1750679": {
+    "fingerprint": "6ad7e31a0228610f5d1698af8c21e87da0c351f74213f86524f4b42999370297",
+    "method": "argos",
+    "zh_summary": "简单的 XP 概览",
+    "zh_title": "XP 资讯"
+  },
+  "1750925": {
+    "fingerprint": "619774060c6d3f44a01fae0376b3553a3fbba67b3d4e66de22558bf333aa8219",
+    "method": "argos",
+    "zh_summary": "Living Valley让星露谷物语感到生机勃勃:与记得你的AI力的村民自由交谈,",
+    "zh_title": "生活之谷(英语:Living Valley)"
+  },
+  "1755780": {
+    "fingerprint": "c96b136595120e8ca3f342b24bce3a16437a22445b26d2b64f851b1e850f2d5d",
+    "method": "argos",
+    "zh_summary": "追踪作物生长、机器生产、敲打和水缸老化情况,并列出完成日期和时间。",
+    "zh_title": "生产进度-作物和机器"
+  },
+  "1757331": {
+    "fingerprint": "2d831f58b3c068a2c5f6091c76cbd174a4c6f07b4a963b2efa5eb6ddfd1abc9b",
+    "method": "argos",
+    "zh_summary": "包括50个以罗罗曼尼奇为主题的家具件+壁纸和地板",
+    "zh_title": "洛罗曼尼式家具"
+  },
+  "1757421": {
+    "fingerprint": "e4fed446ec1d00eb22eac6ef6c622331e8767b1b5f677373c33100cdbc55abfc",
+    "method": "argos",
+    "zh_summary": "将Soul Calibur Dreamcast 时代武器添加到 Stardew 山谷高级 Melee 框架兼容模块",
+    "zh_title": "灵魂卡利布尔武器"
+  },
+  "1757508": {
+    "fingerprint": "cab784415aa9386cd5b7a7b8a57baaa24db5b564e4e5253930fdffc18ae34eb6",
+    "method": "reviewed",
+    "zh_summary": "鹈鹕镇的社交应用。可以发帖分享农场日常、收获点赞和关注、私信村民，还能看到他们聊镇上的新闻、互相回复或拌嘴。默认设置下村民对玩家友好。需要 The Living Valley 1.1.3 或更高版本。",
+    "zh_title": "啾啾谷社交应用"
+  },
+  "1757871": {
+    "fingerprint": "078e3b364009d435bfb2738f38a79c39aad382c8e9f7e921ac4cad0dbb01284f",
+    "method": "argos",
+    "zh_summary": "把钱存到刘易斯身上 一夜之间就赚到利息 需要的时候就把存款取出来",
+    "zh_title": "谷投资"
+  },
+  "1758316": {
+    "fingerprint": "67a72cc9969638385068efc12f83c0b2c318d54cbcaa8ab1a95b23915f04464f",
+    "method": "argos",
+    "zh_summary": "重点介绍社区中心捆绑和博物馆所需的物品(附有质量检查),并增加一项百科全书,说明何处、何时以及如何获得任何物品。",
+    "zh_title": "Bundle 突出显示器和项目百科全书"
+  },
+  "1759152": {
+    "fingerprint": "fa8e192749eb35e04e23d26bb55d95e1a4265ec0ff5e93b69271de0e517af80f",
+    "method": "argos",
+    "zh_summary": "小镇的谁建的单位是昨晚村民真正所在的地方。 问他们,检查不在场证明,找到线索,写你的理论和面对罪犯, 然后决定: 告诉Lewis或保持安静。 需要活谷 1.1.3 +.",
+    "zh_title": "谷神话"
+  },
+  "1759799": {
+    "fingerprint": "b2cb6887c09ee84d4dc65c581eebc9fcf64961383663eae18a69c9f309fcbc2f",
+    "method": "reviewed",
+    "zh_summary": "用柔和的粉彩重绘星露谷物语，覆盖自然景观、水面、积雪、农场建筑、动物、祝尼魔、Joja 超市、巴士、机器、工具、菜单、HUD 和标题画面。每部分均可单独开关。",
+    "zh_title": "柔彩星露谷美化计划"
+  },
+  "1760203": {
+    "fingerprint": "4c473d4f43387a9a9158d7c48e189bcfaee7ef5144b930720305ed92877a0f93",
+    "method": "argos",
+    "zh_summary": "以罗宾的木匠店售出!! 它们的冷却速度比普通的香草俱乐部武器快. (包括香草版本) Classic Wooden Cane, Hiking Stick, Maple Wood Cane, Eagle Head Cane, Dragon Staff.",
+    "zh_title": "更多俱乐部武器"
+  },
+  "1760831": {
+    "fingerprint": "158bc38d1886bf92ca04addbb2ecfe0515629499ff4aa410e4ac7926423361aa",
+    "method": "argos",
+    "zh_summary": "添加带有弹射的密钥Blades",
+    "zh_title": "梦幻的键盘"
+  },
+  "1760849": {
+    "fingerprint": "1208262f9dd06c66a1088de1b1fcdcb9083b3d29ee213f16c5b9dcc7899be66a",
+    "method": "argos",
+    "zh_summary": "只显示已安装的工具栏项和相邻的项目,并带有滚动动画和淡出选项.",
+    "zh_title": "隐形工具栏"
+  },
+  "1765526": {
+    "fingerprint": "a5352bde578781c3bbd79e607a4616bcbd2091571e6957744922385ff5b5ea32",
+    "method": "argos",
+    "zh_summary": "让收割场更满足于视觉组合计数器.",
+    "zh_title": "收获组合"
+  },
+  "1765887": {
+    "fingerprint": "26478a2263b1c15cb9c050baded45a3d6a03e8270b9faabad5dbed5741c991d8",
+    "method": "argos",
+    "zh_summary": "选择一个带老鼠和农夫水上作物的地区,砍树,自己砸碎石块.",
+    "zh_title": "懒农夫"
+  },
+  "1766092": {
+    "fingerprint": "37db0231fd91c2bd849cc8e71680f3967d49e330b3a6e1ff5b50c2a2225b15fb",
+    "method": "argos",
+    "zh_summary": "用你的剑打石头或树:农民用你的背包上的小斧头或斧头,然后直接开关回来.",
+    "zh_title": "自动工具交换返回( R)"
+  },
+  "1766353": {
+    "fingerprint": "403af89225c2ebf61d6ee87395e59eb8c6cff61abf76fc409a659bf697c16fb7",
+    "method": "argos",
+    "zh_summary": "这里有许多柜台和柜台,有家具和柜子相配.",
+    "zh_title": "CP - 莫拉莫勒的柜台和内阁"
+  },
+  "1769161": {
+    "fingerprint": "f9a85893d8aeeb45491add0ccd6beea02060f16609e2097bee20cd39efe408b6",
+    "method": "argos",
+    "zh_summary": "增加1–3个随机化的日常探险 — — 收集资源、捕鱼或向村民运送物品。 具有冒险委员会UI(F7 ) 、 自动进展跟踪、季节性探险旋转和金子/物品奖励的特点。 包括英语和俄语本地化。",
+    "zh_title": "每日冒险"
+  },
+  "1770848": {
+    "fingerprint": "0823162f9803af0858f91aea17e60d17e07c8ea4aede7d74833aeaa7d4f6c17e",
+    "method": "argos",
+    "zh_summary": "Build Robin的建筑和房屋用Builder的锤子提升自己:没有黄金,只是材料和几天的工作.",
+    "zh_title": "没有更多罗宾"
+  },
+  "1774903": {
+    "fingerprint": "3221575104fe59d92fa98c158a674d7f334fede4f2be67a96a3519dd0e8a061e",
+    "method": "argos",
+    "zh_summary": "木乃伊换成哥特妈妈",
+    "zh_title": "哥特妈妈 妈妈"
+  },
+  "1779161": {
+    "fingerprint": "f5c057472ac773d9a268e85699bb7e2e360c713c64c0808fa65df02ae4fe071e",
+    "method": "argos",
+    "zh_summary": "让玩家在坐下时互相交流,交谈,并互相启发.",
+    "zh_title": "坐式动作"
+  },
+  "1779895": {
+    "fingerprint": "d22d5b14574429dc05b2930522f5acce0ec0c3dec6ee4b76755f934b286ae7b2",
+    "method": "argos",
+    "zh_summary": "Pokehaan Dew - 专家是Pokehaan Dew的富有挑战性的版本, 以Pelipper Town的硬核开始, Dew 专家规则, 更强硬的进步,",
+    "zh_title": "Pokehaan Dew - 专家"
+  },
+  "1779931": {
+    "fingerprint": "15fb6e2be9fd7ceeba00947b570878e5373a77bc5afdcc068b01f92897e38430",
+    "method": "argos",
+    "zh_summary": "这是Content PatcherMod,它修改了Modpack\"Pokehaan Dew - 专家\"的主菜单.",
+    "zh_title": "[CP] Pokehaan Dew - 专家 - 主菜单"
+  },
+  "1782286": {
+    "fingerprint": "bae3b74ee0ff217b7c1de9dfc5a6c518f62267093712c1c479736c7951598b4e",
+    "method": "argos",
+    "zh_summary": "用黄金买的无人机 飞过你的农场和水域 每口渴的作物,瓦片的瓦片。",
+    "zh_title": "谷无人机"
+  },
+  "1785222": {
+    "fingerprint": "4dbfcc3f4efc602b36daa76d3844a8101ff77c3516e9e037c0112ff77611466d",
+    "method": "argos",
+    "zh_summary": "固定PC上的自定义语言:祝尼魔 捆绑名称立即显示,加上社交页面单位状态和食谱后缀.",
+    "zh_title": "自定义语言套件"
+  },
+  "1786368": {
+    "fingerprint": "d726d83fc93d9d7777bb55fcac2242e4d2725f6504cbc0be64e4e2e0501cf60d",
+    "method": "argos",
+    "zh_summary": "这个模型让你在岛上伪造一堆宝石 或者是迷你福尔格",
+    "zh_title": "批量福尔吉"
+  },
+  "1788373": {
+    "fingerprint": "e373f2383913955064c0e4dbb8f861ccd29c8ea9b34c4aa72bb46e7dc892cf0f",
+    "method": "argos",
+    "zh_summary": "以新的帅气的鱼来补充你的钓鱼之旅 可以在SD和HD里找到",
+    "zh_title": "神秘鱼"
+  },
+  "1788641": {
+    "fingerprint": "b74c6b5cef8886392d46a8224108ead3bb64114d2434a92583a8a4fcdcada9af",
+    "method": "argos",
+    "zh_summary": "不需要的时候,就把椅子推到桌子下面",
+    "zh_title": "被推进主席席"
+  },
+  "1790561": {
+    "fingerprint": "47a9e0b624feaeccc4b288888a66a337e6a0259f1cc38d04d0b9e51516ca109e",
+    "method": "argos",
+    "zh_summary": "给农场添了几季换灯笼",
+    "zh_title": "锈灯"
+  },
+  "1792124": {
+    "fingerprint": "fc32fab150bc62abddd4eda95d7334a30aa1e628a446b9b1e0327a9a46bfac38",
+    "method": "argos",
+    "zh_summary": "减慢游戏中的时钟,所以你的日子会持续更长,以可配置的速度(默认为0.5x).",
+    "zh_title": "Cabide 的时间配置"
+  },
+  "1792547": {
+    "fingerprint": "13d85a61ff533a4f19408d7bf0976510f88a4c472f56f897a94c5bbeb3fed0eb",
+    "method": "argos",
+    "zh_summary": "矿山,骷髅洞和采石场中少有2×2大矿石巨石,带一个坚固的采石头,得到一堆矿石.",
+    "zh_title": "大矿石"
+  },
+  "1792666": {
+    "fingerprint": "dd2367b3a7618f788b1f38065ce00b3ec50a6af6dcb728bbe5ac819f97402327",
+    "method": "argos",
+    "zh_summary": "阶梯式自动化:带有可见物品的传送带,插入器,拆分器,燃烧器钻头,农作物收割器和装配器.",
+    "zh_title": "农场"
+  },
+  "1793850": {
+    "fingerprint": "ff94dda323d026dca8b100590307e8d24c8c9556770924c2d3db27423b3ac12d",
+    "method": "argos",
+    "zh_summary": "为更强大的早期和晚期游戏,将所有剑伤增加3x.",
+    "zh_title": "高剑损伤(HSD)"
+  },
+  "1796336": {
+    "fingerprint": "cca8352506adc206f7999b39592692b351fe3c6ced4178f2018c315acfaa2935",
+    "method": "argos",
+    "zh_summary": "在Npc室外留下包裹的礼物",
+    "zh_title": "门阶"
+  },
+  "1797329": {
+    "fingerprint": "564cd9905cf329a78efd4edaecbf770655d75b1521db57008d94181f103eab72",
+    "method": "argos",
+    "zh_summary": "用工业级机械实现捕鱼作业自动化! 具有自动捕鱼站,热工业烹饪奥文, 以及4级可加工工业饵料的特性, 用于大量优质产量。",
+    "zh_title": "工业渔业"
+  },
+  "1804614": {
+    "fingerprint": "49cc0a7c84226967f807d74f4dee80fcf5a76fa856e87ce9037ee4d96c3b6ffc",
+    "method": "argos",
+    "zh_summary": "从农场的马厩到皮耶总店,骑着自己的马,用一个短的骑马动画和可配置的黄金成本。",
+    "zh_title": "马快速旅行"
+  },
+  "1809563": {
+    "fingerprint": "af662dcfc7ab079d3989a19a35ca14ae32e5e3a2fc3310000ea1685d3b121c49",
+    "method": "argos",
+    "zh_summary": "给农舍盖上毛绒 雕刻核桃 象牙面具 还有老铜",
+    "zh_title": "吸血鬼化妆舞会"
+  },
+  "1813209": {
+    "fingerprint": "c6a43f7334724ba78fa6a3452d5c23833301ca1f33a07fda3cd5ca768f36fd39",
+    "method": "argos",
+    "zh_summary": "允许瞄准工具和扎实的可置放物直接放在脚下的瓦片上,并有智能玩家的推力.",
+    "zh_title": "在你身边"
+  },
+  "1818421": {
+    "fingerprint": "fcd581d90b7a1e5bb7a0c2fd82739b402c3b0eaadffde7f262c0ca1bdb69ad34",
+    "method": "argos",
+    "zh_summary": "五件衣服,包括一件毛线帽",
+    "zh_title": "[FS] 奥里亚多的服装包 0030"
+  },
+  "1818426": {
+    "fingerprint": "9484d43c9057627420fb6b2f1b3dbebe4aab157bc0ff42dc6760e80b4829a6e1",
+    "method": "argos",
+    "zh_summary": "小乔的圣诞礼物",
+    "zh_title": "小乔的圣诞礼物"
+  },
+  "1818430": {
+    "fingerprint": "8ffde3053bf9a7bb2042e77d748ba0a8a555fd4a4a6b2c4784c75ff327d4ebf7",
+    "method": "argos",
+    "zh_summary": "喬的衣服010126",
+    "zh_title": "喬的衣服010126"
+  },
+  "1818447": {
+    "fingerprint": "a39d8808da81cae38a0436447e2e4abc392ddd81a1d701414552360f4e362bf6",
+    "method": "argos",
+    "zh_summary": "焦树",
+    "zh_title": "焦树"
+  },
+  "1823212": {
+    "fingerprint": "ba4ac9831cabbcce554f647d88b7a7def83de8c7c07699449f0993a87a6861b8",
+    "method": "argos",
+    "zh_summary": "(AT) 道路标志收藏",
+    "zh_title": "(AT) 道路标志收藏"
+  },
+  "868667": {
+    "fingerprint": "a65115717e30a63d3073c84bc2e8de5f1ddd10f3c260041ab76dafedbadac17f",
+    "method": "argos",
+    "zh_summary": "让你变成一只蝙蝠 提供鸟眼观赏山谷 和移动速度布夫",
+    "zh_title": "蝙蝠窗体"
+  },
+  "868677": {
+    "fingerprint": "a16ca641b97109122b82d931b4c2503c85c011741df6069d23422cc2b8f69993",
+    "method": "argos",
+    "zh_summary": "在商店中显示关于种子能否在今天种植(是否配有肥料)及其各种产品价值的信息.",
+    "zh_title": "种子信息"
+  },
+  "868687": {
+    "fingerprint": "16dd75a4718ccbc40f9534bfa25ff36e48b2f10b91bedc1940f76193310852a8",
+    "method": "argos",
+    "zh_summary": "工具栏中与对象,自然,动物等交互时自动切换工具.",
+    "zh_title": "工具智能切换"
+  },
+  "868689": {
+    "fingerprint": "9c6507bf1ad8d90c5da420544922bd81882a5c4afb600d0aaa5c2f4918a670f5",
+    "method": "argos",
+    "zh_summary": "取消20亿最大货币限额,并在货币显示中添加一个逗号分隔符.",
+    "zh_title": "莫伊拉钱"
+  },
+  "868690": {
+    "fingerprint": "af3bbf0edbe3b0c28b5c7ed10a27fa2e0b271a23e91979cd82b1f2a108f59cf7",
+    "method": "argos",
+    "zh_summary": "将工具组合成一个可以使用热键循环的单个目录槽。组合工具在需要特定工具的瓦片或对象上使用时会自动切换。",
+    "zh_title": "欧姆尼工具"
+  },
+  "868693": {
+    "fingerprint": "9636089361b713cfac6bc5376c451c226c9be7d315fd7a556ad66a7f34abc106",
+    "method": "argos",
+    "zh_summary": "提供游戏声音提示的高级定制。 让您将音轨与其他提示、 索引音轨或自定义音频文件合并或替换; 静音提示; 更改音标和音量或设置随机音标和 / 或音量; 以及更多 !",
+    "zh_title": "声音调试器"
+  },
+  "868707": {
+    "fingerprint": "0fbfc61c11b6ecca5510891f1c6de737cb7344ed9b40443b766e1ae2f1930043",
+    "method": "argos",
+    "zh_summary": "将邮箱的点击到打开的下一个机械师替换为功能完备的邮箱菜单,该菜单以标题和自定义的信封图标显示新邮件和旧邮件.",
+    "zh_title": "邮箱菜单"
+  },
+  "868725": {
+    "fingerprint": "5acdfc81a7b0c31915e1270c240e0e103b81a43c04ce5429c05ee63f211ea4eb",
+    "method": "argos",
+    "zh_summary": "让您为陌生人,朋友,恋人,以及配偶个别设定每天和每周的定制礼物限额.",
+    "zh_title": "自定义礼品限制"
+  },
+  "868752": {
+    "fingerprint": "a74a4e7e806812f84513eb81a1bac26ead03b76793e0ee6909e64027aefa35c0",
+    "method": "argos",
+    "zh_summary": "在鼠标盘旋时显示关于作物生长的信息, 并可选择按住切换键 。",
+    "zh_title": "作物生长信息"
+  },
+  "868793": {
+    "fingerprint": "bfd58a80487b6ebd98beea725c6279c50eaff22d46f87eb01e8d8fea721a900e",
+    "method": "argos",
+    "zh_summary": "将自定义的配偶 Patio 和 自定义的配偶 Patio 向导的组合重制为 1.5.5 + 。 现在可以将配偶 Patio 放在任何地图上 !",
+    "zh_title": "自定义配偶 Patio Redux"
+  },
+  "868811": {
+    "fingerprint": "14d2b136f4dbc2eb9e08205fdaf10dd076a04bb353491a072c88039453f4882a",
+    "method": "argos",
+    "zh_summary": "扩展农场洞穴的功能,允许德米特里乌斯设置用于定制生产.",
+    "zh_title": "农场洞穴框架"
+  },
+  "868831": {
+    "fingerprint": "716d520de6926facf35677a7c163e76ccc16399c0936eb1a4581f79a79c2b3c4",
+    "method": "reviewed",
+    "zh_summary": "玩家可以亲吻恋人、拥抱好友。NPC 夫妻可以相互亲吻，NPC 亲属可以相互拥抱，NPC 配偶也能拥抱室友等。亲吻和拥抱行为均可配置。",
+    "zh_title": "拥抱与亲吻"
+  },
+  "868885": {
+    "fingerprint": "372bae21b1167ac8862e53f8b2f26ed46f9ac10764cbfd62bc342edf28199a70",
+    "method": "argos",
+    "zh_summary": "让你跳过事情,大事情",
+    "zh_title": "然而,另一个跳动模式"
+  },
+  "868896": {
+    "fingerprint": "dafa4c5e2a008f44394311759c83e3ef6131e67080abacdd30635bf928c7ef4d",
+    "method": "argos",
+    "zh_summary": "允许你游到有水的地方,在陆地上穿泳衣,潜入宝藏或与彩虹鱼游泳.",
+    "zh_title": "游动"
+  },
+  "868907": {
+    "fingerprint": "d1449aa91551b47fababc525ae382048dc1547cc48e9584cda3e755326a47c84",
+    "method": "argos",
+    "zh_summary": "自动摇动果树.",
+    "zh_title": "果树摇摆器"
+  },
+  "868909": {
+    "fingerprint": "8973af2209e844871553a64549201271b951f056c9b78e9bf6f6973c48f820bd",
+    "method": "argos",
+    "zh_summary": "允许你用同样的方式 来操作和布置矿井 与你可以布置楼梯一样",
+    "zh_title": "可移动的地雷部件"
+  },
+  "870923": {
+    "fingerprint": "ad093619791d18617e5f1523d4e94247b353141d81fb4711dc9d5970ccdc1523",
+    "method": "reviewed",
+    "zh_summary": "添加一个节奏明快、可批量捕鱼的小游戏。",
+    "zh_title": "拖网渔船：新地平线"
+  },
+  "982822": {
+    "fingerprint": "9914ad21eaea11a3d359d70ccaea70b7bb9f7760a8fb2ce4af6fdfdb91aac229",
+    "method": "reviewed",
+    "zh_summary": "为阿比盖尔新增 10 个好感事件，补充她的角色故事。",
+    "zh_title": "阿比盖尔的更多好感事件"
+  },
+  "987052": {
+    "fingerprint": "c533815595cded2a598efbdf06f8a831923946d2fc2ca0312f021ce8759fa676",
+    "method": "argos",
+    "zh_summary": "香草+modpack 配有游戏玩法曲折,并配有微小的新内容星露谷物语,由Kehaan制作.",
+    "zh_title": "早 露 华"
+  },
+  "989657": {
+    "fingerprint": "3cc1bb462365a2d769346a7356287d0147d021ce38f18fd5be1922340d021e06",
+    "method": "reviewed",
+    "zh_summary": "经过灌木和树木时自动摇晃它们。",
+    "zh_title": "自动采集"
+  },
+  "997100": {
+    "fingerprint": "d60265c92fdbfae141f31a04d6bcaf861f2147daf3835608b85c752528da4f91",
+    "method": "reviewed",
+    "zh_summary": "添加一份游戏内待办清单。",
+    "zh_title": "游戏内待办清单"
+  }
+}
