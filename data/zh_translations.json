@@ -185,6 +185,12 @@
     "zh_summary": "用 Kehaan 替换帽子鼠，为帽子店添加冬季外观，并随累计收入逐步解锁剧情信件，最高门槛为 700 万金。",
     "zh_title": "[CP] Kehaan 帽子店"
   },
+  "1314799": {
+    "fingerprint": "f9112c2bb9d84b415eb54e4347432f6c723fcdfdf06652d23beddf0e2d71b10c",
+    "method": "argos",
+    "zh_summary": "一个被遗忘的老街区。 曾经忙于采矿,现在只有三个居民:一位牧师、一位矿工和一位老太太。 由于游客很少,怀旧感,这个街区有过去的故事。",
+    "zh_title": "下山项目"
+  },
   "1327179": {
     "fingerprint": "51e793dc2cab4ca2e44a62f39739ee54256ea0c0c63ceb35a5ce9d4fd5614e2b",
     "method": "reviewed",
