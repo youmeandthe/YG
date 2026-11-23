@@ -1,4 +1,4 @@
-"""Incrementally translate the CurseForge snapshot to Simplified Chinese."""
+"""Incrementally translate a catalog snapshot to Simplified Chinese."""
 import argparse
 import json
 import re
@@ -8,7 +8,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from translation_cache import CACHE_PATH, cached_translation, fingerprint, read_cache, write_cache
+from translation_cache import CACHE_PATHS, cached_translation, fingerprint, read_cache, write_cache
 from zh_catalog import enrich
 
 PREFIX = re.compile(r'^(?:\[[A-Za-z0-9][A-Za-z0-9 ._+/\-]{0,20}\]\s*)+')
@@ -139,7 +139,7 @@ def main():
     parser.add_argument('--engine', choices=('curated', 'argos'), default='curated')
     parser.add_argument('--install-model', action='store_true', help='Download the Argos en→zh model')
     parser.add_argument('--catalog', type=Path, default=ROOT / 'data' / 'curseforge.json')
-    parser.add_argument('--cache', type=Path, default=CACHE_PATH)
+    parser.add_argument('--cache', type=Path)
     args = parser.parse_args()
     if args.limit < 0:
         parser.error('--limit must be non-negative')
@@ -147,15 +147,17 @@ def main():
         parser.error('--install-model requires --engine argos')
 
     payload = json.loads(args.catalog.read_text(encoding='utf-8'))
-    if payload.get('source') != 'curseforge' or not isinstance(payload.get('items'), list):
-        parser.error('Expected a CurseForge catalog snapshot')
-    cache = read_cache(args.cache)
+    source = payload.get('source')
+    if source not in CACHE_PATHS or not isinstance(payload.get('items'), list):
+        parser.error('Expected a CurseForge or Nexus catalog snapshot')
+    path = args.cache or CACHE_PATHS[source]
+    cache = read_cache(path)
     translate = None
     if args.engine == 'argos' and args.limit:
         translate = argos_translator(args.install_model)
-    updated, machine = update_catalog(payload['items'], cache, args.limit, translate, args.cache)
-    if not args.cache.exists():
-        write_cache(cache, args.cache)
+    updated, machine = update_catalog(payload['items'], cache, args.limit, translate, path)
+    if not path.exists():
+        write_cache(cache, path)
     print(f'Updated {updated} translations ({machine} by Argos); cache contains {len(cache)} records.')
 
 

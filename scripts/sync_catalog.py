@@ -83,6 +83,8 @@ def project_metadata(project):
         'version': str(latest[0].get('displayName') or '') if latest else '',
         'downloads': int(project.get('downloadCount') or 0),
         'updated': updated,
+        'authors': sorted({author['name'] for author in project.get('authors') or []
+                           if author.get('name')}, key=lambda author: (author.casefold(), author)),
     }
 
 

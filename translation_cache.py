@@ -5,6 +5,8 @@ from pathlib import Path
 from tempfile import NamedTemporaryFile
 
 CACHE_PATH = Path(__file__).resolve().parent / 'data' / 'zh_translations.json'
+CACHE_PATHS = {'curseforge': CACHE_PATH,
+               'nexus': CACHE_PATH.with_name('nexus_zh_translations.json')}
 
 
 def fingerprint(title, summary):
